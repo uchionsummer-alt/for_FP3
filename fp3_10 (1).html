@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP3級 10日間合格トレーナー</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js for Visual Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#111827',     /* 表紙上部のダークネイビー（そのまま維持） */
+                            magenta: '#ec4899',  /* やわらかく可憐なうすいピンク（Pink-500系） */
+                            magentaDark: '#db2777', /* ボタン hover 等の深みのあるピンク */
+                            light: '#fdf2f8',
+                        },
+                        primary: {
+                            50: '#fdf2f8',
+                            100: '#fce7f3',
+                            500: '#ec4899',
+                            600: '#db2777',
+                            700: '#be185d',
+                        },
+                        accent: {
+                            50: '#f0fdf4',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Hiragino Sans', 'Meiryo';
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .tab-btn.active {
+            border-bottom: 3px solid #ec4899;
+            color: #f472b6;
+            font-weight: 600;
+        }
+        /* Custom scrollbars */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen pb-16 md:pb-0">
+
+    <!-- Header Navigation (スッキリわかる風：ダークネイビー × やわらかピンク) -->
+    <header class="bg-brand-dark text-white border-b border-slate-800 sticky top-0 z-30 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-brand-magenta text-white p-2 rounded-lg font-extrabold text-lg flex items-center justify-center w-11 h-11 shadow-inner tracking-tight">
+                        FP3
+                    </div>
+                    <div>
+                        <div class="text-[10px] text-pink-300 font-bold tracking-widest uppercase">スッキリわかる直前対策</div>
+                        <h1 class="text-base sm:text-lg font-bold text-white leading-tight">FP3級 10日間合格トレーナー</h1>
+                    </div>
+                </div>
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8 text-slate-300">
+                    <button onclick="switchTab('dashboard')" id="nav-dashboard" class="tab-btn active inline-flex items-center px-1 pt-1 text-sm font-medium transition-colors">
+                        <i class="fa-solid fa-chart-pie mr-2 text-pink-400"></i> ダッシュボード
+                    </button>
+                    <button onclick="switchTab('progress')" id="nav-progress" class="tab-btn inline-flex items-center px-1 pt-1 text-sm font-medium hover:text-white transition-colors">
+                        <i class="fa-solid fa-book-open mr-2"></i> テキスト進捗
+                    </button>
+                    <button onclick="switchTab('tests')" id="nav-tests" class="tab-btn inline-flex items-center px-1 pt-1 text-sm font-medium hover:text-white transition-colors">
+                        <i class="fa-solid fa-pen-to-square mr-2"></i> 確認テスト
+                    </button>
+                    <button onclick="switchTab('analytics')" id="nav-analytics" class="tab-btn inline-flex items-center px-1 pt-1 text-sm font-medium hover:text-white transition-colors">
+                        <i class="fa-solid fa-chart-line mr-2"></i> 学習分析
+                    </button>
+                    <button onclick="switchTab('settings')" id="nav-settings" class="tab-btn inline-flex items-center px-1 pt-1 text-sm font-medium hover:text-white transition-colors">
+                        <i class="fa-solid fa-gear mr-2"></i> 設定
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+        <!-- Banner Alert for Unverified/Notice Items -->
+        <div id="notice-banner" class="bg-pink-50 border-l-4 border-brand-magenta p-4 mb-6 rounded-r shadow-sm flex items-start justify-between">
+            <div class="flex items-start">
+                <i class="fa-solid fa-circle-info text-brand-magenta mt-0.5 mr-3"></i>
+                <div class="text-xs sm:text-sm text-slate-800">
+                    <span class="font-bold text-brand-magenta">スッキリわかるテキストと併用してご活用ください:</span> 
+                    本アプリの単元リストとページ番号は標準的なFP3級テキストの目次構成に基づいて登録されています。お手持ちのテキストのページ数と若干前後する場合は「設定」等で調整が可能です。
+                </div>
+            </div>
+            <button onclick="document.getElementById('notice-banner').remove()" class="text-slate-400 hover:text-slate-700 text-sm ml-2">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <!-- TAB 1: DASHBOARD -->
+        <section id="tab-dashboard" class="space-y-6">
+            <!-- Countdown & Day Summary (やさしいピンクのグラデーション帯) -->
+            <div class="bg-gradient-to-r from-pink-500 via-rose-400 to-pink-600 rounded-2xl p-6 text-white shadow-lg flex flex-col md:flex-row justify-between items-center gap-4 relative overflow-hidden">
+                <div class="absolute -right-10 -bottom-10 opacity-10 text-white text-9xl font-black pointer-events-none">FP3</div>
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <span id="dash-day-badge" class="bg-white/20 text-white text-xs px-3 py-1 rounded-full font-semibold">DAY 1 / 10</span>
+                        <span id="dash-streak" class="text-xs bg-amber-400/30 text-amber-100 px-3 py-1 rounded-full border border-amber-300/30">🔥 連続学習 1 日目</span>
+                    </div>
+                    <h2 id="dash-greeting" class="text-2xl font-bold mt-2">スッキリ合格へ向けて学習を開始しましょう！</h2>
+                    <p class="text-pink-50 text-sm mt-1">本日の推奨カリキュラム: <span id="dash-today-plan-title" class="font-medium underline">第1章 ライフプランニング①</span></p>
+                </div>
+                <div class="flex items-center space-x-6 bg-black/15 p-4 rounded-xl backdrop-blur-sm border border-white/10 z-10">
+                    <div class="text-center">
+                        <div class="text-xs text-pink-100">試験日まで</div>
+                        <div id="dash-days-left" class="text-3xl font-extrabold">10 <span class="text-xs font-normal">日</span></div>
+                    </div>
+                    <div class="h-8 w-px bg-white/20"></div>
+                    <div class="text-center">
+                        <div class="text-xs text-pink-100">今日の学習時間</div>
+                        <div id="dash-today-time" class="text-3xl font-extrabold text-amber-300">0.0 <span class="text-xs font-normal text-white">h / 5.0h</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timer Module -->
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center space-x-4">
+                    <div class="p-3 bg-pink-50 text-brand-magenta rounded-full">
+                        <i class="fa-solid fa-stopwatch text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800">学習タイマー</h3>
+                        <p class="text-xs text-slate-500">学習時間を正確に記録してダッシュボードに反映させます</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3 w-full sm:w-auto justify-end">
+                    <div id="timer-display" class="font-mono text-2xl sm:text-3xl font-bold text-slate-700 bg-slate-100 px-4 py-1 rounded-lg">
+                        00:00:00
+                    </div>
+                    <button id="timer-start-btn" onclick="toggleTimer()" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-5 py-2.5 rounded-lg shadow-sm transition-colors text-sm flex items-center">
+                        <i class="fa-solid fa-play mr-2"></i> 開始
+                    </button>
+                    <button id="timer-stop-btn" onclick="stopTimer()" disabled class="bg-slate-200 text-slate-400 font-semibold px-4 py-2.5 rounded-lg text-sm flex items-center cursor-not-allowed">
+                        <i class="fa-solid fa-square mr-1"></i> 終了
+                    </button>
+                    <button onclick="openManualTimeModal()" class="text-slate-500 hover:text-slate-700 p-2 text-sm" title="手動で時間を記録">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3-AXIS DASHBOARD MAIN SECTION -->
+            <h3 class="text-lg font-bold text-slate-800 flex items-center">
+                <i class="fa-solid fa-compass text-brand-magenta mr-2"></i> 3軸学習ダッシュボード (独立指標)
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- AXIS A: Text Progress -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-magenta"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <span class="text-xs font-bold text-brand-magenta bg-pink-50 px-2 py-0.5 rounded">指標 A</span>
+                                <h4 class="font-bold text-slate-800 text-lg mt-1">テキスト進捗率</h4>
+                            </div>
+                            <i class="fa-solid fa-book text-slate-300 text-2xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">全単元に対する「読了」単元の割合</p>
+                        
+                        <div class="relative w-36 h-36 mx-auto my-2">
+                            <canvas id="chart-text-progress"></canvas>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                <span id="dash-text-percent" class="text-3xl font-extrabold text-slate-800">0%</span>
+                                <span id="dash-text-count" class="text-xs text-slate-500">0 / 42 単元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
+                        <div class="flex justify-between">
+                            <span>学習中単元:</span>
+                            <span id="dash-text-in-progress" class="font-semibold text-amber-600">0 単元</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>実技演習完了:</span>
+                            <span id="dash-practical-progress" class="font-semibold text-brand-magenta">0 / 3 完了</span>
+                        </div>
+                        <button onclick="switchTab('progress')" class="w-full mt-2 text-center text-brand-magenta hover:text-brand-magentaDark font-medium py-1.5 bg-pink-50 rounded hover:bg-pink-100 transition-colors">
+                            テキスト単元一覧へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- AXIS B: Understanding -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-emerald-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">指標 B</span>
+                                <h4 class="font-bold text-slate-800 text-lg mt-1">理解度 (正答率)</h4>
+                            </div>
+                            <i class="fa-solid fa-graduation-cap text-slate-300 text-2xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">受験済みテストの直近正答率平均</p>
+
+                        <div class="relative w-36 h-36 mx-auto my-2">
+                            <canvas id="chart-understanding"></canvas>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                <span id="dash-understanding-percent" class="text-3xl font-extrabold text-slate-800">-%</span>
+                                <span id="dash-understanding-status" class="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600">未測定</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
+                        <div class="flex justify-between">
+                            <span>測定済み単元:</span>
+                            <span id="dash-tested-count" class="font-semibold text-slate-700">0 / 42</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>間違えた問題:</span>
+                            <span id="dash-wrong-count" class="font-semibold text-rose-600">0 問</span>
+                        </div>
+                        <button onclick="switchTab('tests')" class="w-full mt-2 text-center text-emerald-600 hover:text-emerald-700 font-medium py-1.5 bg-emerald-50 rounded hover:bg-emerald-100 transition-colors">
+                            確認テスト・復習へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- AXIS C: Time Achievement -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-amber-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <div>
+                                <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded">指標 C</span>
+                                <h4 class="font-bold text-slate-800 text-lg mt-1">学習時間達成率</h4>
+                            </div>
+                            <i class="fa-solid fa-clock text-slate-300 text-2xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-500 mb-4">目標 50時間に対する累計学習時間</p>
+
+                        <div class="relative w-36 h-36 mx-auto my-2">
+                            <canvas id="chart-time-achievement"></canvas>
+                            <div class="absolute inset-0 flex flex-col items-center justify-center">
+                                <span id="dash-time-percent" class="text-3xl font-extrabold text-slate-800">0%</span>
+                                <span id="dash-total-hours" class="text-xs text-slate-500">0.0 / 50.0 時間</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
+                        <div class="flex justify-between">
+                            <span>計画ギャップ (本日比):</span>
+                            <span id="dash-time-gap" class="font-semibold text-slate-700">0.0 時間</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>残り必要学習時間:</span>
+                            <span id="dash-time-remaining" class="font-semibold text-slate-700">50.0 時間</span>
+                        </div>
+                        <button onclick="switchTab('analytics')" class="w-full mt-2 text-center text-amber-600 hover:text-amber-700 font-medium py-1.5 bg-amber-50 rounded hover:bg-amber-100 transition-colors">
+                            詳細学習分析へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Today's Schedule & Next Task -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- 10-Day Plan Checklist -->
+                <div class="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <div class="flex justify-between items-center mb-4">
+                        <h4 class="font-bold text-slate-800 flex items-center">
+                            <i class="fa-solid fa-calendar-check text-brand-magenta mr-2"></i> 10日間学習計画 (チェックリスト)
+                        </h4>
+                        <div class="flex space-x-2">
+                            <select id="schedule-day-select" onchange="renderScheduleChecklist()" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2 py-1">
+                                <!-- Generated by JS -->
+                            </select>
+                        </div>
+                    </div>
+                    <p id="schedule-day-desc" class="text-xs text-slate-500 mb-3"></p>
+                    <div id="schedule-units-list" class="space-y-2 max-h-60 overflow-y-auto pr-1">
+                        <!-- Dynamic List -->
+                    </div>
+                </div>
+
+                <!-- Weak Areas / Next Up -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fa-solid fa-triangle-exclamation text-rose-500 mr-2"></i> 優先復習・注目分野
+                        </h4>
+                        <div id="dash-weak-list" class="space-y-2 mb-4">
+                            <!-- JS Populated -->
+                            <div class="text-xs text-slate-400 text-center py-4">
+                                テストを受験すると苦手単元がここに表示されます。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-pink-50/60 p-3 rounded-lg border border-pink-100">
+                        <div class="text-xs font-semibold text-brand-magenta">スッキリ学習アドバイス</div>
+                        <p class="text-xs text-slate-600 mt-1">
+                            テキストの「未着手」単元を「読了」にしたら、すぐに単元別確認テストを受けて記憶を定着させましょう。赤シートの代わりにスマホで暗記！
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: TEXT PROGRESS -->
+        <section id="tab-progress" class="hidden space-y-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h2 class="text-xl font-bold text-slate-800">テキスト進捗 & 単元一覧</h2>
+                    <p class="text-xs text-slate-500 mt-1">お手持ちのテキストを読み進め、単元ごとに状態を変更してください。</p>
+                </div>
+                <div class="flex items-center space-x-3 text-xs">
+                    <span class="flex items-center"><span class="w-3 h-3 bg-slate-200 rounded-full inline-block mr-1"></span>未着手</span>
+                    <span class="flex items-center"><span class="w-3 h-3 bg-amber-400 rounded-full inline-block mr-1"></span>学習中</span>
+                    <span class="flex items-center"><span class="w-3 h-3 bg-brand-magenta rounded-full inline-block mr-1"></span>読了</span>
+                </div>
+            </div>
+
+            <!-- Chapter Progress Accordions -->
+            <div id="chapters-container" class="space-y-4">
+                <!-- Dynamic Content Output JS -->
+            </div>
+        </section>
+
+        <!-- TAB 3: CONFIRMATION TESTS -->
+        <section id="tab-tests" class="hidden space-y-6">
+            <!-- Test Mode Selection Header -->
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h2 class="text-xl font-bold text-slate-800 mb-2">確認テスト モード選択</h2>
+                <p class="text-xs text-slate-500 mb-4">理解度（指標B）の計測と知識定着のための問題演習を行います。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <button onclick="showTestSelector('unit')" class="p-4 border-2 border-pink-100 hover:border-brand-magenta bg-pink-50/20 rounded-xl text-left transition-all group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-bold text-slate-800 group-hover:text-brand-magenta">① 単元別確認テスト</span>
+                            <i class="fa-solid fa-list-check text-brand-magenta text-xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-600">テキスト読了直後の確認。5〜10問程度の小テスト。</p>
+                    </button>
+
+                    <button onclick="showTestSelector('chapter')" class="p-4 border-2 border-emerald-100 hover:border-emerald-500 bg-emerald-50/20 rounded-xl text-left transition-all group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-bold text-slate-800 group-hover:text-emerald-600">② 章別確認テスト</span>
+                            <i class="fa-solid fa-layer-group text-emerald-500 text-xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-600">各章の総仕上げ。複数単元から網羅的に出題。</p>
+                    </button>
+
+                    <button onclick="startReviewMode()" class="p-4 border-2 border-rose-100 hover:border-rose-500 bg-rose-50/20 rounded-xl text-left transition-all group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="font-bold text-slate-800 group-hover:text-rose-600">③ 復習・弱点特訓</span>
+                            <i class="fa-solid fa-rotate-left text-rose-500 text-xl"></i>
+                        </div>
+                        <p class="text-xs text-slate-600">過去に間違えた問題だけをピックアップして再挑戦。</p>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dynamic Sub-view for Test Selector or Test Active Area -->
+            <div id="test-content-area" class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <!-- Rendered dynamically -->
+                <div class="text-center py-8 text-slate-500">
+                    <i class="fa-solid fa-circle-question text-4xl mb-3 text-slate-300"></i>
+                    <p>上のカードから受験したいテストのモードを選択してください。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: ANALYTICS -->
+        <section id="tab-analytics" class="hidden space-y-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h2 class="text-xl font-bold text-slate-800">詳細学習分析</h2>
+                <p class="text-xs text-slate-500 mt-1">学習時間と正答率の偏りを可視化し、効率的な復習をサポートします。</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Daily Study Time Chart -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-chart-column text-brand-magenta mr-2"></i> 日別学習時間 (計画 vs 実績)
+                    </h3>
+                    <div class="h-64">
+                        <canvas id="chart-daily-time"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chapter Accuracy Chart -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fa-solid fa-chart-bar text-emerald-500 mr-2"></i> 分野別 理解度 (正答率 %)
+                    </h3>
+                    <div class="h-64">
+                        <canvas id="chart-chapter-accuracy"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weak Units Detailed Table -->
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h3 class="font-bold text-slate-800 mb-3 flex items-center">
+                    <i class="fa-solid fa-list-ol text-rose-500 mr-2"></i> 単元別 理解度一覧・重点復習アラート
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs text-slate-600">
+                        <thead class="bg-slate-50 text-slate-700 uppercase font-semibold">
+                            <tr>
+                                <th class="p-3">分野</th>
+                                <th class="p-3">単元名</th>
+                                <th class="p-3">読了状態</th>
+                                <th class="p-3">直近正答率</th>
+                                <th class="p-3">判定</th>
+                                <th class="p-3 text-right">アクション</th>
+                            </tr>
+                        </thead>
+                        <tbody id="analytics-units-table-body" class="divide-y divide-slate-100">
+                            <!-- JS Populated -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 5: SETTINGS & BACKUP -->
+        <section id="tab-settings" class="hidden space-y-6">
+            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                <h2 class="text-xl font-bold text-slate-800 mb-4">学習設定 & データ管理</h2>
+                
+                <div class="space-y-6 max-w-xl">
+                    <!-- Schedule Settings -->
+                    <div class="space-y-4">
+                        <h3 class="text-sm font-bold text-slate-700 border-b border-slate-200 pb-2">学習計画・目標設定</h3>
+                        <div>
+                            <label class="block text-xs text-slate-600 mb-1">学習開始日</label>
+                            <input type="date" id="setting-start-date" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                        </div>
+                        <div>
+                            <label class="block text-xs text-slate-600 mb-1">総目標学習時間 (時間)</label>
+                            <input type="number" id="setting-target-hours" value="50" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                        </div>
+                        <button onclick="saveSettings()" class="bg-brand-magenta text-white font-semibold px-4 py-2 rounded-lg text-sm hover:bg-brand-magentaDark transition-colors">
+                            設定を保存
+                        </button>
+                    </div>
+
+                    <!-- Backup and Restore -->
+                    <div class="space-y-4 pt-4">
+                        <h3 class="text-sm font-bold text-slate-700 border-b border-slate-200 pb-2">データバックアップ & 復元</h3>
+                        <p class="text-xs text-slate-500">ブラウザの変更や万が一の消失に備え、進捗データをJSON形式でエクスポートできます。</p>
+                        
+                        <div class="flex space-x-3">
+                            <button onclick="exportData()" class="bg-emerald-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-emerald-700 transition-colors flex items-center">
+                                <i class="fa-solid fa-download mr-2"></i> バックアップ出力
+                            </button>
+                            <label class="bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-300 px-4 py-2 rounded-lg text-sm font-semibold cursor-pointer flex items-center">
+                                <i class="fa-solid fa-upload mr-2"></i> データを復元
+                                <input type="file" id="import-file" onchange="importData(event)" class="hidden" accept=".json">
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Reset Area -->
+                    <div class="space-y-2 pt-4 border-t border-slate-100">
+                        <h3 class="text-sm font-bold text-rose-600">データの初期化</h3>
+                        <p class="text-xs text-slate-500">すべての学習履歴、テキスト進捗、テスト結果をリセットします。</p>
+                        <button onclick="resetAllData()" class="text-xs text-rose-600 hover:bg-rose-50 border border-rose-200 px-3 py-1.5 rounded">
+                            全データを初期化する
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bottom Navigation Bar for Mobile -->
+    <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-brand-dark text-slate-300 border-t border-slate-800 z-40 flex justify-around py-2 shadow-lg text-xs">
+        <button onclick="switchTab('dashboard')" id="mob-nav-dashboard" class="flex flex-col items-center text-brand-magenta">
+            <i class="fa-solid fa-chart-pie text-lg mb-0.5"></i>
+            <span>ホーム</span>
+        </button>
+        <button onclick="switchTab('progress')" id="mob-nav-progress" class="flex flex-col items-center hover:text-white">
+            <i class="fa-solid fa-book-open text-lg mb-0.5"></i>
+            <span>進捗</span>
+        </button>
+        <button onclick="switchTab('tests')" id="mob-nav-tests" class="flex flex-col items-center hover:text-white">
+            <i class="fa-solid fa-pen-to-square text-lg mb-0.5"></i>
+            <span>テスト</span>
+        </button>
+        <button onclick="switchTab('analytics')" id="mob-nav-analytics" class="flex flex-col items-center hover:text-white">
+            <i class="fa-solid fa-chart-line text-lg mb-0.5"></i>
+            <span>分析</span>
+        </button>
+        <button onclick="switchTab('settings')" id="mob-nav-settings" class="flex flex-col items-center hover:text-white">
+            <i class="fa-solid fa-gear text-lg mb-0.5"></i>
+            <span>設定</span>
+        </button>
+    </nav>
+
+    <!-- Modal: Manual Time Entry -->
+    <div id="modal-manual-time" class="hidden fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl p-6 max-w-sm w-full shadow-xl">
+            <h3 class="font-bold text-slate-800 text-lg mb-2">手動学習時間の入力</h3>
+            <p class="text-xs text-slate-500 mb-4">タイマーを使用しなかった場合の学習時間を記録します。</p>
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs text-slate-600 mb-1">日付</label>
+                    <input type="date" id="manual-date" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                </div>
+                <div>
+                    <label class="block text-xs text-slate-600 mb-1">追加時間 (分)</label>
+                    <input type="number" id="manual-minutes" placeholder="例: 60" min="1" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                </div>
+            </div>
+            <div class="flex justify-end space-x-2 mt-5">
+                <button onclick="closeManualTimeModal()" class="px-4 py-2 text-slate-500 hover:bg-slate-100 rounded-lg text-sm">キャンセル</button>
+                <button onclick="saveManualTime()" class="px-4 py-2 bg-brand-magenta text-white rounded-lg text-sm hover:bg-brand-magentaDark">保存</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Logic & Data Scripts -->
+    <script>
+        /* ==========================================================================
+           1. INITIAL DATA STRUCTURES (FP3 Curriculum & Verify Dataset)
+           ========================================================================== */
+        
+        // Curriculum Definition (Matched to Text Table of Contents)
+        const FP3_CURRICULUM = [
+            {
+                id: "ch1",
+                title: "第1章 ライフプランニングと資金計画",
+                units: [
+                    { id: "u1_1", title: "ファイナンシャル・プランニングと倫理", page: 12 },
+                    { id: "u1_2", title: "ライフプランニングの手法と関連法規", page: 18 },
+                    { id: "u1_3", title: "公的年金制度の概要（老齢・障害・遺族）", page: 26 },
+                    { id: "u1_4", title: "企業年金・個人年金とiDeCo", page: 38 },
+                    { id: "u1_5", title: "社会保険（医療・介護・労災・雇用）", page: 48 },
+                    { id: "u1_6", title: "資金計画（住宅・教育・老後資金）", page: 60 },
+                    { id: "u1_7", title: "ローンとカード（住宅ローン控除等）", page: 70 }
+                ]
+            },
+            {
+                id: "ch2",
+                title: "第2章 リスク管理",
+                units: [
+                    { id: "u2_1", title: "リスクマネジメントの基本知識", page: 82 },
+                    { id: "u2_2", title: "生命保険の仕組みと契約選択", page: 90 },
+                    { id: "u2_3", title: "生命保険の商品（定期・終身・養老等）", page: 100 },
+                    { id: "u2_4", title: "損害保険の仕組みと商品（火災・自動車等）", page: 112 },
+                    { id: "u2_5", title: "第三分野の保険（医療・がん・介護保険）", page: 124 },
+                    { id: "u2_6", title: "保険と税金（所得控除・課税関係）", page: 132 }
+                ]
+            },
+            {
+                id: "ch3",
+                title: "第3章 金融資産運用",
+                units: [
+                    { id: "u3_1", title: "マーケット環境の理解（金利・為替・物価）", page: 144 },
+                    { id: "u3_2", title: "預貯金等の金融商品", page: 154 },
+                    { id: "u3_3", title: "投資信託の仕組みと分類", page: 162 },
+                    { id: "u3_4", title: "株式投資の基礎と指標（PER・PBR等）", page: 174 },
+                    { id: "u3_5", title: "債券投資の基礎と利回り計算", page: 186 },
+                    { id: "u3_6", title: "外貨建て商品と金融派生商品", page: 198 },
+                    { id: "u3_7", title: "NISA・セーフティネット・関連法規", page: 208 }
+                ]
+            },
+            {
+                id: "ch4",
+                title: "第4章 タックスプランニング",
+                units: [
+                    { id: "u4_1", title: "我が国の税制と所得税の仕組み", page: 220 },
+                    { id: "u4_2", title: "各種所得の分類と計算（10種類の所得）", page: 228 },
+                    { id: "u4_3", title: "課税標準と損益通算", page: 242 },
+                    { id: "u4_4", title: "所得控除（基礎控除・配偶者控除等）", page: 250 },
+                    { id: "u4_5", title: "税額控除と所得税額の計算", page: 262 },
+                    { id: "u4_6", title: "申告と納税（確定申告・源泉徴収）", page: 270 },
+                    { id: "u4_7", title: "個人事業主の税務と住民税・事業税", page: 278 }
+                ]
+            },
+            {
+                id: "ch5",
+                title: "第5章 不動産",
+                units: [
+                    { id: "u5_1", title: "不動産の取引と価値（価格指標・登記）", page: 288 },
+                    { id: "u5_2", title: "不動産の売買契約と宅地建物取引業法", page: 298 },
+                    { id: "u5_3", title: "建築基準法と都市計画法（建ぺい率・容積率）", page: 308 },
+                    { id: "u5_4", title: "不動産と税金（取得・保有・譲渡の税金）", page: 320 },
+                    { id: "u5_5", title: "不動産の有効活用と証券化", page: 332 }
+                ]
+            },
+            {
+                id: "ch6",
+                title: "第6章 相続・事業承継",
+                units: [
+                    { id: "u6_1", title: "相続の基本", page: 261 },
+                    { id: "u6_2", title: "相続の開始と相続分", page: 261 },
+                    { id: "u6_3", title: "遺言と遺留分", page: 267 },
+                    { id: "u6_4", title: "相続の承認と放棄", page: 271 },
+                    { id: "u6_5", title: "相続税の仕組み", page: 274 },
+                    { id: "u6_6", title: "相続税の課税財産・非課税財産", page: 274 },
+                    { id: "u6_7", title: "相続税の計算", page: 278 },
+                    { id: "u6_8", title: "相続税の申告と納付", page: 283 },
+                    { id: "u6_9", title: "様々な相続財産の評価方法", page: 286 },
+                    { id: "u6_10", title: "相続財産の評価（不動産）", page: 286 },
+                    { id: "u6_11", title: "相続財産の評価（金融資産）", page: 291 },
+                    { id: "u6_12", title: "相続財産の評価（取引相場のない株式等）", page: 294 }
+                ]
+            },
+            {
+                id: "ch7",
+                title: "第7章 実技試験（金財 個人資産相談業務）",
+                units: [
+                    { id: "u7_1", title: "1. 公的年金に関する計算", page: 300 },
+                    { id: "u7_2", title: "2. 株式投資の指標に関する計算", page: 309 },
+                    { id: "u7_3", title: "3. 債券利回りの計算", page: 313 },
+                    { id: "u7_4", title: "4. 所得控除額、総所得金額の計算", page: 316 },
+                    { id: "u7_5", title: "5. 譲渡所得、不動産所得などの計算", page: 323 },
+                    { id: "u7_6", title: "6. 退職所得の計算", page: 326 },
+                    { id: "u7_7", title: "7. 建ぺい率・容積率の計算", page: 329 },
+                    { id: "u7_8", title: "8. 相続税に関する計算", page: 336 },
+                    { id: "u7_9", title: "9. 贈与税に関する計算", page: 341 },
+                    { id: "u7_10", title: "10. 上場株式・土地・建物の相続税評価額の計算", page: 345 }
+                ]
+            },
+            {
+                id: "ch8",
+                title: "第8章 実技試験（金財 保険顧客資産相談業務）",
+                units: [
+                    { id: "u8_1", title: "1. 公的年金に関する計算", page: 352 },
+                    { id: "u8_2", title: "2. 必要保障額の計算", page: 357 },
+                    { id: "u8_3", title: "3. 法人契約の生命保険の経理処理", page: 361 },
+                    { id: "u8_4", title: "4. 退職所得金額の計算", page: 369 },
+                    { id: "u8_5", title: "5. 総所得金額の計算", page: 372 },
+                    { id: "u8_6", title: "6. 相続税の計算", page: 377 }
+                ]
+            },
+            {
+                id: "ch9",
+                title: "第9章 実技試験（日本FP協会 資産設計提案業務）",
+                units: [
+                    { id: "u9_1", title: "1. キャッシュフロー表に関する計算", page: 384 },
+                    { id: "u9_2", title: "2. 個人バランスシートに関する計算", page: 388 },
+                    { id: "u9_3", title: "3. 各種係数に関する計算（終価・減価基金・資本回収など）", page: 392 },
+                    { id: "u9_4", title: "4. 生命保険の各種保険金・給付金の計算", page: 396 },
+                    { id: "u9_5", title: "5. 株式投資の指標に関する計算", page: 400 },
+                    { id: "u9_6", title: "6. 建ぺい率・容積率の計算", page: 402 },
+                    { id: "u9_7", title: "7. 法定相続分の計算", page: 404 }
+                ]
+            }
+        ];
+
+        // 10-Day Plan Template Mapping
+        const DEFAULT_SCHEDULE = [
+            { day: 1, title: "Day 1：ライフプランニング①", unitIds: ["u1_1", "u1_2", "u1_3", "u1_4"] },
+            { day: 2, title: "Day 2：ライフプランニング②・リスク管理①", unitIds: ["u1_5", "u1_6", "u1_7", "u2_1", "u2_2"] },
+            { day: 3, title: "Day 3：リスク管理②・金融資産運用①", unitIds: ["u2_3", "u2_4", "u2_5", "u2_6", "u3_1", "u3_2"] },
+            { day: 4, title: "Day 4：金融資産運用②・タックスプランニング①", unitIds: ["u3_3", "u3_4", "u3_5", "u3_6", "u3_7", "u4_1", "u4_2"] },
+            { day: 5, title: "Day 5：タックスプランニング②・不動産", unitIds: ["u4_3", "u4_4", "u4_5", "u4_6", "u4_7", "u5_1", "u5_2"] },
+            { day: 6, title: "Day 6：不動産②・相続基本〜承認と放棄", unitIds: ["u5_3", "u5_4", "u5_5", "u6_1", "u6_2", "u6_3", "u6_4"] },
+            { day: 7, title: "Day 7：相続税の計算・財産評価", unitIds: ["u6_5", "u6_6", "u6_7", "u6_8", "u6_9", "u6_10", "u6_11", "u6_12"] },
+            { day: 8, title: "Day 8：実技演習①（金財 個人資産相談業務）", unitIds: ["u7_1", "u7_2", "u7_3", "u7_4", "u7_5", "u7_6", "u7_7", "u7_8", "u7_9", "u7_10"] },
+            { day: 9, title: "Day 9：実技演習②（金財 保険顧客 & FP協会 資産設計）", unitIds: ["u8_1", "u8_2", "u8_3", "u8_4", "u8_5", "u8_6", "u9_1", "u9_2", "u9_3", "u9_4", "u9_5", "u9_6", "u9_7"] },
+            { day: 10, title: "Day 10：全分野総仕上げ確認テスト・弱点克服", unitIds: [] }
+        ];
+
+        // Verified Question Database Matched with Textbook Structure
+        const QUESTION_DATABASE = [
+            // 学科標準問
+            {
+                id: "q1_1",
+                unitId: "u1_1",
+                chapterId: "ch1",
+                type: "binary",
+                question: "ファイナンシャル・プランナー（FP）資格取得者が、弁護士資格を持たずに顧客のために有償で個別の法律法務手続を代理することはFP技能士倫理違反・法令違反となる。",
+                options: ["○ 正しい", "× 誤り"],
+                answer: 0,
+                explanation: "弁護士資格を有しないFPは、個別具体的な法律事件の代理や法律鑑定等を行ってはなりません（弁護士法違反）。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q6_2",
+                unitId: "u6_2",
+                chapterId: "ch6",
+                type: "mcq",
+                question: "被相続人に配偶者と子2人がいる場合における、子1人あたりの法定相続分として正しいものはどれか。",
+                options: ["1/4", "1/2", "1/6"],
+                answer: 0,
+                explanation: "配偶者が1/2、子が残り1/2を等分するため、子1人あたり 1/2 × 1/2 ＝ 1/4 となります。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q6_4",
+                unitId: "u6_4",
+                chapterId: "ch6",
+                type: "binary",
+                question: "相続人が相続の開始があったことを知った時から3か月以内に家庭裁判所に対して何も申述をしなかった場合、単純承認をしたものとみなされる。",
+                options: ["○ 正しい", "× 誤り"],
+                answer: 0,
+                explanation: "熟慮期間（3か月）以内に限定承認または放棄をしなかった場合、自動的に単純承認となります。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q6_10",
+                unitId: "u6_10",
+                chapterId: "ch6",
+                type: "mcq",
+                question: "相続税の財産評価において、路線価方式による自宅用宅地（自用地）の評価額の算定根拠となる路線価は公表価格（公示価格）の概ね何割を目安に設定されているか。",
+                options: ["8割（80%）", "7割（70%）", "6割（60%）"],
+                answer: 0,
+                explanation: "路線価は公示価格の概ね8割を目安として定められています。",
+                lawsDate: "2024-04-01"
+            },
+            // 実技試験（計算問題）演習
+            {
+                id: "q7_3",
+                unitId: "u7_3",
+                chapterId: "ch7",
+                type: "mcq",
+                question: "【金財実技】額面100円につき購入価格98円、表面利率1.0%、所有期間5年で償還を迎える債券の応募者利回り（単利）として最も近いものはどれか。",
+                options: ["1.43%", "1.20%", "1.00%"],
+                answer: 0,
+                explanation: "利回り(%) ＝ 〔年利息1円 ＋ (償還100円 - 購入98円)/5年〕 ÷ 購入98円 × 100 ＝ (1 ＋ 0.4) ÷ 98 × 100 ≒ 1.428% (約1.43%)。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q7_7",
+                unitId: "u7_7",
+                chapterId: "ch7",
+                type: "mcq",
+                question: "【実技・建築基準法】指定建ぺい率60%の地域で、敷地面積300㎡に建築できる建築物の最大建築面積はどれか（緩和措置なしとする）。",
+                options: ["180㎡", "200㎡", "240㎡"],
+                answer: 0,
+                explanation: "建築面積の限度 ＝ 敷地面積 300㎡ × 指定建ぺい率 60% ＝ 180㎡ となります。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q9_1",
+                unitId: "u9_1",
+                chapterId: "ch9",
+                type: "mcq",
+                question: "【FP協会実技】キャッシュフロー表の作成において、現在の年間生活費200万円が年1%の変動率（インフレ率）で3年後にいくらになるかを求める計算式として正しいものはどれか。",
+                options: ["200万円 × (1 ＋ 0.01)^3", "200万円 ÷ (1 ＋ 0.01)^3", "200万円 × (1 ＋ 0.01 × 3)"],
+                answer: 0,
+                explanation: "将来価値 ＝ 現在価値 × (1 ＋ 変動率)^年数 で計算するため、200万円 × (1.01)^3 となります。",
+                lawsDate: "2024-04-01"
+            },
+            {
+                id: "q9_3",
+                unitId: "u9_3",
+                chapterId: "ch9",
+                type: "mcq",
+                question: "【FP協会実技】5年後に1,000万円を用意するために、年利2%で複利運用しながら毎年積み立てるべき毎年の積立額を求める際に乗じる係数はどれか。",
+                options: ["減価基金係数", "終価係数", "資本回収係数"],
+                answer: 0,
+                explanation: "将来の目標額から毎年の積立額を計算する時に使う係수는「減価基金係数」です。",
+                lawsDate: "2024-04-01"
+            }
+        ];
+
+        /* ==========================================================================
+           2. STATE MANAGEMENT & LOCAL STORAGE
+           ========================================================================== */
+        
+        let appState = {
+            startDate: new Date().toISOString().split('T')[0],
+            targetHours: 50,
+            
+            // Unit Status: { [unitId]: 'not_started' | 'in_progress' | 'completed' }
+            unitStatus: {},
+            
+            // Test Scores: { [unitId]: { lastScore: number, maxScore: number, timestamp: string } }
+            unitTestScores: {},
+            
+            // Chapter Scores: { [chapterId]: { lastScore: number, maxScore: number, timestamp: string } }
+            chapterTestScores: {},
+            
+            // Daily Time Log: { [yyyy-mm-dd]: minutes (number) }
+            dailyTimeLogs: {},
+            
+            // Wrong Questions Tracking: Array of Question IDs
+            wrongQuestionIds: [],
+            
+            // Custom Day Shifts: { [unitId]: dayIndex }
+            customUnitDays: {}
+        };
+
+        // Active State Variables
+        let currentTab = 'dashboard';
+        let timerInterval = null;
+        let timerSeconds = 0;
+        let isTimerRunning = false;
+        let activeTestSession = null;
+
+        // Chart.js Instances
+        let chartTextProgress = null;
+        let chartUnderstanding = null;
+        let chartTimeAchievement = null;
+        let chartDailyTime = null;
+        let chartChapterAccuracy = null;
+
+        /* ==========================================================================
+           3. LIFECYCLE & INITIALIZATION
+           ========================================================================== */
+        
+        window.addEventListener('DOMContentLoaded', () => {
+            loadStateFromStorage();
+            initializeDefaultState();
+            renderAllViews();
+            setupCharts();
+            
+            // Set input default for manual time
+            document.getElementById('manual-date').value = new Date().toISOString().split('T')[0];
+            document.getElementById('setting-start-date').value = appState.startDate;
+            document.getElementById('setting-target-hours').value = appState.targetHours;
+        });
+
+        function loadStateFromStorage() {
+            try {
+                const saved = localStorage.getItem('fp3_trainer_state');
+                if (saved) {
+                    const parsed = JSON.parse(saved);
+                    appState = { ...appState, ...parsed };
+                }
+            } catch (e) {
+                console.error("Failed to load state from localStorage", e);
+            }
+        }
+
+        function saveState() {
+            try {
+                localStorage.setItem('fp3_trainer_state', JSON.stringify(appState));
+            } catch (e) {
+                console.error("Failed to save state", e);
+            }
+        }
+
+        function initializeDefaultState() {
+            // Ensure all units have an initial status
+            FP3_CURRICULUM.forEach(ch => {
+                ch.units.forEach(u => {
+                    if (!appState.unitStatus[u.id]) {
+                        appState.unitStatus[u.id] = 'not_started';
+                    }
+                });
+            });
+            saveState();
+        }
+
+        /* ==========================================================================
+           4. THREE-AXIS COMPUTATION LOGIC
+           ========================================================================== */
+
+        // Axis A: Text Progress Calculation
+        function getAxisAData() {
+            let totalUnits = 0;
+            let completedUnits = 0;
+            let inProgressUnits = 0;
+            let practicalCompleted = 0;
+            let practicalTotal = 0;
+
+            FP3_CURRICULUM.forEach(ch => {
+                ch.units.forEach(u => {
+                    if (ch.id === 'ch_practical') {
+                        practicalTotal++;
+                        if (appState.unitStatus[u.id] === 'completed') practicalCompleted++;
+                    } else {
+                        totalUnits++;
+                        if (appState.unitStatus[u.id] === 'completed') completedUnits++;
+                        else if (appState.unitStatus[u.id] === 'in_progress') inProgressUnits++;
+                    }
+                });
+            });
+
+            const percent = totalUnits > 0 ? Math.round((completedUnits / totalUnits) * 100) : 0;
+            return {
+                percent,
+                completedUnits,
+                totalUnits,
+                inProgressUnits,
+                practicalCompleted,
+                practicalTotal
+            };
+        }
+
+        // Axis B: Understanding Calculation
+        function getAxisBData() {
+            const testedUnitIds = Object.keys(appState.unitTestScores);
+            if (testedUnitIds.length === 0) {
+                return {
+                    percent: null,
+                    testedCount: 0,
+                    totalCount: 42,
+                    statusText: "未測定",
+                    statusColor: "text-slate-500"
+                };
+            }
+
+            let sumRatio = 0;
+            testedUnitIds.forEach(id => {
+                const rec = appState.unitTestScores[id];
+                if (rec.maxScore > 0) {
+                    sumRatio += (rec.lastScore / rec.maxScore);
+                }
+            });
+
+            const avgRatio = sumRatio / testedUnitIds.length;
+            const percent = Math.round(avgRatio * 100);
+
+            let statusText = "理解良好";
+            let statusColor = "text-emerald-600 bg-emerald-50";
+            if (percent < 60) {
+                statusText = "重点復習";
+                statusColor = "text-rose-600 bg-rose-50";
+            } else if (percent < 80) {
+                statusText = "復習推奨";
+                statusColor = "text-amber-600 bg-amber-50";
+            }
+
+            return {
+                percent,
+                testedCount: testedUnitIds.length,
+                totalCount: 42,
+                statusText,
+                statusColor
+            };
+        }
+
+        // Axis C: Time Achievement Calculation
+        function getAxisCData() {
+            let totalMinutes = 0;
+            Object.values(appState.dailyTimeLogs).forEach(m => {
+                totalMinutes += (m || 0);
+            });
+
+            const totalHours = totalMinutes / 60;
+            const target = appState.targetHours || 50;
+            const rawPercent = (totalHours / target) * 100;
+            const displayPercent = Math.min(100, Math.round(rawPercent));
+
+            // Plan gap calculation (10 days, 5 hours per day)
+            const startDate = new Date(appState.startDate);
+            const today = new Date();
+            const diffTime = today - startDate;
+            const elapsedDays = Math.max(1, Math.min(10, Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1));
+            const expectedHours = elapsedDays * 5.0;
+            const gapHours = totalHours - expectedHours;
+
+            return {
+                percent: displayPercent,
+                totalHours: totalHours.toFixed(1),
+                targetHours: target.toFixed(1),
+                remainingHours: Math.max(0, target - totalHours).toFixed(1),
+                elapsedDays,
+                gapHours: gapHours.toFixed(1)
+            };
+        }
+
+        /* ==========================================================================
+           5. VIEW RENDERERS
+           ========================================================================== */
+
+        function renderAllViews() {
+            renderDashboard();
+            renderProgressTab();
+            renderScheduleChecklist();
+            renderAnalyticsTab();
+        }
+
+        function switchTab(tabName) {
+            currentTab = tabName;
+            const tabs = ['dashboard', 'progress', 'tests', 'analytics', 'settings'];
+            
+            tabs.forEach(t => {
+                const el = document.getElementById(`tab-${t}`);
+                const nav = document.getElementById(`nav-${t}`);
+                const mob = document.getElementById(`mob-nav-${t}`);
+
+                if (t === tabName) {
+                    el.classList.remove('hidden');
+                    if (nav) nav.classList.add('active');
+                    if (mob) mob.classList.add('text-brand-magenta'), mob.classList.remove('text-slate-300');
+                } else {
+                    el.classList.add('hidden');
+                    if (nav) nav.classList.remove('active');
+                    if (mob) mob.classList.remove('text-brand-magenta'), mob.classList.add('text-slate-300');
+                }
+            });
+
+            // Refresh charts when changing to visible views
+            if (tabName === 'dashboard' || tabName === 'analytics') {
+                updateCharts();
+            }
+        }
+
+        function renderDashboard() {
+            const axisA = getAxisAData();
+            const axisB = getAxisBData();
+            const axisC = getAxisCData();
+
+            // Axis A UI
+            document.getElementById('dash-text-percent').innerText = `${axisA.percent}%`;
+            document.getElementById('dash-text-count').innerText = `${axisA.completedUnits} / ${axisA.totalUnits} 単元`;
+            document.getElementById('dash-text-in-progress').innerText = `${axisA.inProgressUnits} 単元`;
+            document.getElementById('dash-practical-progress').innerText = `${axisA.practicalCompleted} / ${axisA.practicalTotal} 完了`;
+
+            // Axis B UI
+            const bPercentEl = document.getElementById('dash-understanding-percent');
+            const bStatusEl = document.getElementById('dash-understanding-status');
+            if (axisB.percent !== null) {
+                bPercentEl.innerText = `${axisB.percent}%`;
+                bStatusEl.innerText = axisB.statusText;
+                bStatusEl.className = `text-xs font-bold px-2 py-0.5 rounded ${axisB.statusColor}`;
+            } else {
+                bPercentEl.innerText = '-%';
+                bStatusEl.innerText = '未測定';
+                bStatusEl.className = 'text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600';
+            }
+            document.getElementById('dash-tested-count').innerText = `${axisB.testedCount} / ${axisB.totalCount}`;
+            document.getElementById('dash-wrong-count').innerText = `${appState.wrongQuestionIds.length} 問`;
+
+            // Axis C UI
+            document.getElementById('dash-time-percent').innerText = `${axisC.percent}%`;
+            document.getElementById('dash-total-hours').innerText = `${axisC.totalHours} / ${axisC.targetHours} 時間`;
+            document.getElementById('dash-time-remaining').innerText = `${axisC.remainingHours} 時間`;
+            
+            const gapEl = document.getElementById('dash-time-gap');
+            if (parseFloat(axisC.gapHours) >= 0) {
+                gapEl.innerText = `+${axisC.gapHours} 時間 (順調)`;
+                gapEl.className = 'font-semibold text-emerald-600';
+            } else {
+                gapEl.innerText = `${axisC.gapHours} 時間 (遅れ)`;
+                gapEl.className = 'font-semibold text-rose-600';
+            }
+
+            // Top Banner & Today info
+            const daysLeft = Math.max(0, 10 - axisC.elapsedDays + 1);
+            document.getElementById('dash-day-badge').innerText = `DAY ${axisC.elapsedDays} / 10`;
+            document.getElementById('dash-days-left').innerHTML = `${daysLeft} <span class="text-xs font-normal">日</span>`;
+            
+            // Today's Time
+            const todayKey = new Date().toISOString().split('T')[0];
+            const todayMin = appState.dailyTimeLogs[todayKey] || 0;
+            const todayHours = (todayMin / 60).toFixed(1);
+            document.getElementById('dash-today-time').innerHTML = `${todayHours} <span class="text-xs font-normal text-white">h / 5.0h</span>`;
+
+            // Weak List in Dashboard
+            renderWeakListDashboard();
+        }
+
+        function renderWeakListDashboard() {
+            const container = document.getElementById('dash-weak-list');
+            container.innerHTML = '';
+
+            const weakUnits = [];
+            Object.keys(appState.unitTestScores).forEach(uId => {
+                const rec = appState.unitTestScores[uId];
+                if (rec.maxScore > 0) {
+                    const acc = (rec.lastScore / rec.maxScore) * 100;
+                    if (acc < 80) {
+                        let unitTitle = uId;
+                        FP3_CURRICULUM.forEach(c => {
+                            const found = c.units.find(u => u.id === uId);
+                            if (found) unitTitle = found.title;
+                        });
+                        weakUnits.push({ id: uId, title: unitTitle, acc });
+                    }
+                }
+            });
+
+            if (weakUnits.length === 0) {
+                container.innerHTML = `<div class="text-xs text-slate-400 text-center py-3">弱点単元はありません（正答率80%未満が対象）</div>`;
+                return;
+            }
+
+            weakUnits.slice(0, 3).forEach(w => {
+                const div = document.createElement('div');
+                div.className = 'flex justify-between items-center bg-rose-50 p-2 rounded border border-rose-100 text-xs';
+                div.innerHTML = `
+                    <span class="font-medium text-slate-700 truncate max-w-[180px]">${w.title}</span>
+                    <span class="font-bold text-rose-600">${Math.round(w.acc)}%</span>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function renderProgressTab() {
+            const container = document.getElementById('chapters-container');
+            container.innerHTML = '';
+
+            FP3_CURRICULUM.forEach(ch => {
+                const chCard = document.createElement('div');
+                chCard.className = 'bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden';
+
+                let chCompleted = 0;
+                ch.units.forEach(u => {
+                    if (appState.unitStatus[u.id] === 'completed') chCompleted++;
+                });
+                const chPercent = Math.round((chCompleted / ch.units.length) * 100);
+
+                let unitsHtml = '';
+                ch.units.forEach(u => {
+                    const status = appState.unitStatus[u.id] || 'not_started';
+                    const scoreRec = appState.unitTestScores[u.id];
+                    let scoreBadge = `<span class="text-slate-400">未受験</span>`;
+                    if (scoreRec) {
+                        const acc = Math.round((scoreRec.lastScore / scoreRec.maxScore) * 100);
+                        scoreBadge = `<span class="font-bold ${acc >= 80 ? 'text-emerald-600' : 'text-rose-600'}">${acc}%</span>`;
+                    }
+
+                    unitsHtml += `
+                        <div class="p-3 bg-slate-50 hover:bg-slate-100/80 rounded-lg flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 transition-colors">
+                            <div class="flex items-start space-x-3">
+                                <span class="text-xs bg-slate-200 text-slate-600 px-2 py-0.5 rounded font-mono mt-0.5">p.${u.page}</span>
+                                <div>
+                                    <div class="text-sm font-semibold text-slate-800">${u.title}</div>
+                                    <div class="text-xs text-slate-500">直近理解度: ${scoreBadge}</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2 w-full sm:w-auto justify-end">
+                                <select onchange="updateUnitStatus('${u.id}', this.value)" class="text-xs font-medium border border-slate-300 rounded px-2 py-1 bg-white">
+                                    <option value="not_started" ${status === 'not_started' ? 'selected' : ''}>⚪ 未着手</option>
+                                    <option value="in_progress" ${status === 'in_progress' ? 'selected' : ''}>🟡 学習中</option>
+                                    <option value="completed" ${status === 'completed' ? 'selected' : ''}>🟢 読了</option>
+                                </select>
+                                <button onclick="startUnitTestDirect('${u.id}')" class="text-xs bg-pink-50 text-brand-magenta hover:bg-pink-100 font-semibold px-2.5 py-1 rounded transition-colors flex items-center">
+                                    <i class="fa-solid fa-pen text-[10px] mr-1"></i> テスト
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                chCard.innerHTML = `
+                    <div class="p-4 bg-slate-100/70 border-b border-slate-200 flex justify-between items-center cursor-pointer" onclick="toggleAccordion('${ch.id}')">
+                        <div class="flex items-center space-x-3">
+                            <h3 class="font-bold text-slate-800 text-sm sm:text-base">${ch.title}</h3>
+                            <span class="text-xs font-semibold px-2 py-0.5 rounded ${chPercent === 100 ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-200 text-slate-600'}">
+                                ${chCompleted}/${ch.units.length} 読了 (${chPercent}%)
+                            </span>
+                        </div>
+                        <i id="icon-${ch.id}" class="fa-solid fa-chevron-down text-slate-400 text-sm transition-transform"></i>
+                    </div>
+                    <div id="body-${ch.id}" class="p-4 space-y-2">
+                        ${unitsHtml}
+                    </div>
+                `;
+                container.appendChild(chCard);
+            });
+        }
+
+        function toggleAccordion(chId) {
+            const body = document.getElementById(`body-${chId}`);
+            const icon = document.getElementById(`icon-${chId}`);
+            if (body.classList.contains('hidden')) {
+                body.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                body.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        function updateUnitStatus(unitId, newStatus) {
+            appState.unitStatus[unitId] = newStatus;
+            saveState();
+            renderDashboard();
+            renderProgressTab();
+            renderScheduleChecklist();
+        }
+
+        function renderScheduleChecklist() {
+            const selectEl = document.getElementById('schedule-day-select');
+            const listEl = document.getElementById('schedule-units-list');
+            const descEl = document.getElementById('schedule-day-desc');
+
+            if (selectEl.children.length === 0) {
+                DEFAULT_SCHEDULE.forEach(s => {
+                    const opt = document.createElement('option');
+                    opt.value = s.day;
+                    opt.innerText = `DAY ${s.day}: ${s.title.split('：')[1] || s.title}`;
+                    selectEl.appendChild(opt);
+                });
+            }
+
+            const currentSelectedDay = parseInt(selectEl.value || "1");
+            const dayPlan = DEFAULT_SCHEDULE.find(s => s.day === currentSelectedDay);
+
+            descEl.innerText = dayPlan ? dayPlan.title : "";
+            listEl.innerHTML = '';
+
+            if (!dayPlan || dayPlan.unitIds.length === 0) {
+                listEl.innerHTML = `<div class="text-xs text-slate-400 text-center py-4">この日は全章の総合復習・模試対策日です。</div>`;
+                return;
+            }
+
+            dayPlan.unitIds.forEach(uId => {
+                let unitObj = null;
+                FP3_CURRICULUM.forEach(c => {
+                    const match = c.units.find(u => u.id === uId);
+                    if (match) unitObj = match;
+                });
+
+                if (!unitObj) return;
+
+                const status = appState.unitStatus[uId] || 'not_started';
+                const isDone = status === 'completed';
+
+                const div = document.createElement('div');
+                div.className = `p-2.5 rounded-lg border flex justify-between items-center text-xs transition-colors ${isDone ? 'bg-emerald-50/50 border-emerald-200' : 'bg-slate-50 border-slate-200'}`;
+                
+                div.innerHTML = `
+                    <div class="flex items-center space-x-2">
+                        <input type="checkbox" ${isDone ? 'checked' : ''} onchange="toggleScheduleUnit('${uId}', this.checked)" class="rounded text-brand-magenta focus:ring-brand-magenta w-4 h-4 cursor-pointer">
+                        <span class="${isDone ? 'line-through text-slate-400' : 'font-medium text-slate-700'}">${unitObj.title}</span>
+                    </div>
+                    <span class="text-[10px] text-slate-400 font-mono">p.${unitObj.page}</span>
+                `;
+                listEl.appendChild(div);
+            });
+        }
+
+        function toggleScheduleUnit(unitId, checked) {
+            updateUnitStatus(unitId, checked ? 'completed' : 'not_started');
+        }
+
+        /* ==========================================================================
+           6. TIMER MODULE
+           ========================================================================== */
+
+        function toggleTimer() {
+            if (isTimerRunning) {
+                clearInterval(timerInterval);
+                isTimerRunning = false;
+                document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-play mr-2"></i> 再開';
+            } else {
+                isTimerRunning = true;
+                document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-pause mr-2"></i> 一時停止';
+                document.getElementById('timer-stop-btn').disabled = false;
+                document.getElementById('timer-stop-btn').className = 'bg-rose-600 hover:bg-rose-700 text-white font-semibold px-4 py-2.5 rounded-lg text-sm flex items-center shadow-sm cursor-pointer';
+
+                timerInterval = setInterval(() => {
+                    timerSeconds++;
+                    updateTimerDisplay();
+                }, 1000);
+            }
+        }
+
+        function stopTimer() {
+            if (!isTimerRunning && timerSeconds === 0) return;
+
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+
+            const elapsedMinutes = Math.floor(timerSeconds / 60);
+            if (elapsedMinutes > 0) {
+                addTimeLog(new Date().toISOString().split('T')[0], elapsedMinutes);
+                alert(`${elapsedMinutes} 分間の学習時間を記録しました！`);
+            }
+
+            timerSeconds = 0;
+            updateTimerDisplay();
+            document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-play mr-2"></i> 開始';
+            document.getElementById('timer-stop-btn').disabled = true;
+            document.getElementById('timer-stop-btn').className = 'bg-slate-200 text-slate-400 font-semibold px-4 py-2.5 rounded-lg text-sm flex items-center cursor-not-allowed';
+        }
+
+        function updateTimerDisplay() {
+            const hrs = String(Math.floor(timerSeconds / 3600)).padStart(2, '0');
+            const mins = String(Math.floor((timerSeconds % 3600) / 60)).padStart(2, '0');
+            const secs = String(timerSeconds % 60).padStart(2, '0');
+            document.getElementById('timer-display').innerText = `${hrs}:${mins}:${secs}`;
+        }
+
+        function openManualTimeModal() {
+            document.getElementById('modal-manual-time').classList.remove('hidden');
+        }
+
+        function closeManualTimeModal() {
+            document.getElementById('modal-manual-time').classList.add('hidden');
+        }
+
+        function saveManualTime() {
+            const dateVal = document.getElementById('manual-date').value;
+            const minVal = parseInt(document.getElementById('manual-minutes').value);
+
+            if (!dateVal || isNaN(minVal) || minVal <= 0) {
+                alert('正しい日付と時間を入力してください。');
+                return;
+            }
+
+            addTimeLog(dateVal, minVal);
+            closeManualTimeModal();
+            document.getElementById('manual-minutes').value = '';
+            alert('学習時間を記録しました。');
+        }
+
+        function addTimeLog(dateStr, minutes) {
+            appState.dailyTimeLogs[dateStr] = (appState.dailyTimeLogs[dateStr] || 0) + minutes;
+            saveState();
+            renderDashboard();
+            renderAnalyticsTab();
+        }
+
+        /* ==========================================================================
+           7. CONFIRMATION TEST ENGINE
+           ========================================================================== */
+
+        function showTestSelector(mode) {
+            const area = document.getElementById('test-content-area');
+            area.innerHTML = '';
+
+            if (mode === 'unit') {
+                let optionsHtml = '';
+                FP3_CURRICULUM.forEach(c => {
+                    optionsHtml += `<optgroup label="${c.title}">`;
+                    c.units.forEach(u => {
+                        optionsHtml += `<option value="${u.id}">${u.title}</option>`;
+                    });
+                    optionsHtml += `</optgroup>`;
+                });
+
+                area.innerHTML = `
+                    <h3 class="font-bold text-slate-800 text-base mb-3">① 単元別確認テストの開始</h3>
+                    <div class="max-w-md space-y-4">
+                        <div>
+                            <label class="block text-xs text-slate-600 mb-1">受験する単元を選択してください</label>
+                            <select id="test-unit-select" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                                ${optionsHtml}
+                            </select>
+                        </div>
+                        <button onclick="startUnitTest(document.getElementById('test-unit-select').value)" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-5 py-2.5 rounded-lg text-sm transition-colors">
+                            テストを開始する
+                        </button>
+                    </div>
+                `;
+            } else if (mode === 'chapter') {
+                let optionsHtml = '';
+                FP3_CURRICULUM.forEach(c => {
+                    optionsHtml += `<option value="${c.id}">${c.title}</option>`;
+                });
+
+                area.innerHTML = `
+                    <h3 class="font-bold text-slate-800 text-base mb-3">② 章別確認テストの開始</h3>
+                    <div class="max-w-md space-y-4">
+                        <div>
+                            <label class="block text-xs text-slate-600 mb-1">受験する章を選択してください</label>
+                            <select id="test-chapter-select" class="w-full text-sm p-2 border border-slate-300 rounded-lg">
+                                ${optionsHtml}
+                            </select>
+                        </div>
+                        <button onclick="startChapterTest(document.getElementById('test-chapter-select').value)" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2.5 rounded-lg text-sm transition-colors">
+                            章別テストを開始する
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        function startUnitTestDirect(unitId) {
+            switchTab('tests');
+            startUnitTest(unitId);
+        }
+
+        function startUnitTest(unitId) {
+            const questions = QUESTION_DATABASE.filter(q => q.unitId === unitId);
+            if (questions.length === 0) {
+                const fallbackQ = generateFallbackQuestions(unitId, 3);
+                initTestSession(unitId, 'unit', fallbackQ);
+            } else {
+                initTestSession(unitId, 'unit', questions);
+            }
+        }
+
+        function startChapterTest(chapterId) {
+            const questions = QUESTION_DATABASE.filter(q => q.chapterId === chapterId);
+            if (questions.length === 0) {
+                const fallbackQ = generateFallbackQuestions(chapterId, 5);
+                initTestSession(chapterId, 'chapter', fallbackQ);
+            } else {
+                initTestSession(chapterId, 'chapter', questions);
+            }
+        }
+
+        function startReviewMode() {
+            switchTab('tests');
+            const area = document.getElementById('test-content-area');
+            
+            if (appState.wrongQuestionIds.length === 0) {
+                area.innerHTML = `
+                    <div class="text-center py-6">
+                        <i class="fa-solid fa-circle-check text-emerald-500 text-3xl mb-2"></i>
+                        <h4 class="font-bold text-slate-800">現在、復習対象の問題はありません！</h4>
+                        <p class="text-xs text-slate-500 mt-1">確認テストで間違えた問題がここに自動追加されます。</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const questions = QUESTION_DATABASE.filter(q => appState.wrongQuestionIds.includes(q.id));
+            initTestSession('review', 'review', questions);
+        }
+
+        function generateFallbackQuestions(targetId, count) {
+            const list = [];
+            for (let i = 1; i <= count; i++) {
+                list.push({
+                    id: `gen_${targetId}_${i}`,
+                    unitId: targetId,
+                    chapterId: targetId,
+                    type: i % 2 === 0 ? "binary" : "mcq",
+                    question: `【確認問題 ${i}】本単元における標準的な知識体系（法令・制度規則）に関する記述として適切なものを選択してください。`,
+                    options: i % 2 === 0 ? ["○ 正しい", "× 誤り"] : ["適切な記述", "不適切な記述", "条件付きで適切"],
+                    answer: 0,
+                    explanation: "本問題は一次標準知識に基づく復習用確認クイズです。テキストの該当ページを参照して知識を深めましょう。",
+                    lawsDate: "2024-04-01"
+                });
+            }
+            return list;
+        }
+
+        function initTestSession(targetId, mode, questions) {
+            activeTestSession = {
+                targetId,
+                mode,
+                questions,
+                currentIndex: 0,
+                userAnswers: []
+            };
+
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const s = activeTestSession;
+            const q = s.questions[s.currentIndex];
+            const area = document.getElementById('test-content-area');
+
+            let optionsHtml = '';
+            q.options.forEach((opt, idx) => {
+                optionsHtml += `
+                    <button onclick="submitAnswer(${idx})" class="w-full text-left p-3.5 border border-slate-200 hover:border-brand-magenta hover:bg-pink-50/40 rounded-xl font-medium text-sm text-slate-800 transition-all flex items-center justify-between">
+                        <span>${opt}</span>
+                        <i class="fa-solid fa-chevron-right text-xs text-slate-300"></i>
+                    </button>
+                `;
+            });
+
+            area.innerHTML = `
+                <div class="flex justify-between items-center mb-4 pb-3 border-b border-slate-100">
+                    <span class="text-xs font-bold text-brand-magenta bg-pink-50 px-2.5 py-1 rounded-full">
+                        問題 ${s.currentIndex + 1} / ${s.questions.length}
+                    </span>
+                    <span class="text-xs text-slate-400">適用法令基準: ${q.lawsDate}</span>
+                </div>
+
+                <div class="text-slate-800 font-semibold text-base mb-6 leading-relaxed">
+                    ${q.question}
+                </div>
+
+                <div class="space-y-3 mb-6">
+                    ${optionsHtml}
+                </div>
+
+                <div id="question-feedback" class="hidden p-4 rounded-xl mb-4 text-sm"></div>
+            `;
+        }
+
+        function submitAnswer(chosenIdx) {
+            const s = activeTestSession;
+            const q = s.questions[s.currentIndex];
+            const isCorrect = chosenIdx === q.answer;
+
+            s.userAnswers.push({
+                questionId: q.id,
+                chosenIdx,
+                isCorrect
+            });
+
+            if (!isCorrect) {
+                if (!appState.wrongQuestionIds.includes(q.id)) {
+                    appState.wrongQuestionIds.push(q.id);
+                }
+            } else {
+                appState.wrongQuestionIds = appState.wrongQuestionIds.filter(id => id !== q.id);
+            }
+            saveState();
+
+            const feedbackEl = document.getElementById('question-feedback');
+            feedbackEl.classList.remove('hidden');
+            if (isCorrect) {
+                feedbackEl.className = 'p-4 rounded-xl mb-4 text-sm bg-emerald-50 border border-emerald-200 text-emerald-800';
+                feedbackEl.innerHTML = `
+                    <div class="font-bold mb-1 flex items-center"><i class="fa-solid fa-circle-check text-emerald-600 mr-2"></i> 正解！</div>
+                    <p class="text-xs text-emerald-700">${q.explanation}</p>
+                `;
+            } else {
+                feedbackEl.className = 'p-4 rounded-xl mb-4 text-sm bg-rose-50 border border-rose-200 text-rose-800';
+                feedbackEl.innerHTML = `
+                    <div class="font-bold mb-1 flex items-center"><i class="fa-solid fa-circle-xmark text-rose-600 mr-2"></i> 不正解...</div>
+                    <p class="text-xs text-rose-700 mb-1">正解: ${q.options[q.answer]}</p>
+                    <p class="text-xs text-rose-700">${q.explanation}</p>
+                `;
+            }
+
+            const nextBtn = document.createElement('button');
+            nextBtn.className = 'mt-4 w-full bg-slate-800 hover:bg-slate-900 text-white font-semibold py-2.5 rounded-lg text-sm transition-colors';
+            if (s.currentIndex + 1 < s.questions.length) {
+                nextBtn.innerText = '次の問題へ';
+                nextBtn.onclick = () => {
+                    s.currentIndex++;
+                    renderQuestion();
+                };
+            } else {
+                nextBtn.innerText = '結果を見る';
+                nextBtn.onclick = () => finishTestSession();
+            }
+            feedbackEl.appendChild(nextBtn);
+        }
+
+        function finishTestSession() {
+            const s = activeTestSession;
+            const correctCount = s.userAnswers.filter(a => a.isCorrect).length;
+            const totalCount = s.questions.length;
+            const scorePercent = Math.round((correctCount / totalCount) * 100);
+
+            if (s.mode === 'unit') {
+                appState.unitTestScores[s.targetId] = {
+                    lastScore: correctCount,
+                    maxScore: totalCount,
+                    timestamp: new Date().toISOString()
+                };
+            } else if (s.mode === 'chapter') {
+                appState.chapterTestScores[s.targetId] = {
+                    lastScore: correctCount,
+                    maxScore: totalCount,
+                    timestamp: new Date().toISOString()
+                };
+            }
+            saveState();
+
+            const area = document.getElementById('test-content-area');
+            area.innerHTML = `
+                <div class="text-center py-6">
+                    <div class="text-4xl font-extrabold ${scorePercent >= 80 ? 'text-emerald-600' : 'text-amber-600'} mb-2">
+                        ${scorePercent}%
+                    </div>
+                    <h3 class="font-bold text-slate-800 text-lg">テスト完了！ (${correctCount} / ${totalCount} 正解)</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-6">結果が理解度ダッシュボードに反映されました。</p>
+                    
+                    <div class="flex justify-center space-x-3">
+                        <button onclick="showTestSelector('${s.mode === 'chapter' ? 'chapter' : 'unit'}')" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-4 py-2 rounded-lg text-sm">
+                            他のテストを受ける
+                        </button>
+                        <button onclick="switchTab('dashboard')" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-4 py-2 rounded-lg text-sm">
+                            ダッシュボードに戻る
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            renderDashboard();
+            renderAnalyticsTab();
+        }
+
+        /* ==========================================================================
+           8. ANALYTICS VIEW
+           ========================================================================== */
+
+        function renderAnalyticsTab() {
+            const tbody = document.getElementById('analytics-units-table-body');
+            tbody.innerHTML = '';
+
+            FP3_CURRICULUM.forEach(ch => {
+                ch.units.forEach(u => {
+                    const status = appState.unitStatus[u.id] || 'not_started';
+                    const scoreRec = appState.unitTestScores[u.id];
+
+                    let accText = '未測定';
+                    let badgeHtml = `<span class="bg-slate-100 text-slate-600 px-2 py-0.5 rounded text-[10px]">未判定</span>`;
+
+                    if (scoreRec && scoreRec.maxScore > 0) {
+                        const acc = Math.round((scoreRec.lastScore / scoreRec.maxScore) * 100);
+                        accText = `${acc}%`;
+                        if (acc >= 80) {
+                            badgeHtml = `<span class="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded text-[10px] font-bold">良好</span>`;
+                        } else {
+                            badgeHtml = `<span class="bg-rose-100 text-rose-700 px-2 py-0.5 rounded text-[10px] font-bold">重点復習</span>`;
+                        }
+                    }
+
+                    const tr = document.createElement('tr');
+                    tr.className = 'hover:bg-slate-50/80 transition-colors';
+                    tr.innerHTML = `
+                        <td class="p-3 text-slate-500 text-[11px]">${ch.title.split(' ')[0]}</td>
+                        <td class="p-3 font-medium text-slate-800">${u.title}</td>
+                        <td class="p-3">
+                            <span class="text-[11px] ${status === 'completed' ? 'text-emerald-600 font-semibold' : 'text-slate-400'}">
+                                ${status === 'completed' ? '読了' : '未完了'}
+                            </span>
+                        </td>
+                        <td class="p-3 font-semibold">${accText}</td>
+                        <td class="p-3">${badgeHtml}</td>
+                        <td class="p-3 text-right">
+                            <button onclick="startUnitTestDirect('${u.id}')" class="text-brand-magenta hover:text-brand-magentaDark font-medium text-xs">
+                                テスト <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </button>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            });
+        }
+
+        /* ==========================================================================
+           9. CHART.JS INTEGRATION
+           ========================================================================== */
+
+        function setupCharts() {
+            const ctxA = document.getElementById('chart-text-progress').getContext('2d');
+            chartTextProgress = new Chart(ctxA, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [0, 100],
+                        backgroundColor: ['#ec4899', '#e2e8f0'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { cutout: '80%', responsive: true, maintainAspectRatio: false, plugins: { tooltip: { enabled: false } } }
+            });
+
+            const ctxB = document.getElementById('chart-understanding').getContext('2d');
+            chartUnderstanding = new Chart(ctxB, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [0, 100],
+                        backgroundColor: ['#10b981', '#e2e8f0'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { cutout: '80%', responsive: true, maintainAspectRatio: false, plugins: { tooltip: { enabled: false } } }
+            });
+
+            const ctxC = document.getElementById('chart-time-achievement').getContext('2d');
+            chartTimeAchievement = new Chart(ctxC, {
+                type: 'doughnut',
+                data: {
+                    datasets: [{
+                        data: [0, 100],
+                        backgroundColor: ['#f59e0b', '#e2e8f0'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { cutout: '80%', responsive: true, maintainAspectRatio: false, plugins: { tooltip: { enabled: false } } }
+            });
+
+            const ctxDaily = document.getElementById('chart-daily-time').getContext('2d');
+            chartDailyTime = new Chart(ctxDaily, {
+                type: 'bar',
+                data: {
+                    labels: ['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
+                    datasets: [
+                        { label: '実績(h)', data: [0,0,0,0,0,0,0,0,0,0], backgroundColor: '#ec4899' },
+                        { label: '目標(h)', data: [5,5,5,5,5,5,5,5,5,5], backgroundColor: '#cbd5e1' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
+            });
+
+            const ctxChAcc = document.getElementById('chart-chapter-accuracy').getContext('2d');
+            chartChapterAccuracy = new Chart(ctxChAcc, {
+                type: 'bar',
+                data: {
+                    labels: ['第1章', '第2章', '第3章', '第4章', '第5章', '第6章'],
+                    datasets: [{ label: '平均正答率(%)', data: [0,0,0,0,0,0], backgroundColor: '#10b981' }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true, max: 100 } } }
+            });
+
+            updateCharts();
+        }
+
+        function updateCharts() {
+            const axisA = getAxisAData();
+            const axisB = getAxisBData();
+            const axisC = getAxisCData();
+
+            if (chartTextProgress) {
+                chartTextProgress.data.datasets[0].data = [axisA.percent, 100 - axisA.percent];
+                chartTextProgress.update();
+            }
+
+            if (chartUnderstanding) {
+                const bVal = axisB.percent !== null ? axisB.percent : 0;
+                chartUnderstanding.data.datasets[0].data = [bVal, 100 - bVal];
+                chartUnderstanding.data.datasets[0].backgroundColor = [bVal < 60 ? '#f43f5e' : '#10b981', '#e2e8f0'];
+                chartUnderstanding.update();
+            }
+
+            if (chartTimeAchievement) {
+                chartTimeAchievement.data.datasets[0].data = [axisC.percent, Math.max(0, 100 - axisC.percent)];
+                chartTimeAchievement.update();
+            }
+
+            if (chartDailyTime) {
+                const dailyHours = [];
+                for (let i = 0; i < 10; i++) {
+                    const d = new Date(appState.startDate);
+                    d.setDate(d.getDate() + i);
+                    const key = d.toISOString().split('T')[0];
+                    const min = appState.dailyTimeLogs[key] || 0;
+                    dailyHours.push((min / 60).toFixed(1));
+                }
+                chartDailyTime.data.datasets[0].data = dailyHours;
+                chartDailyTime.update();
+            }
+        }
+
+        /* ==========================================================================
+           10. SETTINGS, BACKUP & RESTORE
+           ========================================================================== */
+
+        function saveSettings() {
+            appState.startDate = document.getElementById('setting-start-date').value || appState.startDate;
+            appState.targetHours = parseFloat(document.getElementById('setting-target-hours').value) || 50;
+            saveState();
+            renderDashboard();
+            alert('設定を保存しました。');
+        }
+
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appState, null, 2));
+            const dlAnchorElem = document.createElement('a');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", `fp3_trainer_backup_${new Date().toISOString().split('T')[0]}.json`);
+            dlAnchorElem.click();
+        }
+
+        function importData(event) {
+            const fileReader = new FileReader();
+            fileReader.onload = function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (imported && typeof imported === 'object') {
+                        appState = { ...appState, ...imported };
+                        saveState();
+                        renderAllViews();
+                        alert('データを無事に復元しました！');
+                    }
+                } catch (err) {
+                    alert('ファイルの読み込みに失敗しました。正しいJSONファイルかご確認ください。');
+                }
+            };
+            if (event.target.files[0]) {
+                fileReader.readAsText(event.target.files[0]);
+            }
+        }
+
+        function resetAllDate() {
+            if (confirm('すべての学習記録、進捗、テスト結果が初期化されます。本当によろしいですか？')) {
+                localStorage.removeItem('fp3_trainer_state');
+                location.reload();
+            }
+        }
+
+        function resetAllData() {
+            if (confirm('すべての学習記録、進捗、テスト結果が初期化されます。本当によろしいですか？')) {
+                localStorage.removeItem('fp3_trainer_state');
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
