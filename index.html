@@ -66,19 +66,19 @@
         }
     </style>
 </head>
-<body class="flex flex-col min-h-screen pb-16 md:pb-0">
+<body class="flex flex-col min-h-screen pb-20 md:pb-0 overflow-x-hidden">
 
     <!-- Header Navigation (スッキリわかる風：ダークネイビー × やわらかピンク) -->
     <header class="bg-brand-dark text-white border-b border-slate-800 sticky top-0 z-30 shadow-md">
         <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
             <div class="flex justify-between h-14 sm:h-16 items-center">
-                <div class="flex items-center space-x-2 sm:space-x-3 overflow-hidden">
-                    <div class="bg-brand-magenta text-white p-1.5 sm:p-2 rounded-lg font-extrabold text-base sm:text-lg flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 shadow-inner tracking-tight flex-shrink-0">
+                <div class="flex items-center space-x-2 min-w-0 flex-1 mr-2">
+                    <div class="bg-brand-magenta text-white p-1 sm:p-2 rounded-lg font-extrabold text-xs sm:text-base flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 shadow-inner tracking-tight flex-shrink-0">
                         FP3
                     </div>
-                    <div class="min-w-0">
+                    <div class="min-w-0 flex-1">
                         <div class="text-[9px] sm:text-[10px] text-pink-300 font-bold tracking-wider uppercase truncate">スッキリわかる直前対策</div>
-                        <h1 class="text-xs sm:text-lg font-bold text-white leading-snug truncate">FP3級 10日間合格トレーナー</h1>
+                        <h1 class="text-xs sm:text-base font-bold text-white leading-tight truncate">FP3級 10日間合格トレーナー</h1>
                     </div>
                 </div>
                 <!-- Desktop Nav -->
@@ -123,110 +123,110 @@
         <!-- TAB 1: DASHBOARD -->
         <section id="tab-dashboard" class="space-y-4 sm:space-y-6">
             <!-- Countdown & Day Summary (やさしいピンクのグラデーション帯) -->
-            <div class="bg-gradient-to-r from-pink-500 via-rose-400 to-pink-600 rounded-2xl p-4 sm:p-6 text-white shadow-lg flex flex-col md:flex-row justify-between items-stretch md:items-center gap-4 relative overflow-hidden">
+            <div class="bg-gradient-to-r from-pink-500 via-rose-400 to-pink-600 rounded-2xl p-3.5 sm:p-6 text-white shadow-lg flex flex-col md:flex-row justify-between items-stretch md:items-center gap-3 sm:gap-4 relative overflow-hidden">
                 <div class="absolute -right-10 -bottom-10 opacity-10 text-white text-9xl font-black pointer-events-none">FP3</div>
                 <div class="z-10">
-                    <div class="flex flex-wrap items-center gap-2">
-                        <span id="dash-day-badge" class="bg-white/20 text-white text-[11px] sm:text-xs px-2.5 py-0.5 rounded-full font-semibold">DAY 1 / 10</span>
-                        <span id="dash-streak" class="text-[11px] sm:text-xs bg-amber-400/30 text-amber-100 px-2.5 py-0.5 rounded-full border border-amber-300/30">🔥 連続学習 1 日目</span>
+                    <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                        <span id="dash-day-badge" class="bg-white/20 text-white text-[10px] sm:text-xs px-2 py-0.5 rounded-full font-semibold">DAY 1 / 10</span>
+                        <span id="dash-streak" class="text-[10px] sm:text-xs bg-amber-400/30 text-amber-100 px-2 py-0.5 rounded-full border border-amber-300/30">🔥 連続学習 1 日目</span>
                     </div>
-                    <h2 id="dash-greeting" class="text-lg sm:text-2xl font-bold mt-2 leading-snug">スッキリ合格へ向けて学習を開始しましょう！</h2>
-                    <p class="text-pink-50 text-xs sm:text-sm mt-1">本日の推奨カリキュラム: <span id="dash-today-plan-title" class="font-medium underline">第1章 ライフプランニング①</span></p>
+                    <h2 id="dash-greeting" class="text-base sm:text-2xl font-bold mt-1.5 sm:mt-2 leading-snug">スッキリ合格へ向けて学習を開始しましょう！</h2>
+                    <p class="text-pink-50 text-[11px] sm:text-sm mt-0.5 sm:mt-1">本日の推奨: <span id="dash-today-plan-title" class="font-medium underline">第1章 ライフプランニング①</span></p>
                 </div>
-                <div class="flex items-center justify-around sm:justify-center space-x-4 sm:space-x-6 bg-black/15 p-3 sm:p-4 rounded-xl backdrop-blur-sm border border-white/10 z-10">
+                <div class="flex items-center justify-around sm:justify-center space-x-2 sm:space-x-6 bg-black/15 p-2.5 sm:p-4 rounded-xl backdrop-blur-sm border border-white/10 z-10">
                     <div class="text-center">
-                        <div class="text-[11px] sm:text-xs text-pink-100">試験日まで</div>
-                        <div id="dash-days-left" class="text-2xl sm:text-3xl font-extrabold">10 <span class="text-xs font-normal">日</span></div>
+                        <div class="text-[10px] sm:text-xs text-pink-100">試験日まで</div>
+                        <div id="dash-days-left" class="text-xl sm:text-3xl font-extrabold">10 <span class="text-[10px] sm:text-xs font-normal">日</span></div>
                     </div>
-                    <div class="h-8 w-px bg-white/20"></div>
+                    <div class="h-7 sm:h-8 w-px bg-white/20"></div>
                     <div class="text-center">
-                        <div class="text-[11px] sm:text-xs text-pink-100">今日の学習時間</div>
-                        <div id="dash-today-time" class="text-2xl sm:text-3xl font-extrabold text-amber-300">0.0 <span class="text-xs font-normal text-white">h / 5.0h</span></div>
+                        <div class="text-[10px] sm:text-xs text-pink-100">今日の学習時間</div>
+                        <div id="dash-today-time" class="text-xl sm:text-3xl font-extrabold text-amber-300">0.0 <span class="text-[10px] sm:text-xs font-normal text-white">h / 5.0h</span></div>
                     </div>
                 </div>
             </div>
 
             <!-- Dashboard 3-Axis Metrics Summary Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
                 <!-- Axis A Card -->
-                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
-                    <div>
-                        <div class="text-xs text-slate-500 font-semibold mb-1">軸A: テキスト進捗</div>
-                        <div id="dash-text-percent" class="text-2xl font-bold text-pink-600">0%</div>
-                        <div class="text-[11px] text-slate-500 mt-1">
-                            完了: <span id="dash-text-count" class="font-medium text-slate-700">0 / 0 単元</span> | 
-                            学習中: <span id="dash-text-in-progress" class="font-medium text-amber-600">0 単元</span>
+                <div class="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+                    <div class="min-w-0 flex-1 pr-2">
+                        <div class="text-[11px] sm:text-xs text-slate-500 font-semibold mb-0.5">軸A: テキスト進捗</div>
+                        <div id="dash-text-percent" class="text-xl sm:text-2xl font-bold text-pink-600">0%</div>
+                        <div class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5 truncate">
+                            完了: <span id="dash-text-count" class="font-medium text-slate-700">0 / 0</span> | 
+                            学習中: <span id="dash-text-in-progress" class="font-medium text-amber-600">0</span>
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">
+                        <div class="text-[10px] text-slate-400 mt-0.5 truncate">
                             実技: <span id="dash-practical-progress" class="font-medium text-slate-600">0 / 0 完了</span>
                         </div>
                     </div>
-                    <div class="w-16 h-16 relative flex-shrink-0">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 relative flex-shrink-0">
                         <canvas id="chart-text-progress"></canvas>
                     </div>
                 </div>
 
                 <!-- Axis B Card -->
-                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
-                    <div>
-                        <div class="text-xs text-slate-500 font-semibold mb-1">軸B: 理解度・正答率</div>
-                        <div class="flex items-center space-x-2">
-                            <span id="dash-understanding-percent" class="text-2xl font-bold text-emerald-600">-%</span>
-                            <span id="dash-understanding-status" class="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600">未測定</span>
+                <div class="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+                    <div class="min-w-0 flex-1 pr-2">
+                        <div class="text-[11px] sm:text-xs text-slate-500 font-semibold mb-0.5">軸B: 理解度・正答率</div>
+                        <div class="flex items-center space-x-1.5 flex-wrap">
+                            <span id="dash-understanding-percent" class="text-xl sm:text-2xl font-bold text-emerald-600">-%</span>
+                            <span id="dash-understanding-status" class="text-[10px] sm:text-xs font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-600">未測定</span>
                         </div>
-                        <div class="text-[11px] text-slate-500 mt-1">
-                            テスト実施数: <span id="dash-tested-count" class="font-medium text-slate-700">0 / 42</span>
+                        <div class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5 truncate">
+                            テスト実施: <span id="dash-tested-count" class="font-medium text-slate-700">0 / 42</span>
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">
-                            要復習問題: <span id="dash-wrong-count" class="font-medium text-rose-600">0 問</span>
+                        <div class="text-[10px] text-slate-400 mt-0.5 truncate">
+                            要復習: <span id="dash-wrong-count" class="font-medium text-rose-600">0 問</span>
                         </div>
                     </div>
-                    <div class="w-16 h-16 relative flex-shrink-0">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 relative flex-shrink-0">
                         <canvas id="chart-understanding"></canvas>
                     </div>
                 </div>
 
                 <!-- Axis C Card -->
-                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
-                    <div>
-                        <div class="text-xs text-slate-500 font-semibold mb-1">軸C: 時間達成率</div>
-                        <div id="dash-time-percent" class="text-2xl font-bold text-amber-500">0%</div>
-                        <div class="text-[11px] text-slate-500 mt-1">
-                            累計: <span id="dash-total-hours" class="font-medium text-slate-700">0.0 / 50.0 時間</span>
+                <div class="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between sm:col-span-2 md:col-span-1">
+                    <div class="min-w-0 flex-1 pr-2">
+                        <div class="text-[11px] sm:text-xs text-slate-500 font-semibold mb-0.5">軸C: 時間達成率</div>
+                        <div id="dash-time-percent" class="text-xl sm:text-2xl font-bold text-amber-500">0%</div>
+                        <div class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5 truncate">
+                            累計: <span id="dash-total-hours" class="font-medium text-slate-700">0.0 / 50.0h</span>
                         </div>
-                        <div class="text-[10px] text-slate-400 mt-0.5">
-                            残: <span id="dash-time-remaining">50.0 時間</span> | 差: <span id="dash-time-gap" class="font-semibold text-slate-600">0 時間</span>
+                        <div class="text-[10px] text-slate-400 mt-0.5 truncate">
+                            残: <span id="dash-time-remaining">50.0h</span> | 差: <span id="dash-time-gap" class="font-semibold text-slate-600">0h</span>
                         </div>
                     </div>
-                    <div class="w-16 h-16 relative flex-shrink-0">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 relative flex-shrink-0">
                         <canvas id="chart-time-achievement"></canvas>
                     </div>
                 </div>
             </div>
 
             <!-- Timer Module -->
-            <div class="bg-white rounded-xl p-4 sm:p-5 shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+            <div class="bg-white rounded-xl p-3.5 sm:p-5 shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
                 <div class="flex items-center space-x-3 w-full sm:w-auto">
-                    <div class="p-2.5 bg-pink-50 text-brand-magenta rounded-full flex-shrink-0">
-                        <i class="fa-solid fa-stopwatch text-xl sm:text-2xl"></i>
+                    <div class="p-2 sm:p-2.5 bg-pink-50 text-brand-magenta rounded-full flex-shrink-0">
+                        <i class="fa-solid fa-stopwatch text-lg sm:text-2xl"></i>
                     </div>
                     <div>
-                        <h3 class="font-bold text-slate-800 text-sm sm:text-base">学習タイマー</h3>
-                        <p class="text-[11px] sm:text-xs text-slate-500">学習時間を正確に記録してダッシュボードに反映させます</p>
+                        <h3 class="font-bold text-slate-800 text-xs sm:text-base">学習タイマー</h3>
+                        <p class="text-[10px] sm:text-xs text-slate-500">学習時間を記録してダッシュボードに反映</p>
                     </div>
                 </div>
-                <div class="flex items-center space-x-2 sm:space-x-3 w-full sm:w-auto justify-between sm:justify-end flex-wrap gap-y-2">
-                    <div id="timer-display" class="font-mono text-xl sm:text-3xl font-bold text-slate-700 bg-slate-100 px-3 py-1 rounded-lg">
+                <div class="flex items-center justify-between w-full sm:w-auto space-x-2 sm:space-x-3">
+                    <div id="timer-display" class="font-mono text-lg sm:text-3xl font-bold text-slate-700 bg-slate-100 px-2.5 py-1 rounded-lg">
                         00:00:00
                     </div>
-                    <div class="flex space-x-2">
-                        <button id="timer-start-btn" onclick="toggleTimer()" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg shadow-sm transition-colors text-xs sm:text-sm flex items-center">
-                            <i class="fa-solid fa-play mr-1.5"></i> 開始
+                    <div class="flex space-x-1.5 sm:space-x-2">
+                        <button id="timer-start-btn" onclick="toggleTimer()" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-lg shadow-sm transition-colors text-xs sm:text-sm flex items-center">
+                            <i class="fa-solid fa-play mr-1 sm:mr-1.5"></i> 開始
                         </button>
-                        <button id="timer-stop-btn" onclick="stopTimer()" disabled class="bg-slate-200 text-slate-400 font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center cursor-not-allowed">
+                        <button id="timer-stop-btn" onclick="stopTimer()" disabled class="bg-slate-200 text-slate-400 font-semibold px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center cursor-not-allowed">
                             <i class="fa-solid fa-square mr-1"></i> 終了
                         </button>
-                        <button onclick="openManualTimeModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-2.5 py-2 sm:px-3 sm:py-2.5 rounded-lg text-xs sm:text-sm transition-colors flex items-center" title="タイマーを押し忘れた場合の手動追加">
+                        <button onclick="openManualTimeModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-2 py-1.5 sm:px-3 sm:py-2.5 rounded-lg text-xs sm:text-sm transition-colors flex items-center" title="手動入力">
                             <i class="fa-solid fa-pen-to-square mr-1 text-slate-500"></i> 手動
                         </button>
                     </div>
