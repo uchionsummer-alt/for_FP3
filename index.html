@@ -70,15 +70,15 @@
 
     <!-- Header Navigation (スッキリわかる風：ダークネイビー × やわらかピンク) -->
     <header class="bg-brand-dark text-white border-b border-slate-800 sticky top-0 z-30 shadow-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center space-x-3">
-                    <div class="bg-brand-magenta text-white p-2 rounded-lg font-extrabold text-lg flex items-center justify-center w-11 h-11 shadow-inner tracking-tight">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-14 sm:h-16 items-center">
+                <div class="flex items-center space-x-2 sm:space-x-3 overflow-hidden">
+                    <div class="bg-brand-magenta text-white p-1.5 sm:p-2 rounded-lg font-extrabold text-base sm:text-lg flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 shadow-inner tracking-tight flex-shrink-0">
                         FP3
                     </div>
-                    <div>
-                        <div class="text-[10px] text-pink-300 font-bold tracking-widest uppercase">スッキリわかる直前対策</div>
-                        <h1 class="text-base sm:text-lg font-bold text-white leading-tight">FP3級 10日間合格トレーナー</h1>
+                    <div class="min-w-0">
+                        <div class="text-[9px] sm:text-[10px] text-pink-300 font-bold tracking-wider uppercase truncate">スッキリわかる直前対策</div>
+                        <h1 class="text-xs sm:text-lg font-bold text-white leading-snug truncate">FP3級 10日間合格トレーナー</h1>
                     </div>
                 </div>
                 <!-- Desktop Nav -->
@@ -104,185 +104,130 @@
     </header>
 
     <!-- Main Content Area -->
-    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <main class="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6">
 
         <!-- Banner Alert for Unverified/Notice Items -->
-        <div id="notice-banner" class="bg-pink-50 border-l-4 border-brand-magenta p-4 mb-6 rounded-r shadow-sm flex items-start justify-between">
+        <div id="notice-banner" class="bg-pink-50 border-l-4 border-brand-magenta p-3 sm:p-4 mb-4 sm:mb-6 rounded-r shadow-sm flex items-start justify-between">
             <div class="flex items-start">
-                <i class="fa-solid fa-circle-info text-brand-magenta mt-0.5 mr-3"></i>
-                <div class="text-xs sm:text-sm text-slate-800">
+                <i class="fa-solid fa-circle-info text-brand-magenta mt-0.5 mr-2 sm:mr-3 flex-shrink-0"></i>
+                <div class="text-xs sm:text-sm text-slate-800 leading-normal">
                     <span class="font-bold text-brand-magenta">スッキリわかるテキストと併用してご活用ください:</span> 
                     本アプリの単元リストとページ番号は標準的なFP3級テキストの目次構成に基づいて登録されています。お手持ちのテキストのページ数と若干前後する場合は「設定」等で調整が可能です。
                 </div>
             </div>
-            <button onclick="document.getElementById('notice-banner').remove()" class="text-slate-400 hover:text-slate-700 text-sm ml-2">
+            <button onclick="document.getElementById('notice-banner').remove()" class="text-slate-400 hover:text-slate-700 text-sm ml-2 flex-shrink-0">
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
 
         <!-- TAB 1: DASHBOARD -->
-        <section id="tab-dashboard" class="space-y-6">
+        <section id="tab-dashboard" class="space-y-4 sm:space-y-6">
             <!-- Countdown & Day Summary (やさしいピンクのグラデーション帯) -->
-            <div class="bg-gradient-to-r from-pink-500 via-rose-400 to-pink-600 rounded-2xl p-6 text-white shadow-lg flex flex-col md:flex-row justify-between items-center gap-4 relative overflow-hidden">
+            <div class="bg-gradient-to-r from-pink-500 via-rose-400 to-pink-600 rounded-2xl p-4 sm:p-6 text-white shadow-lg flex flex-col md:flex-row justify-between items-stretch md:items-center gap-4 relative overflow-hidden">
                 <div class="absolute -right-10 -bottom-10 opacity-10 text-white text-9xl font-black pointer-events-none">FP3</div>
-                <div>
-                    <div class="flex items-center space-x-2">
-                        <span id="dash-day-badge" class="bg-white/20 text-white text-xs px-3 py-1 rounded-full font-semibold">DAY 1 / 10</span>
-                        <span id="dash-streak" class="text-xs bg-amber-400/30 text-amber-100 px-3 py-1 rounded-full border border-amber-300/30">🔥 連続学習 1 日目</span>
+                <div class="z-10">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span id="dash-day-badge" class="bg-white/20 text-white text-[11px] sm:text-xs px-2.5 py-0.5 rounded-full font-semibold">DAY 1 / 10</span>
+                        <span id="dash-streak" class="text-[11px] sm:text-xs bg-amber-400/30 text-amber-100 px-2.5 py-0.5 rounded-full border border-amber-300/30">🔥 連続学習 1 日目</span>
                     </div>
-                    <h2 id="dash-greeting" class="text-2xl font-bold mt-2">スッキリ合格へ向けて学習を開始しましょう！</h2>
-                    <p class="text-pink-50 text-sm mt-1">本日の推奨カリキュラム: <span id="dash-today-plan-title" class="font-medium underline">第1章 ライフプランニング①</span></p>
+                    <h2 id="dash-greeting" class="text-lg sm:text-2xl font-bold mt-2 leading-snug">スッキリ合格へ向けて学習を開始しましょう！</h2>
+                    <p class="text-pink-50 text-xs sm:text-sm mt-1">本日の推奨カリキュラム: <span id="dash-today-plan-title" class="font-medium underline">第1章 ライフプランニング①</span></p>
                 </div>
-                <div class="flex items-center space-x-6 bg-black/15 p-4 rounded-xl backdrop-blur-sm border border-white/10 z-10">
+                <div class="flex items-center justify-around sm:justify-center space-x-4 sm:space-x-6 bg-black/15 p-3 sm:p-4 rounded-xl backdrop-blur-sm border border-white/10 z-10">
                     <div class="text-center">
-                        <div class="text-xs text-pink-100">試験日まで</div>
-                        <div id="dash-days-left" class="text-3xl font-extrabold">10 <span class="text-xs font-normal">日</span></div>
+                        <div class="text-[11px] sm:text-xs text-pink-100">試験日まで</div>
+                        <div id="dash-days-left" class="text-2xl sm:text-3xl font-extrabold">10 <span class="text-xs font-normal">日</span></div>
                     </div>
                     <div class="h-8 w-px bg-white/20"></div>
                     <div class="text-center">
-                        <div class="text-xs text-pink-100">今日の学習時間</div>
-                        <div id="dash-today-time" class="text-3xl font-extrabold text-amber-300">0.0 <span class="text-xs font-normal text-white">h / 5.0h</span></div>
+                        <div class="text-[11px] sm:text-xs text-pink-100">今日の学習時間</div>
+                        <div id="dash-today-time" class="text-2xl sm:text-3xl font-extrabold text-amber-300">0.0 <span class="text-xs font-normal text-white">h / 5.0h</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard 3-Axis Metrics Summary Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Axis A Card -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+                    <div>
+                        <div class="text-xs text-slate-500 font-semibold mb-1">軸A: テキスト進捗</div>
+                        <div id="dash-text-percent" class="text-2xl font-bold text-pink-600">0%</div>
+                        <div class="text-[11px] text-slate-500 mt-1">
+                            完了: <span id="dash-text-count" class="font-medium text-slate-700">0 / 0 単元</span> | 
+                            学習中: <span id="dash-text-in-progress" class="font-medium text-amber-600">0 単元</span>
+                        </div>
+                        <div class="text-[10px] text-slate-400 mt-0.5">
+                            実技: <span id="dash-practical-progress" class="font-medium text-slate-600">0 / 0 完了</span>
+                        </div>
+                    </div>
+                    <div class="w-16 h-16 relative flex-shrink-0">
+                        <canvas id="chart-text-progress"></canvas>
+                    </div>
+                </div>
+
+                <!-- Axis B Card -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+                    <div>
+                        <div class="text-xs text-slate-500 font-semibold mb-1">軸B: 理解度・正答率</div>
+                        <div class="flex items-center space-x-2">
+                            <span id="dash-understanding-percent" class="text-2xl font-bold text-emerald-600">-%</span>
+                            <span id="dash-understanding-status" class="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600">未測定</span>
+                        </div>
+                        <div class="text-[11px] text-slate-500 mt-1">
+                            テスト実施数: <span id="dash-tested-count" class="font-medium text-slate-700">0 / 42</span>
+                        </div>
+                        <div class="text-[10px] text-slate-400 mt-0.5">
+                            要復習問題: <span id="dash-wrong-count" class="font-medium text-rose-600">0 問</span>
+                        </div>
+                    </div>
+                    <div class="w-16 h-16 relative flex-shrink-0">
+                        <canvas id="chart-understanding"></canvas>
+                    </div>
+                </div>
+
+                <!-- Axis C Card -->
+                <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+                    <div>
+                        <div class="text-xs text-slate-500 font-semibold mb-1">軸C: 時間達成率</div>
+                        <div id="dash-time-percent" class="text-2xl font-bold text-amber-500">0%</div>
+                        <div class="text-[11px] text-slate-500 mt-1">
+                            累計: <span id="dash-total-hours" class="font-medium text-slate-700">0.0 / 50.0 時間</span>
+                        </div>
+                        <div class="text-[10px] text-slate-400 mt-0.5">
+                            残: <span id="dash-time-remaining">50.0 時間</span> | 差: <span id="dash-time-gap" class="font-semibold text-slate-600">0 時間</span>
+                        </div>
+                    </div>
+                    <div class="w-16 h-16 relative flex-shrink-0">
+                        <canvas id="chart-time-achievement"></canvas>
                     </div>
                 </div>
             </div>
 
             <!-- Timer Module -->
-            <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <div class="flex items-center space-x-4">
-                    <div class="p-3 bg-pink-50 text-brand-magenta rounded-full">
-                        <i class="fa-solid fa-stopwatch text-2xl"></i>
+            <div class="bg-white rounded-xl p-4 sm:p-5 shadow-sm border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+                <div class="flex items-center space-x-3 w-full sm:w-auto">
+                    <div class="p-2.5 bg-pink-50 text-brand-magenta rounded-full flex-shrink-0">
+                        <i class="fa-solid fa-stopwatch text-xl sm:text-2xl"></i>
                     </div>
                     <div>
-                        <h3 class="font-bold text-slate-800">学習タイマー</h3>
-                        <p class="text-xs text-slate-500">学習時間を正確に記録してダッシュボードに反映させます</p>
+                        <h3 class="font-bold text-slate-800 text-sm sm:text-base">学習タイマー</h3>
+                        <p class="text-[11px] sm:text-xs text-slate-500">学習時間を正確に記録してダッシュボードに反映させます</p>
                     </div>
                 </div>
-                <div class="flex items-center space-x-3 w-full sm:w-auto justify-end flex-wrap gap-y-2">
-                    <div id="timer-display" class="font-mono text-2xl sm:text-3xl font-bold text-slate-700 bg-slate-100 px-4 py-1 rounded-lg">
+                <div class="flex items-center space-x-2 sm:space-x-3 w-full sm:w-auto justify-between sm:justify-end flex-wrap gap-y-2">
+                    <div id="timer-display" class="font-mono text-xl sm:text-3xl font-bold text-slate-700 bg-slate-100 px-3 py-1 rounded-lg">
                         00:00:00
                     </div>
-                    <button id="timer-start-btn" onclick="toggleTimer()" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-4 py-2.5 rounded-lg shadow-sm transition-colors text-sm flex items-center">
-                        <i class="fa-solid fa-play mr-2"></i> 開始
-                    </button>
-                    <button id="timer-stop-btn" onclick="stopTimer()" disabled class="bg-slate-200 text-slate-400 font-semibold px-4 py-2.5 rounded-lg text-sm flex items-center cursor-not-allowed">
-                        <i class="fa-solid fa-square mr-1"></i> 終了
-                    </button>
-                    <button onclick="openManualTimeModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-3 py-2.5 rounded-lg text-sm transition-colors flex items-center" title="タイマーを押し忘れた場合の手動追加">
-                        <i class="fa-solid fa-pen-to-square mr-1 text-slate-500"></i> 手動追加
-                    </button>
-                </div>
-            </div>
-
-            <!-- 3-AXIS DASHBOARD MAIN SECTION -->
-            <h3 class="text-lg font-bold text-slate-800 flex items-center">
-                <i class="fa-solid fa-compass text-brand-magenta mr-2"></i> 3軸学習ダッシュボード (独立指標)
-            </h3>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- AXIS A: Text Progress -->
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-brand-magenta"></div>
-                    <div>
-                        <div class="flex justify-between items-start mb-2">
-                            <div>
-                                <span class="text-xs font-bold text-brand-magenta bg-pink-50 px-2 py-0.5 rounded">指標 A</span>
-                                <h4 class="font-bold text-slate-800 text-lg mt-1">テキスト進捗率</h4>
-                            </div>
-                            <i class="fa-solid fa-book text-slate-300 text-2xl"></i>
-                        </div>
-                        <p class="text-xs text-slate-500 mb-4">全単元に対する「読了」単元の割合</p>
-                        
-                        <div class="relative w-36 h-36 mx-auto my-2">
-                            <canvas id="chart-text-progress"></canvas>
-                            <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                <span id="dash-text-percent" class="text-3xl font-extrabold text-slate-800">0%</span>
-                                <span id="dash-text-count" class="text-xs text-slate-500">0 / 42 単元</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
-                        <div class="flex justify-between">
-                            <span>学習中単元:</span>
-                            <span id="dash-text-in-progress" class="font-semibold text-amber-600">0 単元</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>実技演習完了:</span>
-                            <span id="dash-practical-progress" class="font-semibold text-brand-magenta">0 / 3 完了</span>
-                        </div>
-                        <button onclick="switchTab('progress')" class="w-full mt-2 text-center text-brand-magenta hover:text-brand-magentaDark font-medium py-1.5 bg-pink-50 rounded hover:bg-pink-100 transition-colors">
-                            テキスト単元一覧へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                    <div class="flex space-x-2">
+                        <button id="timer-start-btn" onclick="toggleTimer()" class="bg-brand-magenta hover:bg-brand-magentaDark text-white font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg shadow-sm transition-colors text-xs sm:text-sm flex items-center">
+                            <i class="fa-solid fa-play mr-1.5"></i> 開始
                         </button>
-                    </div>
-                </div>
-
-                <!-- AXIS B: Understanding -->
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-emerald-500"></div>
-                    <div>
-                        <div class="flex justify-between items-start mb-2">
-                            <div>
-                                <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">指標 B</span>
-                                <h4 class="font-bold text-slate-800 text-lg mt-1">理解度 (正答率)</h4>
-                            </div>
-                            <i class="fa-solid fa-graduation-cap text-slate-300 text-2xl"></i>
-                        </div>
-                        <p class="text-xs text-slate-500 mb-4">受験済みテストの直近正答率平均</p>
-
-                        <div class="relative w-36 h-36 mx-auto my-2">
-                            <canvas id="chart-understanding"></canvas>
-                            <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                <span id="dash-understanding-percent" class="text-3xl font-extrabold text-slate-800">-%</span>
-                                <span id="dash-understanding-status" class="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600">未測定</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
-                        <div class="flex justify-between">
-                            <span>測定済み単元:</span>
-                            <span id="dash-tested-count" class="font-semibold text-slate-700">0 / 42</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>間違えた問題:</span>
-                            <span id="dash-wrong-count" class="font-semibold text-rose-600">0 問</span>
-                        </div>
-                        <button onclick="switchTab('tests')" class="w-full mt-2 text-center text-emerald-600 hover:text-emerald-700 font-medium py-1.5 bg-emerald-50 rounded hover:bg-emerald-100 transition-colors">
-                            確認テスト・復習へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                        <button id="timer-stop-btn" onclick="stopTimer()" disabled class="bg-slate-200 text-slate-400 font-semibold px-3 py-2 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center cursor-not-allowed">
+                            <i class="fa-solid fa-square mr-1"></i> 終了
                         </button>
-                    </div>
-                </div>
-
-                <!-- AXIS C: Time Achievement -->
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm relative overflow-hidden flex flex-col justify-between">
-                    <div class="absolute top-0 left-0 w-full h-1 bg-amber-500"></div>
-                    <div>
-                        <div class="flex justify-between items-start mb-2">
-                            <div>
-                                <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded">指標 C</span>
-                                <h4 class="font-bold text-slate-800 text-lg mt-1">学習時間達成率</h4>
-                            </div>
-                            <i class="fa-solid fa-clock text-slate-300 text-2xl"></i>
-                        </div>
-                        <p class="text-xs text-slate-500 mb-4">目標 50時間に対する累計学習時間</p>
-
-                        <div class="relative w-36 h-36 mx-auto my-2">
-                            <canvas id="chart-time-achievement"></canvas>
-                            <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                <span id="dash-time-percent" class="text-3xl font-extrabold text-slate-800">0%</span>
-                                <span id="dash-total-hours" class="text-xs text-slate-500">0.0 / 50.0 時間</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-600 space-y-1">
-                        <div class="flex justify-between">
-                            <span>計画ギャップ (本日比):</span>
-                            <span id="dash-time-gap" class="font-semibold text-slate-700">0.0 時間</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>残り必要学習時間:</span>
-                            <span id="dash-time-remaining" class="font-semibold text-slate-700">50.0 時間</span>
-                        </div>
-                        <button onclick="switchTab('analytics')" class="w-full mt-2 text-center text-amber-600 hover:text-amber-700 font-medium py-1.5 bg-amber-50 rounded hover:bg-amber-100 transition-colors">
-                            詳細学習分析へ <i class="fa-solid fa-chevron-right text-xs"></i>
+                        <button onclick="openManualTimeModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-2.5 py-2 sm:px-3 sm:py-2.5 rounded-lg text-xs sm:text-sm transition-colors flex items-center" title="タイマーを押し忘れた場合の手動追加">
+                            <i class="fa-solid fa-pen-to-square mr-1 text-slate-500"></i> 手動
                         </button>
                     </div>
                 </div>
@@ -1026,51 +971,66 @@
             const axisB = getAxisBData();
             const axisC = getAxisCData();
 
+            // Safe setter utility function to prevent null pointer exceptions
+            const setElementText = (id, text) => {
+                const el = document.getElementById(id);
+                if (el) el.innerText = text;
+            };
+
+            const setElementHtml = (id, html) => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = html;
+            };
+
             // Axis A UI
-            document.getElementById('dash-text-percent').innerText = `${axisA.percent}%`;
-            document.getElementById('dash-text-count').innerText = `${axisA.completedUnits} / ${axisA.totalUnits} 単元`;
-            document.getElementById('dash-text-in-progress').innerText = `${axisA.inProgressUnits} 単元`;
-            document.getElementById('dash-practical-progress').innerText = `${axisA.practicalCompleted} / ${axisA.practicalTotal} 完了`;
+            setElementText('dash-text-percent', `${axisA.percent}%`);
+            setElementText('dash-text-count', `${axisA.completedUnits} / ${axisA.totalUnits} 単元`);
+            setElementText('dash-text-in-progress', `${axisA.inProgressUnits} 単元`);
+            setElementText('dash-practical-progress', `${axisA.practicalCompleted} / ${axisA.practicalTotal} 完了`);
 
             // Axis B UI
             const bPercentEl = document.getElementById('dash-understanding-percent');
             const bStatusEl = document.getElementById('dash-understanding-status');
-            if (axisB.percent !== null) {
-                bPercentEl.innerText = `${axisB.percent}%`;
-                bStatusEl.innerText = axisB.statusText;
-                bStatusEl.className = `text-xs font-bold px-2 py-0.5 rounded ${axisB.statusColor}`;
-            } else {
-                bPercentEl.innerText = '-%';
-                bStatusEl.innerText = '未測定';
-                bStatusEl.className = 'text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600';
+            if (bPercentEl && bStatusEl) {
+                if (axisB.percent !== null) {
+                    bPercentEl.innerText = `${axisB.percent}%`;
+                    bStatusEl.innerText = axisB.statusText;
+                    bStatusEl.className = `text-xs font-bold px-2 py-0.5 rounded ${axisB.statusColor}`;
+                } else {
+                    bPercentEl.innerText = '-%';
+                    bStatusEl.innerText = '未測定';
+                    bStatusEl.className = 'text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600';
+                }
             }
-            document.getElementById('dash-tested-count').innerText = `${axisB.testedCount} / ${axisB.totalCount}`;
-            document.getElementById('dash-wrong-count').innerText = `${appState.wrongQuestionIds.length} 問`;
+            setElementText('dash-tested-count', `${axisB.testedCount} / ${axisB.totalCount}`);
+            setElementText('dash-wrong-count', `${appState.wrongQuestionIds.length} 問`);
 
             // Axis C UI
-            document.getElementById('dash-time-percent').innerText = `${axisC.percent}%`;
-            document.getElementById('dash-total-hours').innerText = `${axisC.totalHours} / ${axisC.targetHours} 時間`;
-            document.getElementById('dash-time-remaining').innerText = `${axisC.remainingHours} 時間`;
+            setElementText('dash-time-percent', `${axisC.percent}%`);
+            setElementText('dash-total-hours', `${axisC.totalHours} / ${axisC.targetHours} 時間`);
+            setElementText('dash-time-remaining', `${axisC.remainingHours} 時間`);
             
             const gapEl = document.getElementById('dash-time-gap');
-            if (parseFloat(axisC.gapHours) >= 0) {
-                gapEl.innerText = `+${axisC.gapHours} 時間 (順調)`;
-                gapEl.className = 'font-semibold text-emerald-600';
-            } else {
-                gapEl.innerText = `${axisC.gapHours} 時間 (遅れ)`;
-                gapEl.className = 'font-semibold text-rose-600';
+            if (gapEl) {
+                if (parseFloat(axisC.gapHours) >= 0) {
+                    gapEl.innerText = `+${axisC.gapHours} 時間 (順調)`;
+                    gapEl.className = 'font-semibold text-emerald-600';
+                } else {
+                    gapEl.innerText = `${axisC.gapHours} 時間 (遅れ)`;
+                    gapEl.className = 'font-semibold text-rose-600';
+                }
             }
 
             // Top Banner & Today info
             const daysLeft = Math.max(0, 10 - axisC.elapsedDays + 1);
-            document.getElementById('dash-day-badge').innerText = `DAY ${axisC.elapsedDays} / 10`;
-            document.getElementById('dash-days-left').innerHTML = `${daysLeft} <span class="text-xs font-normal">日</span>`;
+            setElementText('dash-day-badge', `DAY ${axisC.elapsedDays} / 10`);
+            setElementHtml('dash-days-left', `${daysLeft} <span class="text-xs font-normal">日</span>`);
             
             // Today's Time
             const todayKey = new Date().toISOString().split('T')[0];
             const todayMin = appState.dailyTimeLogs[todayKey] || 0;
             const todayHours = (todayMin / 60).toFixed(1);
-            document.getElementById('dash-today-time').innerHTML = `${todayHours} <span class="text-xs font-normal text-white">h / 5.0h</span>`;
+            setElementHtml('dash-today-time', `${todayHours} <span class="text-xs font-normal text-white">h / 5.0h</span>`);
 
             // Weak List in Dashboard
             renderWeakListDashboard();
