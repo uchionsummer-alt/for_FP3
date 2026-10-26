@@ -208,7 +208,7 @@
                     </div>
                     <div class="min-w-0 flex-1">
                         <h3 class="font-bold text-slate-800 text-xs sm:text-base truncate">学習タイマー</h3>
-                        <p class="text-[10px] sm:text-xs text-slate-500 truncate">学習時間を記録してダッシュボードに反映</p>
+                        <p class="text-[10px] sm:text-xs text-slate-500">休止・電源オフ中も経過時間に含めます。「終了」で記録</p>
                     </div>
                 </div>
                 <div class="flex items-center justify-between sm:justify-end w-full sm:w-auto space-x-1.5 sm:space-x-3 flex-wrap sm:flex-nowrap gap-y-2">
@@ -11237,7 +11237,8 @@ const FP3_QUESTIONS = [
             customUnitDays: {},
             examDate: '2026-11-05',
             unitTestDetails: {},
-            testHistory: []
+            testHistory: [],
+            timerSession: null
         };
 
         let currentTab = 'dashboard';
@@ -11259,6 +11260,7 @@ const FP3_QUESTIONS = [
         window.onload = function() {
             loadStateFromStorage();
             initializeDefaultState();
+            restoreTimer();
             renderAllViews();
             showQuestionInventory();
             if (typeof Chart !== "undefined") { setupCharts(); updateCharts(); }
@@ -11307,6 +11309,13 @@ const FP3_QUESTIONS = [
             if (!Array.isArray(next.testHistory)) throw new Error('不正なテスト履歴');
             if (typeof next.targetHours !== 'number' || !Number.isFinite(next.targetHours) || next.targetHours <= 0) throw new Error('不正な目標時間');
             if (!FP3Quiz.isDate(next.startDate) || (next.examDate && !FP3Quiz.isDate(next.examDate))) throw new Error('不正な日付');
+            // 旧バックアップにタイマーがなければ、復元前の稼働状態を引き継がない。
+            next.timerSession = raw.timerSession == null ? null : { ...raw.timerSession };
+            if (raw.timerSession != null && (typeof raw.timerSession !== 'object' || Array.isArray(raw.timerSession)
+                || !Number.isSafeInteger(next.timerSession.elapsedMs) || next.timerSession.elapsedMs < 0
+                || (next.timerSession.startedAt !== null && (!Number.isSafeInteger(next.timerSession.startedAt) || next.timerSession.startedAt < 0)))) {
+                throw new Error('不正なタイマー履歴');
+            }
             return next;
         }
 
@@ -11679,55 +11688,68 @@ const FP3_QUESTIONS = [
            6. TIMER LOGIC
            ========================================================================== */
         
-        function toggleTimer() {
-            if (isTimerRunning) {
-                // Pause
-                clearInterval(timerInterval);
-                isTimerRunning = false;
-                document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-play mr-1"></i> 再開';
-            } else {
-                // Start
-                isTimerRunning = true;
-                document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-pause mr-1"></i> 一時停止';
-                document.getElementById('timer-stop-btn').disabled = false;
-                document.getElementById('timer-stop-btn').className = "bg-rose-500 hover:bg-rose-600 text-white font-semibold px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-lg shadow-sm transition-colors text-xs sm:text-sm flex items-center";
+        // setIntervalの実行回数には依存せず、保存した開始時刻との差で計算する。
+        // 開始・一時停止時に保存済みなので、電源断時のイベントやバックグラウンド実行は不要。
+        function timerElapsedMs(now = Date.now()) {
+            const session = appState.timerSession;
+            if (!session) return 0;
+            return session.elapsedMs + (session.startedAt === null ? 0 : Math.max(0, now - session.startedAt));
+        }
 
-                timerInterval = setInterval(() => {
-                    timerSeconds++;
-                    updateTimerDisplay();
-                }, 1000);
-            }
+        function restoreTimer() {
+            clearInterval(timerInterval);
+            timerInterval = null;
+            isTimerRunning = !!appState.timerSession && appState.timerSession.startedAt !== null;
+            if (isTimerRunning) timerInterval = setInterval(updateTimerDisplay, 1000);
+            updateTimerDisplay();
+            const active = appState.timerSession !== null;
+            document.getElementById('timer-start-btn').innerHTML = isTimerRunning
+                ? '<i class="fa-solid fa-pause mr-1"></i> 一時停止'
+                : '<i class="fa-solid fa-play mr-1"></i> ' + (active ? '再開' : '開始');
+            const stopButton = document.getElementById('timer-stop-btn');
+            stopButton.disabled = !active;
+            stopButton.className = (active ? 'bg-rose-500 hover:bg-rose-600 text-white' : 'bg-slate-200 text-slate-400 cursor-not-allowed')
+                + ' font-semibold px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center';
+        }
+
+        function toggleTimer() {
+            const now = Date.now();
+            appState.timerSession = isTimerRunning
+                ? { elapsedMs: timerElapsedMs(now), startedAt: null }
+                : { elapsedMs: timerElapsedMs(now), startedAt: now };
+            saveStateToStorage();
+            restoreTimer();
         }
 
         function stopTimer() {
-            if (!isTimerRunning && timerSeconds === 0) return;
-            clearInterval(timerInterval);
-            isTimerRunning = false;
-
-            const minutesLearned = Math.round(timerSeconds / 60);
+            if (!appState.timerSession) return;
+            const minutesLearned = Math.round(timerElapsedMs() / 60000);
             if (minutesLearned > 0) {
-                const todayStr = new Date().toISOString().split('T')[0];
+                const today = new Date();
+                const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
                 appState.dailyTimeLogs[todayStr] = (appState.dailyTimeLogs[todayStr] || 0) + minutesLearned;
-                saveStateToStorage();
-                alert(`${minutesLearned}分間の学習を記録しました！お疲れ様でした。`);
             }
-
-            timerSeconds = 0;
-            updateTimerDisplay();
-            document.getElementById('timer-start-btn').innerHTML = '<i class="fa-solid fa-play mr-1"></i> 開始';
-            document.getElementById('timer-stop-btn').disabled = true;
-            document.getElementById('timer-stop-btn').className = "bg-slate-200 text-slate-400 font-semibold px-2.5 py-1.5 sm:px-4 sm:py-2.5 rounded-lg text-xs sm:text-sm flex items-center cursor-not-allowed";
-
+            // 加算とセッションの解除を同じ保存に含め、再読込での二重記録を防ぐ。
+            appState.timerSession = null;
+            saveStateToStorage();
+            restoreTimer();
             renderAllViews();
             updateCharts();
+            if (minutesLearned > 0) alert(`${minutesLearned}分間の学習を記録しました！お疲れ様でした。`);
         }
 
         function updateTimerDisplay() {
+            timerSeconds = Math.floor(timerElapsedMs() / 1000);
             const hrs = String(Math.floor(timerSeconds / 3600)).padStart(2, '0');
             const mins = String(Math.floor((timerSeconds % 3600) / 60)).padStart(2, '0');
             const secs = String(timerSeconds % 60).padStart(2, '0');
             document.getElementById('timer-display').textContent = `${hrs}:${mins}:${secs}`;
         }
+
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) updateTimerDisplay();
+        });
+        window.addEventListener('pageshow', updateTimerDisplay);
 
         function openManualTimeModal() {
             document.getElementById('modal-manual-time').classList.remove('hidden');
@@ -12136,6 +12158,7 @@ const FP3_QUESTIONS = [
                         const restored = validatedState(imported);
                         appState = restored;
                         initializeDefaultState();
+                        restoreTimer();
                         activeTestSession = null;
                         saveStateToStorage();
                         renderAllViews();
