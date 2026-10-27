@@ -1,0 +1,13 @@
+{
+  "description": "単一HTMLと全文コピーページ",
+  "validatedDate": "2026-10-27",
+  "questionCount": 398,
+  "unitTestsPassed": 29,
+  "browserScenariosPassed": 24,
+  "browserScenariosSkipped": 1,
+  "skippedReason": "Chromium管理ポリシーによりfile://起動を遮断。HTTPで単一HTMLとコピー・保存の動作を検証。",
+  "htmlBytes": 2771972,
+  "htmlSHA256": "0585883e086f0dba89940318925b4e2bbd8c771b39c9bb91aa597974b2c4b7d1",
+  "fullTextMatchesHTML": true,
+  "externalScriptStylesheetFontDependencies": 0
+}
