@@ -1,7 +1,7 @@
 {
   "validatedDate": "2026-10-27",
   "questionCount": 398,
-  "unitTestsPassed": 17,
+  "unitTestsPassed": 29,
   "normalBrowserScenariosPassed": 20,
   "standaloneBrowserScenariosPassed": 24,
   "browserScenariosSkippedPerEntry": 1,
@@ -10,8 +10,11 @@
   "calculationMemosChecked": 116,
   "safariDeviceTested": false,
   "runtimeErrors": 0,
-  "externalRuntimeDependencies": 0,
   "legacyStorageAndBackupCompatible": true,
   "olderQuestionRevisionKeptPending": true,
-  "standaloneHTMLSHA256": "b273ca3002b1db08782adf9227d509b05f6dc96784a0bb2b568bd094eba8b452"
+  "standaloneHTMLSHA256": "0585883e086f0dba89940318925b4e2bbd8c771b39c9bb91aa597974b2c4b7d1",
+  "googleDriveOAuthConfigured": false,
+  "realGoogleDriveAccountTested": false,
+  "externalRuntimeDependenciesWithoutDrive": 0,
+  "googleDriveRequiresGoogleNetwork": true
 }

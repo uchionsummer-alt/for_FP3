@@ -49,6 +49,7 @@
                         <h1 class="text-xs sm:text-base font-bold text-white leading-tight truncate">FP3級 10日間合格トレーナー</h1>
                     </div>
                 </div>
+                <button id="drive-sync-badge" onclick="switchTab('settings')" class="text-[10px] text-pink-200 whitespace-nowrap mr-2" aria-label="自動同期の状態と設定">同期：未接続</button>
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex space-x-8 text-slate-300">
                     <button onclick="switchTab('dashboard')" id="nav-dashboard" class="tab-btn active inline-flex items-center px-1 pt-1 text-sm font-medium transition-colors">
@@ -413,6 +414,25 @@
                         </button>
                     </div>
 
+                    <div class="space-y-3 pt-4 border-t border-slate-200">
+                        <h3 class="text-sm font-bold text-slate-700">Googleドライブで自動同期</h3>
+                        <p class="text-xs text-slate-500">両端末で同じGoogleアカウントに接続してください。接続中は変更後と約30秒ごとに同期します。通信できない間も端末に保存します。</p>
+                        <details class="text-xs text-slate-600"><summary class="cursor-pointer">初回設定</summary>
+                            <p class="my-2">公開したHTTPSのURLから利用します。<a href="docs/GOOGLE_DRIVE_SETUP.md" target="_blank" rel="noopener" class="underline">Google側の設定手順</a></p>
+                            <label for="drive-client-id">OAuthクライアントID（秘密鍵ではありません）</label>
+                            <input id="drive-client-id" type="text" autocomplete="off" spellcheck="false" placeholder="…apps.googleusercontent.com" class="w-full p-2 border rounded-lg mt-1">
+                        </details>
+                        <p id="drive-sync-account" class="text-xs break-all"></p>
+                        <p id="drive-sync-status" role="status" aria-live="polite" class="text-sm text-slate-600">未接続：学習履歴はこの端末に保存しています。</p>
+                        <div class="flex flex-wrap gap-2">
+                            <button onclick="driveSync.connect()" class="bg-brand-magenta text-white px-4 py-2 rounded-lg text-sm">Googleドライブに接続</button>
+                            <button onclick="driveSync.flush()" class="bg-slate-100 px-3 py-2 rounded-lg text-sm">今すぐ同期</button>
+                            <button onclick="driveSync.disconnect()" class="border px-3 py-2 rounded-lg text-sm">接続解除</button>
+                            <button id="drive-backup-button" hidden onclick="driveSync.downloadBackup()" class="border px-3 py-2 rounded-lg text-sm">接続前の履歴を保存</button>
+                        </div>
+                        <p class="text-xs text-slate-500">アプリ専用領域だけを使います。通常のドライブのファイルにはアクセスしません。認証期限が切れたときは再接続が必要です。タイマーの開始・停止も同期するため、学習中は一方の端末を操作してください。</p>
+                    </div>
+
                     <div class="space-y-4 pt-4">
                         <h3 class="text-sm font-bold text-slate-700 border-b border-slate-200 pb-2">データバックアップ & 復元</h3>
                         <p class="text-xs text-slate-500">ブラウザの変更や万が一の消失に備え、進捗データをJSON形式でエクスポートできます。</p>
@@ -491,6 +511,8 @@
     <script src="data/reference-policy.js"></script>
     <script src="data/question-bank.js"></script>
     <script src="quiz-engine.js"></script>
+    <script src="drive-sync-core.js"></script>
+    <script src="google-drive-sync.js"></script>
     <!-- Application Logic & Data Scripts -->
     <script>
         /* ==========================================================================
@@ -679,6 +701,8 @@
             timerSession: null
         };
 
+        const defaultStateTemplate = JSON.parse(JSON.stringify(appState));
+        let driveSync = null;
         let currentTab = 'dashboard';
         let timerInterval = null;
         let timerSeconds = 0;
@@ -710,6 +734,20 @@
             if (settingDateEl) settingDateEl.value = appState.startDate;
             const settingHoursEl = document.getElementById('setting-target-hours');
             if (settingHoursEl) settingHoursEl.value = appState.targetHours;
+            driveSync = new FP3DriveSync({
+                getState: () => appState,
+                validate: validatedState,
+                applyState: state => {
+                    localStorage.setItem('fp3_trainer_state', JSON.stringify(state));
+                    appState = state;
+                    initializeDefaultState();
+                    restoreTimer(); renderAllViews(); updateCharts();
+                    for (const [id, value] of [['setting-start-date', state.startDate], ['setting-target-hours', state.targetHours], ['setting-exam-date', state.examDate]]) {
+                        const input = document.getElementById(id);
+                        if (input && document.activeElement !== input) input.value = value;
+                    }
+                }
+            });
         };
 
         function loadStateFromStorage() {
@@ -753,6 +791,7 @@
             // 旧バックアップにタイマーがなければ、復元前の稼働状態を引き継がない。
             next.timerSession = raw.timerSession == null ? null : { ...raw.timerSession };
             if (raw.timerSession != null && (typeof raw.timerSession !== 'object' || Array.isArray(raw.timerSession)
+                || (next.timerSession.id !== undefined && (typeof next.timerSession.id !== 'string' || !next.timerSession.id || next.timerSession.id.length > 200))
                 || !Number.isSafeInteger(next.timerSession.elapsedMs) || next.timerSession.elapsedMs < 0
                 || (next.timerSession.startedAt !== null && (!Number.isSafeInteger(next.timerSession.startedAt) || next.timerSession.startedAt < 0)))) {
                 throw new Error('不正なタイマー履歴');
@@ -760,9 +799,10 @@
             return next;
         }
 
-        function saveStateToStorage() {
+        function saveStateToStorage(options = {}) {
             try {
                 localStorage.setItem('fp3_trainer_state', JSON.stringify(appState));
+                if (driveSync) driveSync.onSave(options);
             } catch (e) {
                 console.error('Failed to save state', e);
             }
@@ -1155,15 +1195,17 @@
 
         function toggleTimer() {
             const now = Date.now();
+            const id = appState.timerSession?.id || crypto.randomUUID();
             appState.timerSession = isTimerRunning
-                ? { elapsedMs: timerElapsedMs(now), startedAt: null }
-                : { elapsedMs: timerElapsedMs(now), startedAt: now };
+                ? { id, elapsedMs: timerElapsedMs(now), startedAt: null }
+                : { id, elapsedMs: timerElapsedMs(now), startedAt: now };
             saveStateToStorage();
             restoreTimer();
         }
 
         function stopTimer() {
             if (!appState.timerSession) return;
+            const timeEventId = 'timer:' + (appState.timerSession.id || `legacy-${appState.timerSession.startedAt}-${appState.timerSession.elapsedMs}`);
             const minutesLearned = Math.round(timerElapsedMs() / 60000);
             if (minutesLearned > 0) {
                 const today = new Date();
@@ -1172,7 +1214,7 @@
             }
             // 加算とセッションの解除を同じ保存に含め、再読込での二重記録を防ぐ。
             appState.timerSession = null;
-            saveStateToStorage();
+            saveStateToStorage({ timeEventId });
             restoreTimer();
             renderAllViews();
             updateCharts();
@@ -1441,7 +1483,7 @@
                 });
             }
             if (session.context.mode === 'chapter') appState.chapterTestScores[session.context.chapterId] = result.percent;
-            appState.testHistory.push({ mode: session.context.mode, chapterId: session.context.chapterId || null,
+            appState.testHistory.push({ syncId: crypto.randomUUID(), mode: session.context.mode, chapterId: session.context.chapterId || null,
                 examDate: appState.examDate, lawsDate: session.questions[0].lawsDate,
                 completedAt, questionIds: session.questions.map(q => q.id), questionRevisions: session.questions.map(q => q.revision || 1), bankEdition: session.questions[0].bankEdition || null, answers: [...session.userAnswers],
                 correct: result.correct, total: result.total, percent: result.percent });
@@ -1669,8 +1711,13 @@
 
         function resetAllData() {
             if (confirm('本当にすべての学習履歴を初期化しますか？この操作は取り消せません。')) {
-                localStorage.removeItem('fp3_trainer_state');
-                location.reload();
+                appState = JSON.parse(JSON.stringify(defaultStateTemplate));
+                appState.startDate = new Date().toISOString().slice(0, 10);
+                initializeDefaultState();
+                activeTestSession = null;
+                saveStateToStorage({ reset: true });
+                restoreTimer(); renderAllViews(); updateCharts();
+                document.getElementById('test-content-area').textContent = '初期化しました。モードを選び直してください。';
             }
         }
     </script>

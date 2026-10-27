@@ -1,0 +1,29 @@
+{
+  "validatedDate": "2026-10-27",
+  "unitTestsPassed": 29,
+  "syncCoreTestsPassed": 12,
+  "normalDriveMockScenariosPassed": 12,
+  "standaloneDriveMockScenariosPassed": 12,
+  "normalRegressionScenariosPassed": 20,
+  "standaloneRegressionScenariosPassed": 24,
+  "googleOAuthClientConfigured": false,
+  "realGoogleAccountTested": false,
+  "safariDeviceTested": false,
+  "runtimeErrors": [],
+  "hashes": {
+    "index.html": "52dac464afd08c8c693fcacc4a083e8a4f68513c817c5a40e781052d655cd592",
+    "drive-sync-core.js": "7e1acf6d1d68d96b095519f26619a42e9be1dec1ca519eb3f7585e29bd0ec421",
+    "google-drive-sync.js": "165446a61d842c96c9163cd5bf80a0453ea5629094307399fa09b4a5448b800a",
+    "fp3-standalone.html": "0585883e086f0dba89940318925b4e2bbd8c771b39c9bb91aa597974b2c4b7d1"
+  },
+  "activationPending": [
+    "Google CloudでDrive API・OAuthクライアントを設定",
+    "同じ公開クライアントIDとGoogleアカウントで両端末から接続",
+    "実際のDriveでPC・スマホ間の反映を確認"
+  ],
+  "limitations": [
+    "認証期限切れ・再読込後はボタンからの再認証が必要",
+    "初回接続前の両端末の独立した旧履歴は自動合算しない",
+    "タイマーは共有の1セッション"
+  ]
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FP3級 10日間合格トレーナー</title>
     <style>
-*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.\!container{width:100%!important}.container{width:100%}@media (min-width:640px){.\!container{max-width:640px!important}.container{max-width:640px}}@media (min-width:768px){.\!container{max-width:768px!important}.container{max-width:768px}}@media (min-width:1024px){.\!container{max-width:1024px!important}.container{max-width:1024px}}@media (min-width:1280px){.\!container{max-width:1280px!important}.container{max-width:1280px}}@media (min-width:1536px){.\!container{max-width:1536px!important}.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.top-0{top:0}.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-2{margin-top:.5rem;margin-bottom:.5rem}.my-3{margin-top:.75rem;margin-bottom:.75rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-0\.5{margin-bottom:.125rem}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.ml-2{margin-left:.5rem}.mr-1{margin-right:.25rem}.mr-1\.5{margin-right:.375rem}.mr-2{margin-right:.5rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-1\.5{height:.375rem}.h-14{height:3.5rem}.h-3{height:.75rem}.h-4{height:1rem}.h-64{height:16rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-full{height:100%}.max-h-64{max-height:16rem}.min-h-screen{min-height:100vh}.w-14{width:3.5rem}.w-3{width:.75rem}.w-4{width:1rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.min-w-0{min-width:0}.max-w-7xl{max-width:80rem}.max-w-\[120px\]{max-width:120px}.max-w-\[200px\]{max-width:200px}.max-w-full{max-width:100%}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.scroll-mt-20{scroll-margin-top:5rem}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-y-2{row-gap:.5rem}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.25rem*var(--tw-space-x-reverse));margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-1\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.375rem*var(--tw-space-x-reverse));margin-left:calc(.375rem*(1 - var(--tw-space-x-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-2\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.625rem*var(--tw-space-x-reverse));margin-left:calc(.625rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem*var(--tw-space-x-reverse));margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-slate-100>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(241 245 249/var(--tw-divide-opacity,1))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-r{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77/var(--tw-border-opacity,1))}.border-amber-300\/30{border-color:rgba(252,211,77,.3)}.border-brand-magenta{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229/var(--tw-border-opacity,1))}.border-pink-100{--tw-border-opacity:1;border-color:rgb(252 231 243/var(--tw-border-opacity,1))}.border-pink-100\/60{border-color:rgba(252,231,243,.6)}.border-rose-100{--tw-border-opacity:1;border-color:rgb(255 228 230/var(--tw-border-opacity,1))}.border-rose-200{--tw-border-opacity:1;border-color:rgb(254 205 211/var(--tw-border-opacity,1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249/var(--tw-border-opacity,1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity,1))}.border-slate-200\/80{border-color:rgba(226,232,240,.8)}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59/var(--tw-border-opacity,1))}.border-white\/10{border-color:hsla(0,0%,100%,.1)}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity,1))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity,1))}.bg-amber-400\/30{background-color:rgba(251,191,36,.3)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-black\/15{background-color:rgba(0,0,0,.15)}.bg-brand-dark{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity,1))}.bg-brand-magenta{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity,1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity,1))}.bg-emerald-50\/20{background-color:rgba(236,253,245,.2)}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity,1))}.bg-pink-100{--tw-bg-opacity:1;background-color:rgb(252 231 243/var(--tw-bg-opacity,1))}.bg-pink-100\/80{background-color:rgba(252,231,243,.8)}.bg-pink-50{--tw-bg-opacity:1;background-color:rgb(253 242 248/var(--tw-bg-opacity,1))}.bg-pink-50\/20{background-color:rgba(253,242,248,.2)}.bg-pink-50\/70{background-color:rgba(253,242,248,.7)}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity,1))}.bg-rose-50\/20{background-color:rgba(255,241,242,.2)}.bg-rose-50\/50{background-color:rgba(255,241,242,.5)}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity,1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity,1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.bg-slate-200\/60{background-color:rgba(226,232,240,.6)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.bg-slate-900\/50{background-color:rgba(15,23,42,.5)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/20{background-color:hsla(0,0%,100%,.2)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-pink-50{--tw-gradient-from:#fdf2f8 var(--tw-gradient-from-position);--tw-gradient-to:rgba(253,242,248,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-500{--tw-gradient-from:#ec4899 var(--tw-gradient-from-position);--tw-gradient-to:rgba(236,72,153,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-rose-400{--tw-gradient-to:rgba(251,113,133,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#fb7185 var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-pink-600{--tw-gradient-to:#db2777 var(--tw-gradient-to-position)}.to-rose-50\/50{--tw-gradient-to:rgba(255,241,242,.5) var(--tw-gradient-to-position)}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-2{padding-bottom:.5rem}.pb-20{padding-bottom:5rem}.pb-3{padding-bottom:.75rem}.pl-5{padding-left:1.25rem}.pr-1{padding-right:.25rem}.pr-2{padding-right:.5rem}.pt-1{padding-top:.25rem}.pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-9xl{font-size:8rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-normal{line-height:1.5}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.text-amber-100{--tw-text-opacity:1;color:rgb(254 243 199/var(--tw-text-opacity,1))}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77/var(--tw-text-opacity,1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11/var(--tw-text-opacity,1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity,1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-brand-magenta{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity,1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129/var(--tw-text-opacity,1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity,1))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity,1))}.text-pink-300{--tw-text-opacity:1;color:rgb(249 168 212/var(--tw-text-opacity,1))}.text-pink-400{--tw-text-opacity:1;color:rgb(244 114 182/var(--tw-text-opacity,1))}.text-pink-50{--tw-text-opacity:1;color:rgb(253 242 248/var(--tw-text-opacity,1))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity,1))}.text-pink-700{--tw-text-opacity:1;color:rgb(190 24 93/var(--tw-text-opacity,1))}.text-rose-500{--tw-text-opacity:1;color:rgb(244 63 94/var(--tw-text-opacity,1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity,1))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity,1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.line-through{text-decoration-line:line-through}.opacity-10{opacity:.1}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.shadow-inner,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-md,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}button:disabled{opacity:.45;cursor:not-allowed}.last\:border-b-0:last-child{border-bottom-width:0}.hover\:border-brand-magenta:hover{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.hover\:border-emerald-500:hover{--tw-border-opacity:1;border-color:rgb(16 185 129/var(--tw-border-opacity,1))}.hover\:border-rose-500:hover{--tw-border-opacity:1;border-color:rgb(244 63 94/var(--tw-border-opacity,1))}.hover\:bg-brand-magentaDark:hover{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity,1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87/var(--tw-bg-opacity,1))}.hover\:bg-pink-100:hover{--tw-bg-opacity:1;background-color:rgb(252 231 243/var(--tw-bg-opacity,1))}.hover\:bg-rose-50:hover{--tw-bg-opacity:1;background-color:rgb(255 241 242/var(--tw-bg-opacity,1))}.hover\:bg-rose-600:hover{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity,1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity,1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.focus\:border-brand-magenta:focus{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-brand-magenta:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(236 72 153/var(--tw-ring-opacity,1))}.group:hover .group-hover\:text-brand-magenta{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity,1))}.group:hover .group-hover\:text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.group:hover .group-hover\:text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity,1))}@media (min-width:640px){.sm\:col-span-2{grid-column:span 2/span 2}.sm\:mb-6{margin-bottom:1.5rem}.sm\:mr-3{margin-right:.75rem}.sm\:mt-1{margin-top:.25rem}.sm\:mt-2{margin-top:.5rem}.sm\:inline{display:inline}.sm\:h-10{height:2.5rem}.sm\:h-16{height:4rem}.sm\:h-8{height:2rem}.sm\:w-10{width:2.5rem}.sm\:w-16{width:4rem}.sm\:w-8{width:2rem}.sm\:w-auto{width:auto}.sm\:max-w-xs{max-width:20rem}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:flex-nowrap{flex-wrap:nowrap}.sm\:items-center{align-items:center}.sm\:justify-end{justify-content:flex-end}.sm\:justify-center{justify-content:center}.sm\:gap-2{gap:.5rem}.sm\:gap-4{gap:1rem}.sm\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem*var(--tw-space-x-reverse));margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.sm\:p-2{padding:.5rem}.sm\:p-2\.5{padding:.625rem}.sm\:p-4{padding:1rem}.sm\:p-5{padding:1.25rem}.sm\:p-6{padding:1.5rem}.sm\:px-3{padding-left:.75rem;padding-right:.75rem}.sm\:px-4{padding-left:1rem;padding-right:1rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.sm\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-\[10px\]{font-size:10px}.sm\:text-\[11px\]{font-size:11px}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-sm{font-size:.875rem;line-height:1.25rem}.sm\:text-xs{font-size:.75rem;line-height:1rem}}@media (min-width:768px){.md\:col-span-1{grid-column:span 1/span 1}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:pb-0{padding-bottom:0}}@media (min-width:1024px){.lg\:col-span-2{grid-column:span 2/span 2}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.\!container{width:100%!important}.container{width:100%}@media (min-width:640px){.\!container{max-width:640px!important}.container{max-width:640px}}@media (min-width:768px){.\!container{max-width:768px!important}.container{max-width:768px}}@media (min-width:1024px){.\!container{max-width:1024px!important}.container{max-width:1024px}}@media (min-width:1280px){.\!container{max-width:1280px!important}.container{max-width:1280px}}@media (min-width:1536px){.\!container{max-width:1536px!important}.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.top-0{top:0}.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-2{margin-top:.5rem;margin-bottom:.5rem}.my-3{margin-top:.75rem;margin-bottom:.75rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-0\.5{margin-bottom:.125rem}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.ml-2{margin-left:.5rem}.mr-1{margin-right:.25rem}.mr-1\.5{margin-right:.375rem}.mr-2{margin-right:.5rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-1\.5{height:.375rem}.h-14{height:3.5rem}.h-3{height:.75rem}.h-4{height:1rem}.h-64{height:16rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-full{height:100%}.max-h-64{max-height:16rem}.min-h-screen{min-height:100vh}.w-14{width:3.5rem}.w-3{width:.75rem}.w-4{width:1rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.min-w-0{min-width:0}.max-w-7xl{max-width:80rem}.max-w-\[120px\]{max-width:120px}.max-w-\[200px\]{max-width:200px}.max-w-full{max-width:100%}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.scroll-mt-20{scroll-margin-top:5rem}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-y-2{row-gap:.5rem}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.25rem*var(--tw-space-x-reverse));margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-1\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.375rem*var(--tw-space-x-reverse));margin-left:calc(.375rem*(1 - var(--tw-space-x-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-2\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.625rem*var(--tw-space-x-reverse));margin-left:calc(.625rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem*var(--tw-space-x-reverse));margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px*var(--tw-divide-y-reverse))}.divide-slate-100>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(241 245 249/var(--tw-divide-opacity,1))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.break-all{word-break:break-all}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-r{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77/var(--tw-border-opacity,1))}.border-amber-300\/30{border-color:rgba(252,211,77,.3)}.border-brand-magenta{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229/var(--tw-border-opacity,1))}.border-pink-100{--tw-border-opacity:1;border-color:rgb(252 231 243/var(--tw-border-opacity,1))}.border-pink-100\/60{border-color:rgba(252,231,243,.6)}.border-rose-100{--tw-border-opacity:1;border-color:rgb(255 228 230/var(--tw-border-opacity,1))}.border-rose-200{--tw-border-opacity:1;border-color:rgb(254 205 211/var(--tw-border-opacity,1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249/var(--tw-border-opacity,1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity,1))}.border-slate-200\/80{border-color:rgba(226,232,240,.8)}.border-slate-300{--tw-border-opacity:1;border-color:rgb(203 213 225/var(--tw-border-opacity,1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59/var(--tw-border-opacity,1))}.border-white\/10{border-color:hsla(0,0%,100%,.1)}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity,1))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity,1))}.bg-amber-400\/30{background-color:rgba(251,191,36,.3)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-black\/15{background-color:rgba(0,0,0,.15)}.bg-brand-dark{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity,1))}.bg-brand-magenta{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity,1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity,1))}.bg-emerald-50\/20{background-color:rgba(236,253,245,.2)}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity,1))}.bg-pink-100{--tw-bg-opacity:1;background-color:rgb(252 231 243/var(--tw-bg-opacity,1))}.bg-pink-100\/80{background-color:rgba(252,231,243,.8)}.bg-pink-50{--tw-bg-opacity:1;background-color:rgb(253 242 248/var(--tw-bg-opacity,1))}.bg-pink-50\/20{background-color:rgba(253,242,248,.2)}.bg-pink-50\/70{background-color:rgba(253,242,248,.7)}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity,1))}.bg-rose-50\/20{background-color:rgba(255,241,242,.2)}.bg-rose-50\/50{background-color:rgba(255,241,242,.5)}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity,1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity,1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.bg-slate-200\/60{background-color:rgba(226,232,240,.6)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.bg-slate-900\/50{background-color:rgba(15,23,42,.5)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/20{background-color:hsla(0,0%,100%,.2)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-pink-50{--tw-gradient-from:#fdf2f8 var(--tw-gradient-from-position);--tw-gradient-to:rgba(253,242,248,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-500{--tw-gradient-from:#ec4899 var(--tw-gradient-from-position);--tw-gradient-to:rgba(236,72,153,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-rose-400{--tw-gradient-to:rgba(251,113,133,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#fb7185 var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-pink-600{--tw-gradient-to:#db2777 var(--tw-gradient-to-position)}.to-rose-50\/50{--tw-gradient-to:rgba(255,241,242,.5) var(--tw-gradient-to-position)}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-2{padding-bottom:.5rem}.pb-20{padding-bottom:5rem}.pb-3{padding-bottom:.75rem}.pl-5{padding-left:1.25rem}.pr-1{padding-right:.25rem}.pr-2{padding-right:.5rem}.pt-1{padding-top:.25rem}.pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-9xl{font-size:8rem;line-height:1}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-normal{line-height:1.5}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wider{letter-spacing:.05em}.text-amber-100{--tw-text-opacity:1;color:rgb(254 243 199/var(--tw-text-opacity,1))}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77/var(--tw-text-opacity,1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11/var(--tw-text-opacity,1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity,1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-brand-magenta{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity,1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129/var(--tw-text-opacity,1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity,1))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity,1))}.text-pink-200{--tw-text-opacity:1;color:rgb(251 207 232/var(--tw-text-opacity,1))}.text-pink-300{--tw-text-opacity:1;color:rgb(249 168 212/var(--tw-text-opacity,1))}.text-pink-400{--tw-text-opacity:1;color:rgb(244 114 182/var(--tw-text-opacity,1))}.text-pink-50{--tw-text-opacity:1;color:rgb(253 242 248/var(--tw-text-opacity,1))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity,1))}.text-pink-700{--tw-text-opacity:1;color:rgb(190 24 93/var(--tw-text-opacity,1))}.text-rose-500{--tw-text-opacity:1;color:rgb(244 63 94/var(--tw-text-opacity,1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity,1))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity,1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225/var(--tw-text-opacity,1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity,1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity,1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity,1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.line-through{text-decoration-line:line-through}.opacity-10{opacity:.1}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.shadow-inner,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-md,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}button:disabled{opacity:.45;cursor:not-allowed}.last\:border-b-0:last-child{border-bottom-width:0}.hover\:border-brand-magenta:hover{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.hover\:border-emerald-500:hover{--tw-border-opacity:1;border-color:rgb(16 185 129/var(--tw-border-opacity,1))}.hover\:border-rose-500:hover{--tw-border-opacity:1;border-color:rgb(244 63 94/var(--tw-border-opacity,1))}.hover\:bg-brand-magentaDark:hover{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity,1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87/var(--tw-bg-opacity,1))}.hover\:bg-pink-100:hover{--tw-bg-opacity:1;background-color:rgb(252 231 243/var(--tw-bg-opacity,1))}.hover\:bg-rose-50:hover{--tw-bg-opacity:1;background-color:rgb(255 241 242/var(--tw-bg-opacity,1))}.hover\:bg-rose-600:hover{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity,1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity,1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity,1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.focus\:border-brand-magenta:focus{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity,1))}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-brand-magenta:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(236 72 153/var(--tw-ring-opacity,1))}.group:hover .group-hover\:text-brand-magenta{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity,1))}.group:hover .group-hover\:text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.group:hover .group-hover\:text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity,1))}@media (min-width:640px){.sm\:col-span-2{grid-column:span 2/span 2}.sm\:mb-6{margin-bottom:1.5rem}.sm\:mr-3{margin-right:.75rem}.sm\:mt-1{margin-top:.25rem}.sm\:mt-2{margin-top:.5rem}.sm\:inline{display:inline}.sm\:h-10{height:2.5rem}.sm\:h-16{height:4rem}.sm\:h-8{height:2rem}.sm\:w-10{width:2.5rem}.sm\:w-16{width:4rem}.sm\:w-8{width:2rem}.sm\:w-auto{width:auto}.sm\:max-w-xs{max-width:20rem}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:flex-nowrap{flex-wrap:nowrap}.sm\:items-center{align-items:center}.sm\:justify-end{justify-content:flex-end}.sm\:justify-center{justify-content:center}.sm\:gap-2{gap:.5rem}.sm\:gap-4{gap:1rem}.sm\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem*var(--tw-space-x-reverse));margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)))}.sm\:space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.sm\:p-2{padding:.5rem}.sm\:p-2\.5{padding:.625rem}.sm\:p-4{padding:1rem}.sm\:p-5{padding:1.25rem}.sm\:p-6{padding:1.5rem}.sm\:px-3{padding-left:.75rem;padding-right:.75rem}.sm\:px-4{padding-left:1rem;padding-right:1rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.sm\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-\[10px\]{font-size:10px}.sm\:text-\[11px\]{font-size:11px}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-sm{font-size:.875rem;line-height:1.25rem}.sm\:text-xs{font-size:.75rem;line-height:1rem}}@media (min-width:768px){.md\:col-span-1{grid-column:span 1/span 1}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:pb-0{padding-bottom:0}}@media (min-width:1024px){.lg\:col-span-2{grid-column:span 2/span 2}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}
 </style>
     <script>
 /*!
@@ -77,6 +77,7 @@
                         <h1 class="text-xs sm:text-base font-bold text-white leading-tight truncate">FP3級 10日間合格トレーナー</h1>
                     </div>
                 </div>
+                <button id="drive-sync-badge" onclick="switchTab('settings')" class="text-[10px] text-pink-200 whitespace-nowrap mr-2" aria-label="自動同期の状態と設定">同期：未接続</button>
                 <!-- Desktop Nav -->
                 <nav class="hidden md:flex space-x-8 text-slate-300">
                     <button onclick="switchTab('dashboard')" id="nav-dashboard" class="tab-btn active inline-flex items-center px-1 pt-1 text-sm font-medium transition-colors">
@@ -439,6 +440,25 @@
                         <button onclick="saveSettings()" class="bg-brand-magenta text-white font-semibold px-4 py-2 rounded-lg text-sm hover:bg-brand-magentaDark transition-colors">
                             設定を保存
                         </button>
+                    </div>
+
+                    <div class="space-y-3 pt-4 border-t border-slate-200">
+                        <h3 class="text-sm font-bold text-slate-700">Googleドライブで自動同期</h3>
+                        <p class="text-xs text-slate-500">両端末で同じGoogleアカウントに接続してください。接続中は変更後と約30秒ごとに同期します。通信できない間も端末に保存します。</p>
+                        <details class="text-xs text-slate-600"><summary class="cursor-pointer">初回設定</summary>
+                            <p class="my-2">公開したHTTPSのURLから利用します。<a href="docs/GOOGLE_DRIVE_SETUP.md" target="_blank" rel="noopener" class="underline">Google側の設定手順</a></p>
+                            <label for="drive-client-id">OAuthクライアントID（秘密鍵ではありません）</label>
+                            <input id="drive-client-id" type="text" autocomplete="off" spellcheck="false" placeholder="…apps.googleusercontent.com" class="w-full p-2 border rounded-lg mt-1">
+                        </details>
+                        <p id="drive-sync-account" class="text-xs break-all"></p>
+                        <p id="drive-sync-status" role="status" aria-live="polite" class="text-sm text-slate-600">未接続：学習履歴はこの端末に保存しています。</p>
+                        <div class="flex flex-wrap gap-2">
+                            <button onclick="driveSync.connect()" class="bg-brand-magenta text-white px-4 py-2 rounded-lg text-sm">Googleドライブに接続</button>
+                            <button onclick="driveSync.flush()" class="bg-slate-100 px-3 py-2 rounded-lg text-sm">今すぐ同期</button>
+                            <button onclick="driveSync.disconnect()" class="border px-3 py-2 rounded-lg text-sm">接続解除</button>
+                            <button id="drive-backup-button" hidden onclick="driveSync.downloadBackup()" class="border px-3 py-2 rounded-lg text-sm">接続前の履歴を保存</button>
+                        </div>
+                        <p class="text-xs text-slate-500">アプリ専用領域だけを使います。通常のドライブのファイルにはアクセスしません。認証期限が切れたときは再接続が必要です。タイマーの開始・停止も同期するため、学習中は一方の端末を操作してください。</p>
                     </div>
 
                     <div class="space-y-4 pt-4">
@@ -21385,6 +21405,417 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
 });
 
 </script>
+    <script>
+/* 同期データの統合。Google認証・DOM・localStorageには依存しない。 */
+(function (root, factory) {
+    const api = factory();
+    if (typeof module === 'object' && module.exports) module.exports = api;
+    else root.FP3Sync = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+    'use strict';
+    const maps = ['unitStatus', 'chapterTestScores', 'customUnitDays'];
+    const scalars = ['startDate', 'targetHours', 'examDate', 'timerSession'];
+    const clone = x => JSON.parse(JSON.stringify(x));
+    const equal = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+    const forbidden = x => ['__proto__', 'prototype', 'constructor'].includes(x);
+    const key = (field, id) => JSON.stringify(id === undefined ? [field] : [field, id]);
+    const historyKey = h => h.syncId || JSON.stringify(h);
+    const empty = () => ({ schemaVersion: 1, epoch: [0, 0, 'initial'], registers: {}, timeEvents: {} });
+    function compare(a, b) {
+        return a[0] - b[0] || a[1] - b[1] || (a[2] < b[2] ? -1 : a[2] > b[2] ? 1 : 0);
+    }
+    function validate(doc) {
+        if (!doc || doc.schemaVersion !== 1 || !Array.isArray(doc.epoch) || doc.epoch.length !== 3
+            || !doc.epoch.slice(0, 2).every(n => Number.isSafeInteger(n) && n >= 0)
+            || typeof doc.epoch[2] !== 'string' || !doc.epoch[2] || !doc.registers || !doc.timeEvents
+            || JSON.stringify(doc).length > 4000000) throw Error('同期データの形式・サイズが不正です');
+        for (const section of ['registers', 'timeEvents']) {
+            if (typeof doc[section] !== 'object' || Array.isArray(doc[section])) throw Error('不正な同期記録');
+            for (const [id, row] of Object.entries(doc[section])) {
+                if (forbidden(id) || !row || !Object.hasOwn(row, 'value') || !Array.isArray(row.stamp)
+                    || row.stamp.length !== 3 || !row.stamp.slice(0, 2).every(n => Number.isSafeInteger(n) && n >= 0)
+                    || typeof row.stamp[2] !== 'string' || !row.stamp[2]) throw Error('不正な同期の版');
+                if (section === 'registers') {
+                    const p = JSON.parse(id);
+                    if (!Array.isArray(p) || p.some(x => typeof x !== 'string' || forbidden(x))
+                        || !((p.length === 1 && scalars.includes(p[0])) || (p.length === 2
+                        && [...maps, 'unitResult', 'wrong', 'history', 'timeBase'].includes(p[0])))) throw Error('不正な同期項目');
+                    if (p[0] === 'timeBase' && (!/^\d{4}-\d{2}-\d{2}$/.test(p[1]) || !Number.isFinite(row.value) || row.value < 0)) throw Error('不正な復元時間');
+                } else if (!row.value || !/^\d{4}-\d{2}-\d{2}$/.test(row.value.day)
+                    || !Number.isFinite(row.value.minutes) || row.value.minutes < 0) throw Error('不正な同期時間');
+            }
+        }
+        return doc;
+    }
+    function merge(a, b) {
+        validate(a); validate(b);
+        if (compare(a.epoch, b.epoch) !== 0) return clone(compare(a.epoch, b.epoch) > 0 ? a : b);
+        const out = clone(a);
+        for (const section of ['registers', 'timeEvents']) for (const [id, row] of Object.entries(b[section])) {
+            const prev = out[section][id];
+            let choose = !prev || compare(row.stamp, prev.stamp) > 0
+                || (compare(row.stamp, prev.stamp) === 0 && JSON.stringify(row.value) > JSON.stringify(prev.value));
+            // 同一タイマーを2端末で終了しても1件。先に終了した記録を採用。
+            if (prev && section === 'timeEvents' && id.startsWith('timer:')) choose = compare(row.stamp, prev.stamp) < 0
+                || (compare(row.stamp, prev.stamp) === 0 && JSON.stringify(row.value) > JSON.stringify(prev.value));
+            // 初回移行の同一日分は二重加算しない。
+            if (prev && section === 'timeEvents' && id.startsWith('legacy:')) {
+                choose = row.value.minutes > prev.value.minutes
+                    || (row.value.minutes === prev.value.minutes && compare(row.stamp, prev.stamp) > 0);
+            }
+            if (choose) out[section][id] = clone(row);
+        }
+        return out;
+    }
+    function capture(doc, before, after, writer, options = {}) {
+        validate(doc);
+        const out = clone(doc);
+        let t = options.now === undefined ? Date.now() : options.now, n = 0;
+        for (const section of ['registers', 'timeEvents']) for (const row of Object.values(out[section])) {
+            if (row.stamp[0] > t) { t = row.stamp[0]; n = row.stamp[1]; }
+            else if (row.stamp[0] === t) n = Math.max(n, row.stamp[1]);
+        }
+        const stamp = () => [t, ++n, writer];
+        const put = (field, id, value) => { out.registers[key(field, id)] = { value: clone(value), stamp: stamp() }; };
+        for (const field of scalars) if (after[field] !== undefined && !equal(before[field], after[field])) put(field, undefined, after[field]);
+        for (const field of maps) {
+            const a = before[field] || {}, b = after[field] || {};
+            for (const id of new Set([...Object.keys(a), ...Object.keys(b)])) {
+                if (!equal(a[id], b[id])) put(field, id, b[id] === undefined ? null : b[id]);
+            }
+        }
+        const unitResult = (s, id) => ({ score: s.unitTestScores?.[id] ?? null, detail: s.unitTestDetails?.[id] ?? null });
+        const unitIds = new Set([...Object.keys(before.unitTestScores || {}), ...Object.keys(after.unitTestScores || {}),
+            ...Object.keys(before.unitTestDetails || {}), ...Object.keys(after.unitTestDetails || {})]);
+        for (const id of unitIds) if (!equal(unitResult(before, id), unitResult(after, id))) put('unitResult', id, unitResult(after, id));
+        for (const id of new Set([...(before.wrongQuestionIds || []), ...(after.wrongQuestionIds || [])])) {
+            const wrong = s => (s.wrongQuestionIds || []).includes(id) ? { revision: s.wrongQuestionRevisions?.[id] || null } : null;
+            if (!equal(wrong(before), wrong(after))) put('wrong', id, wrong(after));
+        }
+        const history = s => new Map((s.testHistory || []).map(h => [historyKey(h), h]));
+        const a = history(before), b = history(after);
+        for (const id of new Set([...a.keys(), ...b.keys()])) if (!equal(a.get(id), b.get(id))) put('history', id, b.get(id) || null);
+        for (const day of new Set([...Object.keys(before.dailyTimeLogs || {}), ...Object.keys(after.dailyTimeLogs || {})])) {
+            const minutes = (after.dailyTimeLogs?.[day] || 0) - (before.dailyTimeLogs?.[day] || 0);
+            if (!minutes) continue;
+            // バックアップ復元等で時間を減らす場合は、その日の基準を置換する。
+            // 複数端末の復元を負の加算として重ねると、将来の学習時間まで相殺してしまう。
+            if (minutes < 0) { put('timeBase', day, after.dailyTimeLogs?.[day] || 0); continue; }
+            const s = stamp();
+            const id = options.seed ? 'legacy:' + day : options.timeEventId || 'event:' + s.join(':');
+            const event = { value: { day, minutes }, stamp: s };
+            // 同じタイマーの再終了も、この端末の既存記録を上書きしない。
+            out.timeEvents[id] = merge(out, { ...empty(), epoch: out.epoch, timeEvents: { [id]: event } }).timeEvents[id];
+        }
+        validate(out);
+        return out;
+    }
+    function materialize(doc, defaults) {
+        validate(doc);
+        const out = clone(defaults);
+        for (const field of [...maps, 'unitTestScores', 'unitTestDetails', 'dailyTimeLogs', 'wrongQuestionRevisions']) out[field] = {};
+        out.wrongQuestionIds = []; out.testHistory = []; out.timerSession = null;
+        for (const [id, row] of Object.entries(doc.registers)) {
+            const [field, sub] = JSON.parse(id), value = clone(row.value);
+            if (scalars.includes(field)) out[field] = value;
+            else if (maps.includes(field)) { if (value !== null) out[field][sub] = value; }
+            else if (field === 'unitResult' && value) {
+                if (value.score !== null) out.unitTestScores[sub] = value.score;
+                if (value.detail !== null) out.unitTestDetails[sub] = value.detail;
+            } else if (field === 'wrong' && value) {
+                out.wrongQuestionIds.push(sub);
+                if (value.revision !== null) out.wrongQuestionRevisions[sub] = value.revision;
+            } else if (field === 'history' && value) out.testHistory.push(value);
+        }
+        const bases = {};
+        for (const [id, row] of Object.entries(doc.registers)) {
+            const [field, day] = JSON.parse(id);
+            if (field === 'timeBase') { bases[day] = row; out.dailyTimeLogs[day] = row.value; }
+        }
+        for (const row of Object.values(doc.timeEvents)) {
+            const { day, minutes } = row.value;
+            if (bases[day] && compare(row.stamp, bases[day].stamp) <= 0) continue;
+            out.dailyTimeLogs[day] = (out.dailyTimeLogs[day] || 0) + minutes;
+        }
+        for (const day of Object.keys(out.dailyTimeLogs)) out.dailyTimeLogs[day] = Math.max(0, out.dailyTimeLogs[day]);
+        out.testHistory.sort((a, b) => String(a.completedAt || '').localeCompare(String(b.completedAt || '')) || historyKey(a).localeCompare(historyKey(b)));
+        out.wrongQuestionIds.sort();
+        return out;
+    }
+    function reset(doc, state, writer, now = Date.now()) {
+        validate(doc);
+        let time = Math.max(now, doc.epoch[0]);
+        for (const section of ['registers', 'timeEvents']) for (const row of Object.values(doc[section])) time = Math.max(time, row.stamp[0]);
+        const fresh = empty(); fresh.epoch = [time + 1, 0, writer];
+        return capture(fresh, {}, state, writer, { now: time + 1, seed: true });
+    }
+    return { empty, validate, merge, capture, materialize, reset };
+});
+
+</script>
+    <script>
+/* 公開OAuthクライアントIDのみ。クライアントシークレットは設定しない。 */
+const FP3_GOOGLE_CLIENT_ID = '';
+(function (root) {
+    'use strict';
+    const S = root.FP3Sync;
+    const SCOPE = 'https://www.googleapis.com/auth/drive.appdata';
+    const STORE = 'fp3_drive_sync_v1', CONFIG = 'fp3_drive_client_id';
+    const BACKUP = 'fp3_before_drive_sync';
+    const clone = x => JSON.parse(JSON.stringify(x));
+    class DriveSync {
+        constructor(adapter, options = {}) {
+            this.adapter = adapter;
+            this.fetch = options.fetch || root.fetch.bind(root);
+            this.writer = root.crypto.randomUUID();
+            this.last = clone(adapter.getState());
+            this.cache = null; this.token = null; this.expiresAt = 0;
+            this.busy = false; this.pending = false; this.revision = 0;
+            this.message = '未接続：学習履歴はこの端末に保存しています。';
+            try {
+                const saved = JSON.parse(localStorage.getItem(STORE) || 'null');
+                if (saved) {
+                    S.validate(saved.doc);
+                    if (typeof saved.account !== 'string' || !saved.account) throw Error('不正な接続先');
+                    this.cache = saved;
+                    const base = S.materialize(saved.doc, this.last);
+                    saved.doc = S.capture(saved.doc, base, this.last, this.writer);
+                    this.pending = !!saved.pending || JSON.stringify(base) !== JSON.stringify(this.last);
+                    this.persist();
+                    this.message = '再接続してください。未送信の変更は端末に保存されています。';
+                }
+            } catch {
+                this.cache = null;
+                this.blocked = true;
+                this.message = '同期記録を読み込めません。端末のバックアップを出力してから接続設定を確認してください。';
+            }
+            this.interval = setInterval(() => {
+                if (this.token && !document.hidden) void this.flush();
+            }, 30000);
+            root.addEventListener('online', () => { if (this.token) void this.flush(); });
+            document.addEventListener('visibilitychange', () => {
+                if (!document.hidden && this.token) void this.flush();
+            });
+            root.addEventListener('storage', event => {
+                if (event.key !== STORE || !event.newValue || !this.cache) return;
+                try {
+                    const other = JSON.parse(event.newValue);
+                    if (other.account !== this.cache.account) return;
+                    const merged = S.merge(this.cache.doc, other.doc);
+                    this.adapter.validate(S.materialize(merged, this.last));
+                    this.cache.doc = merged;
+                    this.pending ||= !!other.pending;
+                    this.revision++;
+                    this.apply();
+                    if (this.token && this.pending) this.schedule();
+                } catch { this.status('別タブの同期記録が不正です。同期を停止して確認してください。'); this.token = null; }
+            });
+            this.render();
+        }
+        status(message) { this.message = message; this.render(); }
+        render() {
+            const status = document.getElementById('drive-sync-status');
+            if (status) status.textContent = this.message;
+            const account = document.getElementById('drive-sync-account');
+            if (account) account.textContent = this.token && this.cache ? this.cache.label : '';
+            const input = document.getElementById('drive-client-id');
+            if (input && document.activeElement !== input) input.value = FP3_GOOGLE_CLIENT_ID || localStorage.getItem(CONFIG) || '';
+            const badge = document.getElementById('drive-sync-badge');
+            if (badge) badge.textContent = !this.token ? '同期：未接続' : this.pending ? '同期：送信待ち' : '同期：接続中';
+            const backup = document.getElementById('drive-backup-button');
+            if (backup) backup.hidden = !localStorage.getItem(BACKUP);
+        }
+        persist() {
+            if (this.cache) localStorage.setItem(STORE, JSON.stringify({ ...this.cache, pending: this.pending }));
+        }
+        onSave(options = {}) {
+            const state = clone(this.adapter.getState());
+            if (this.cache) {
+                this.cache.doc = options.reset ? S.reset(this.cache.doc, state, this.writer)
+                    : S.capture(this.cache.doc, this.last, state, this.writer, options);
+                this.pending = true; this.revision++;
+                this.persist(); this.schedule();
+            }
+            this.last = state;
+            this.status(this.token ? '変更を端末に保存しました。自動同期を待っています。'
+                : this.cache ? '未送信の変更を保存しました。Googleドライブに再接続してください。' : this.message);
+        }
+        schedule(delay = 2000) {
+            clearTimeout(this.debounce);
+            if (this.token) this.debounce = setTimeout(() => void this.flush(), delay);
+        }
+        apply() {
+            const state = this.adapter.validate(S.materialize(this.cache.doc, this.last));
+            this.adapter.applyState(state);
+            this.last = clone(state);
+            this.persist();
+        }
+        async request(url, options = {}) {
+            if (!this.token || Date.now() >= this.expiresAt) {
+                this.token = null;
+                throw Error('Googleの認証期限が切れました。「Googleドライブに接続」で再接続してください。');
+            }
+            const token = this.token;
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 30000);
+            let response;
+            try {
+                response = await this.fetch(url, { ...options, signal: controller.signal,
+                    headers: { ...options.headers, Authorization: 'Bearer ' + token }, cache: 'no-store' });
+            } finally { clearTimeout(timeout); }
+            if (this.token !== token) throw Error('接続が変更されました。端末の履歴は保持しています。');
+            if (response.status === 401) { this.token = null; throw Error('Googleドライブへの再接続が必要です。'); }
+            if (!response.ok) {
+                const error = Error(response.status === 403 ? 'Googleドライブの権限・API設定・容量を確認してください。'
+                    : response.status === 429 ? 'アクセスが集中しています。しばらくして自動再試行します。'
+                    : '同期通信に失敗しました。端末の変更は保持されています。');
+                error.status = response.status; throw error;
+            }
+            return response;
+        }
+        async readAll() {
+            const files = []; let page = '';
+            do {
+                const params = new URLSearchParams({ spaces: 'appDataFolder', pageSize: '100',
+                    q: "trashed = false and appProperties has { key='fp3Sync' and value='v1' }",
+                    fields: 'nextPageToken,files(id,name)', ...(page ? { pageToken: page } : {}) });
+                const list = await (await this.request('https://www.googleapis.com/drive/v3/files?' + params)).json();
+                if (!Array.isArray(list.files)) throw Error('ドライブの一覧が不正です');
+                files.push(...list.files); page = list.nextPageToken || '';
+                if (files.length > 1000) throw Error('同期記録が多すぎます。履歴は保持し、同期を停止しました。');
+            } while (page);
+            let doc = S.empty();
+            // 読込済みのファイルだけを後で整理する。読取中の404は再試行し、欠落扱いにしない。
+            for (const file of files) {
+                const response = await this.request('https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(file.id) + '?alt=media');
+                const text = await response.text();
+                if (text.length > 4000000) throw Error('同期記録のサイズが上限を超えています');
+                doc = S.merge(doc, JSON.parse(text));
+            }
+            return { files, doc };
+        }
+        async upload(doc) {
+            S.validate(doc);
+            const boundary = 'fp3_' + root.crypto.randomUUID();
+            const metadata = { name: 'fp3-sync-v1-' + root.crypto.randomUUID() + '.json',
+                parents: ['appDataFolder'], appProperties: { fp3Sync: 'v1' } };
+            const body = '--' + boundary + '\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n'
+                + JSON.stringify(metadata) + '\r\n--' + boundary + '\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n'
+                + JSON.stringify(doc) + '\r\n--' + boundary + '--';
+            const response = await this.request('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id', {
+                method: 'POST', headers: { 'Content-Type': 'multipart/related; boundary=' + boundary }, body });
+            const file = await response.json();
+            if (!file.id) throw Error('ドライブへの保存完了を確認できません');
+            return file.id;
+        }
+        async flush() {
+            if (this.busy || !this.token || !this.cache) return;
+            this.busy = true;
+            let failed = false;
+            try {
+                const remote = await this.readAll();
+                const merged = S.merge(this.cache.doc, remote.doc);
+                this.adapter.validate(S.materialize(merged, this.last));
+                this.cache.doc = merged;
+                this.apply();
+                if (this.pending || remote.files.length >= 5) {
+                    const revision = this.revision;
+                    const sent = clone(this.cache.doc);
+                    await this.upload(sent);
+                    this.pending = this.revision !== revision;
+                    this.persist();
+                    // 保存成功後のみ、送信内容に含めた旧版を削除。並行して作成された版は消さない。
+                    for (const file of remote.files) {
+                        try { await this.request('https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(file.id), { method: 'DELETE' }); }
+                        catch (e) { if (e.status !== 404) break; }
+                    }
+                }
+                this.status(!this.token ? '今回の保存は完了しました。次の同期にはGoogleへの再接続が必要です。'
+                    : this.pending ? '新しい変更を送信待ちです。' : '同期済み：' + new Date().toLocaleTimeString('ja-JP'));
+            } catch (e) {
+                failed = true;
+                this.status(e.message || '通信できません。変更は端末に保存されています。');
+            } finally {
+                this.busy = false;
+                if (this.token && this.pending) this.schedule(failed ? 30000 : 2000);
+            }
+        }
+        async connect() {
+            if (this.blocked || this.connecting || this.busy) return;
+            const input = document.getElementById('drive-client-id');
+            const clientId = (FP3_GOOGLE_CLIENT_ID || input?.value || '').trim();
+            if (!/^[A-Za-z0-9_-]+\.apps\.googleusercontent\.com$/.test(clientId)) {
+                this.status('初回設定が必要です。OAuthクライアントIDを入力してください。手順は設定欄のリンクから確認できます。'); return;
+            }
+            if (this.cache?.clientId && this.cache.clientId !== clientId) {
+                this.status('以前と同じOAuthクライアントIDを使ってください。未送信の履歴を別のGoogleアプリには送信しません。'); return;
+            }
+            if (location.protocol !== 'https:' && !['localhost', '127.0.0.1'].includes(location.hostname)) {
+                this.status('Google接続には公開したHTTPSのURLを使ってください。HTMLファイルを直接開く方法では接続できません。'); return;
+            }
+            localStorage.setItem(CONFIG, clientId);
+            this.connecting = true; this.status('Googleの接続画面を開きます…');
+            try {
+                if (!root.google?.accounts?.oauth2) {
+                    await new Promise((resolve, reject) => {
+                        const script = document.createElement('script');
+                        script.src = 'https://accounts.google.com/gsi/client'; script.async = true;
+                        script.onload = resolve; script.onerror = () => { script.remove(); reject(Error('Googleのログイン機能を読み込めません')); };
+                        document.head.append(script);
+                    });
+                    this.status('準備ができました。もう一度「Googleドライブに接続」を押してGoogleの画面を開いてください。');
+                    return; // Safariでも次のクリックのユーザー操作からポップアップを開く。
+                }
+                const token = await new Promise((resolve, reject) => {
+                    const client = root.google.accounts.oauth2.initTokenClient({ client_id: clientId, scope: SCOPE,
+                        include_granted_scopes: false,
+                        callback: response => response.error ? reject(Error('Googleへの接続が許可されませんでした。')) : resolve(response),
+                        error_callback: () => reject(Error('接続画面を開けないか、接続をキャンセルしました。もう一度接続ボタンを押してください。')) });
+                    client.requestAccessToken({ prompt: 'select_account' });
+                });
+                if (!token.access_token || !String(token.scope || '').split(' ').includes(SCOPE)) throw Error('アプリ専用領域の権限が必要です');
+                if (!Number.isFinite(Number(token.expires_in)) || Number(token.expires_in) <= 30) throw Error('Googleの認証期限を確認できません。再接続してください。');
+                this.token = token.access_token;
+                this.expiresAt = Date.now() + Math.max(0, Number(token.expires_in) * 1000 - 30000);
+                const about = await (await this.request('https://www.googleapis.com/drive/v3/about?fields=user(permissionId,emailAddress,displayName)')).json();
+                const account = about.user?.permissionId;
+                if (!account) throw Error('Googleアカウントを確認できません');
+                if (this.cache && this.cache.account !== account) throw Error('前回と異なるGoogleアカウントです。学習履歴は送信しません。同じアカウントで接続してください。');
+                if (!this.cache) {
+                    const remote = await this.readAll();
+                    if (remote.files.length) this.adapter.validate(S.materialize(remote.doc, this.last));
+                    if (remote.files.length && !root.confirm('ドライブに学習履歴があります。この端末の履歴を復元用に保存して、ドライブの履歴を読み込みますか？')) throw Error('接続をキャンセルしました。端末の履歴は変更していません。');
+                    localStorage.setItem(BACKUP, JSON.stringify(this.adapter.getState()));
+                    this.cache = { account, clientId, label: about.user.emailAddress || about.user.displayName || 'Googleドライブ',
+                        doc: remote.files.length ? remote.doc : S.capture(S.empty(), {}, this.adapter.getState(), this.writer, { seed: true }) };
+                    // 初回のクラウド読込は、別アカウントの端末履歴を自動混入させない。
+                    this.pending = !remote.files.length;
+                    this.apply();
+                } else {
+                    this.cache.clientId = clientId;
+                    this.cache.label = about.user.emailAddress || about.user.displayName || this.cache.label;
+                }
+                await this.flush();
+            } catch (e) { this.token = null; this.status(e.message || '接続できませんでした。'); }
+            finally { this.connecting = false; this.render(); }
+        }
+        disconnect() {
+            clearTimeout(this.debounce);
+            this.token = null; this.expiresAt = 0;
+            this.status('接続を解除しました。未送信の変更と端末の履歴は保持しています。');
+        }
+        downloadBackup() {
+            const text = localStorage.getItem(BACKUP);
+            if (!text) return;
+            const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+            const a = document.createElement('a'); a.href = url; a.download = 'fp3-before-drive-sync.json'; a.click();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+    }
+    root.FP3DriveSync = DriveSync;
+})(globalThis);
+
+</script>
     <!-- Application Logic & Data Scripts -->
     <script>
         /* ==========================================================================
@@ -21573,6 +22004,8 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
             timerSession: null
         };
 
+        const defaultStateTemplate = JSON.parse(JSON.stringify(appState));
+        let driveSync = null;
         let currentTab = 'dashboard';
         let timerInterval = null;
         let timerSeconds = 0;
@@ -21604,6 +22037,20 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
             if (settingDateEl) settingDateEl.value = appState.startDate;
             const settingHoursEl = document.getElementById('setting-target-hours');
             if (settingHoursEl) settingHoursEl.value = appState.targetHours;
+            driveSync = new FP3DriveSync({
+                getState: () => appState,
+                validate: validatedState,
+                applyState: state => {
+                    localStorage.setItem('fp3_trainer_state', JSON.stringify(state));
+                    appState = state;
+                    initializeDefaultState();
+                    restoreTimer(); renderAllViews(); updateCharts();
+                    for (const [id, value] of [['setting-start-date', state.startDate], ['setting-target-hours', state.targetHours], ['setting-exam-date', state.examDate]]) {
+                        const input = document.getElementById(id);
+                        if (input && document.activeElement !== input) input.value = value;
+                    }
+                }
+            });
         };
 
         function loadStateFromStorage() {
@@ -21647,6 +22094,7 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
             // 旧バックアップにタイマーがなければ、復元前の稼働状態を引き継がない。
             next.timerSession = raw.timerSession == null ? null : { ...raw.timerSession };
             if (raw.timerSession != null && (typeof raw.timerSession !== 'object' || Array.isArray(raw.timerSession)
+                || (next.timerSession.id !== undefined && (typeof next.timerSession.id !== 'string' || !next.timerSession.id || next.timerSession.id.length > 200))
                 || !Number.isSafeInteger(next.timerSession.elapsedMs) || next.timerSession.elapsedMs < 0
                 || (next.timerSession.startedAt !== null && (!Number.isSafeInteger(next.timerSession.startedAt) || next.timerSession.startedAt < 0)))) {
                 throw new Error('不正なタイマー履歴');
@@ -21654,9 +22102,10 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
             return next;
         }
 
-        function saveStateToStorage() {
+        function saveStateToStorage(options = {}) {
             try {
                 localStorage.setItem('fp3_trainer_state', JSON.stringify(appState));
+                if (driveSync) driveSync.onSave(options);
             } catch (e) {
                 console.error('Failed to save state', e);
             }
@@ -22049,15 +22498,17 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
 
         function toggleTimer() {
             const now = Date.now();
+            const id = appState.timerSession?.id || crypto.randomUUID();
             appState.timerSession = isTimerRunning
-                ? { elapsedMs: timerElapsedMs(now), startedAt: null }
-                : { elapsedMs: timerElapsedMs(now), startedAt: now };
+                ? { id, elapsedMs: timerElapsedMs(now), startedAt: null }
+                : { id, elapsedMs: timerElapsedMs(now), startedAt: now };
             saveStateToStorage();
             restoreTimer();
         }
 
         function stopTimer() {
             if (!appState.timerSession) return;
+            const timeEventId = 'timer:' + (appState.timerSession.id || `legacy-${appState.timerSession.startedAt}-${appState.timerSession.elapsedMs}`);
             const minutesLearned = Math.round(timerElapsedMs() / 60000);
             if (minutesLearned > 0) {
                 const today = new Date();
@@ -22066,7 +22517,7 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
             }
             // 加算とセッションの解除を同じ保存に含め、再読込での二重記録を防ぐ。
             appState.timerSession = null;
-            saveStateToStorage();
+            saveStateToStorage({ timeEventId });
             restoreTimer();
             renderAllViews();
             updateCharts();
@@ -22335,7 +22786,7 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
                 });
             }
             if (session.context.mode === 'chapter') appState.chapterTestScores[session.context.chapterId] = result.percent;
-            appState.testHistory.push({ mode: session.context.mode, chapterId: session.context.chapterId || null,
+            appState.testHistory.push({ syncId: crypto.randomUUID(), mode: session.context.mode, chapterId: session.context.chapterId || null,
                 examDate: appState.examDate, lawsDate: session.questions[0].lawsDate,
                 completedAt, questionIds: session.questions.map(q => q.id), questionRevisions: session.questions.map(q => q.revision || 1), bankEdition: session.questions[0].bankEdition || null, answers: [...session.userAnswers],
                 correct: result.correct, total: result.total, percent: result.percent });
@@ -22563,8 +23014,13 @@ const FP3_PAST_EXAM_SUMMARY = {"schemaVersion":1,"bankEdition":"past-2026-10-27"
 
         function resetAllData() {
             if (confirm('本当にすべての学習履歴を初期化しますか？この操作は取り消せません。')) {
-                localStorage.removeItem('fp3_trainer_state');
-                location.reload();
+                appState = JSON.parse(JSON.stringify(defaultStateTemplate));
+                appState.startDate = new Date().toISOString().slice(0, 10);
+                initializeDefaultState();
+                activeTestSession = null;
+                saveStateToStorage({ reset: true });
+                restoreTimer(); renderAllViews(); updateCharts();
+                document.getElementById('test-content-area').textContent = '初期化しました。モードを選び直してください。';
             }
         }
     </script>

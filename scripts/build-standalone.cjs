@@ -28,7 +28,7 @@ html = html.replace(/<link\s+rel="stylesheet"\s+href="([^"]+)"\s*>/g, (_, file) 
     styleCount++;
     return '<style>\n' + css + '\n</style>';
 });
-if (scriptCount !== 4 || styleCount !== 2) throw Error('元HTMLの構成を確認してください');
+if (scriptCount !== 6 || styleCount !== 2) throw Error('元HTMLの構成を確認してください');
 if (/<script[^>]+src=|<link[^>]+rel="stylesheet"/i.test(html)) throw Error('依存ファイルが残っています');
 fs.writeFileSync(path.join(root, 'fp3-standalone.html'), html);
 fs.writeFileSync(path.join(root, 'fp3-copy-paste.txt'), html);
