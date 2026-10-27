@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "python3 -m http.server 8000 --bind 0.0.0.0",
-    "build": "node scripts/build-questions.cjs && node scripts/build-assets.cjs && node scripts/build-standalone.cjs && node scripts/build-copy-page.cjs",
+    "build": "node scripts/build-icons.cjs && node scripts/build-questions.cjs && node scripts/build-assets.cjs && node scripts/build-standalone.cjs && node scripts/build-copy-page.cjs",
     "test": "node tests/engine.test.cjs && node tests/data.test.cjs && node tests/sync.test.cjs",
     "test:browser": "node tests/browser.cjs",
     "test:drive": "node tests/drive-browser.cjs",
