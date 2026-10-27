@@ -11,10 +11,10 @@
   "safariDeviceTested": false,
   "runtimeErrors": [],
   "hashes": {
-    "index.html": "52dac464afd08c8c693fcacc4a083e8a4f68513c817c5a40e781052d655cd592",
+    "index.html": "cda8857f9ea2ccf84e6e01394b83e05ee7a9224ab37fb70b074c575043a1efaf",
     "drive-sync-core.js": "7e1acf6d1d68d96b095519f26619a42e9be1dec1ca519eb3f7585e29bd0ec421",
     "google-drive-sync.js": "165446a61d842c96c9163cd5bf80a0453ea5629094307399fa09b4a5448b800a",
-    "fp3-standalone.html": "0585883e086f0dba89940318925b4e2bbd8c771b39c9bb91aa597974b2c4b7d1"
+    "fp3-standalone.html": "262b1382e344d7908cc2aec2904a6e81a4e738a0ede136c8dd54fa8218bdc221"
   },
   "activationPending": [
     "Google CloudでDrive API・OAuthクライアントを設定",

@@ -4,6 +4,9 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const read = rel => fs.readFileSync(path.join(root, rel), 'utf8');
 let html = read('index.html');
+// ホーム画面登録は公開版index.htmlと同じ配信先のPNG・manifestで行う。
+// 持ち運び用の単一HTMLには未同梱ファイルへの参照を残さない。
+html = html.replace(/^[ \t]*<link rel="(?:icon|apple-touch-icon|manifest)"[^>]*>\r?\n/gm, '');
 const scriptSafe = source => source.replace(/<\/script/gi, '<\\/script')
     .replace(/^\/\/[#@]\s*sourceMappingURL=.*$/gm, '');
 let scriptCount = 0;

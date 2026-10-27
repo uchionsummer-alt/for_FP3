@@ -1,0 +1,22 @@
+{
+  "validatedDate": "2026-10-27",
+  "unitTestsPassed": 29,
+  "originalPNGDimensions": [
+    1254,
+    1254
+  ],
+  "packagedSVGDimensions": [
+    512,
+    512
+  ],
+  "chromiumManifestErrors": [],
+  "chromiumInstallabilityErrors": [],
+  "githubPagesSubpathChecked": "/for_FP3/",
+  "manifestIdAndStartURLMatch": true,
+  "runtimeErrors": [],
+  "safariDeviceTested": false,
+  "cloudflareDeployed": false,
+  "standaloneUsesPublishedHomeIcon": false,
+  "imageSource": "image_gen",
+  "imagePixelsModifiedByBuild": false
+}
