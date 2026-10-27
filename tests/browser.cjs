@@ -100,6 +100,8 @@ async function check(name,fn){await fn();console.log('PASS '+name);count++;}
   await page.setViewportSize({width:1280,height:900});
   const q=await page.evaluate(()=>activeTestSession.questions[0]);
   await page.locator(`[data-answer="${(q.answer+1)%3}"]`).click();
+  assert.equal(await page.locator('#test-content-area table tbody tr').count(),5);
+  assert.equal(await page.locator('#test-content-area h4').innerText(),'Q. '+q.question);
   assert.ok((await page.locator('#test-content-area').innerText()).includes('修正加工'));
   assert.ok((await page.locator('#test-content-area').innerText()).includes('2026年5月公表分 問3'));
   const markers=await page.evaluate(()=>JSON.parse(localStorage.getItem('fp3_trainer_state')).wrongQuestionRevisions);assert.equal(markers[q.id],q.revision);

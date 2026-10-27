@@ -51,7 +51,7 @@ test('公式6公開セット240問の番号・単元対応と各設問の参照�
  for(const q of bank.filter(q=>q.bankEdition)){
   assert.ok(['observed_topic','scope_supplement'].includes(q.examAlignment));assert.ok(q.alignmentNote.length>20);
   if(q.examAlignment==='observed_topic')assert.ok(q.pastExamRefs.some(r=>r.relationship==='same_topic'));
-  for(const r of q.pastExamRefs){const p=analysis.papers.find(p=>p.id===r.paperId);assert.ok(p,q.id);assert.ok(p.questions.some(x=>x.number===r.questionNumber),q.id);assert.equal(r.questionUrl,p.questionUrl);assert.equal(r.answerUrl,p.answerUrl);assert.equal(r.originalLawsDate,p.lawsDate);assert.ok(r.processingNote.length>20);}
+  for(const r of q.pastExamRefs){const p=analysis.papers.find(p=>p.id===r.paperId);assert.ok(p,q.id);assert.ok(p.questions.some(x=>x.number===r.questionNumber),q.id);if(r.relationship==='same_topic')assert.ok(p.questions.find(x=>x.number===r.questionNumber).unitIds.includes(q.unitId),q.id+': 単元別分析への参照漏れ');assert.equal(r.questionUrl,p.questionUrl);assert.equal(r.answerUrl,p.answerUrl);assert.equal(r.originalLawsDate,p.lawsDate);assert.ok(r.processingNote.length>20);}
  }
 });
 test('原稿だけでなく過去問リンク・資料・計算・版の改ざんもレビュー不一致になる',()=>{

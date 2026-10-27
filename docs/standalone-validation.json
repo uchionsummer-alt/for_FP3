@@ -6,8 +6,8 @@
   "browserScenariosPassed": 24,
   "browserScenariosSkipped": 1,
   "skippedReason": "Chromium管理ポリシーによりfile://起動を遮断。HTTPで単一HTMLとコピー・保存の動作を検証。",
-  "htmlBytes": 2735867,
-  "htmlSHA256": "fd4bc062b1e4b73b0449ece3959e8dca3c92e28d3a69a69c30270d1816c24eaf",
+  "htmlBytes": 2739962,
+  "htmlSHA256": "b273ca3002b1db08782adf9227d509b05f6dc96784a0bb2b568bd094eba8b452",
   "fullTextMatchesHTML": true,
   "externalScriptStylesheetFontDependencies": 0
 }

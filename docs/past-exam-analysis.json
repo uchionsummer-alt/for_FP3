@@ -184,7 +184,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 3,
-      "observedPracticalSets": 0,
+      "observedPracticalSets": 1,
       "observedQuestions": [
         {
           "paperId": "g3_202405",
@@ -209,6 +209,14 @@
           "number": 31,
           "topic": "運用利率を含む金融資産残高の算式",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "j3_202505",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2025年5月公表分",
+          "number": 4,
+          "topic": "減債基金係数の選択と千円未満切上げ",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -352,6 +360,14 @@
           "label": "日本FP協会 3級学科 2026年5月公表分",
           "number": 5,
           "topic": "中退共掛金の事業主負担",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "g3_202605",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2026年5月公表分",
+          "number": 47,
+          "topic": "iDeCoの所得控除区分",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
         }
       ],
@@ -1094,7 +1110,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 3,
-      "observedPracticalSets": 0,
+      "observedPracticalSets": 1,
       "observedQuestions": [
         {
           "paperId": "g3_202405",
@@ -1119,6 +1135,14 @@
           "number": 39,
           "topic": "リビングニーズの余命要件",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "j3_202505",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2025年5月公表分",
+          "number": 12,
+          "topic": "入院限度日数と手術給付金の合算",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -1166,6 +1190,14 @@
           "label": "日本FP協会 3級学科 2026年5月公表分",
           "number": 11,
           "topic": "売りオペと資金量・金利",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "g3_202605",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2026年5月公表分",
+          "number": 14,
+          "topic": "日経平均の採用銘柄",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
         }
       ],
@@ -1286,7 +1318,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 3,
-      "observedPracticalSets": 1,
+      "observedPracticalSets": 2,
       "observedQuestions": [
         {
           "paperId": "g3_202405",
@@ -1343,6 +1375,14 @@
           "number": 8,
           "topic": "定額購入の平均取得単価",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf"
+        },
+        {
+          "paperId": "j3_202605",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2026年5月公表分",
+          "number": 6,
+          "topic": "PBRとPERの複数指標",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -1734,7 +1774,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 2,
-      "observedPracticalSets": 0,
+      "observedPracticalSets": 1,
       "observedQuestions": [
         {
           "paperId": "g3_202505",
@@ -1759,6 +1799,14 @@
           "number": 50,
           "topic": "青色申告特別控除65万円の要件",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "j3_202605",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2026年5月公表分",
+          "number": 17,
+          "topic": "青色対象所得・申告期間・控除額",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -1869,9 +1917,17 @@
       "chapterId": "ch4",
       "optional": false,
       "supplementary": false,
-      "observedAcademicSets": 1,
+      "observedAcademicSets": 2,
       "observedPracticalSets": 0,
       "observedQuestions": [
+        {
+          "paperId": "g3_202405",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2024年5月公表分",
+          "number": 54,
+          "topic": "土地建物の長期譲渡判定日と5年超",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202405_qa.pdf"
+        },
         {
           "paperId": "g3_202605",
           "kind": "academic",
@@ -2104,6 +2160,14 @@
       "observedAcademicSets": 2,
       "observedPracticalSets": 0,
       "observedQuestions": [
+        {
+          "paperId": "g3_202505",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2025年5月公表分",
+          "number": 5,
+          "topic": "小規模企業共済の掛金範囲と単位",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf"
+        },
         {
           "paperId": "g3_202505",
           "kind": "academic",
@@ -2621,7 +2685,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 3,
-      "observedPracticalSets": 0,
+      "observedPracticalSets": 2,
       "observedQuestions": [
         {
           "paperId": "g3_202405",
@@ -2646,6 +2710,22 @@
           "number": 52,
           "topic": "延べ面積と敷地から容積率",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "j3_202405",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2024年5月公表分",
+          "number": 9,
+          "topic": "道路幅員による容積率と延べ面積",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202405_q.pdf"
+        },
+        {
+          "paperId": "j3_202505",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2025年5月公表分",
+          "number": 9,
+          "topic": "2項道路のセットバック面積",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -3034,7 +3114,7 @@
       "optional": false,
       "supplementary": false,
       "observedAcademicSets": 3,
-      "observedPracticalSets": 0,
+      "observedPracticalSets": 2,
       "observedQuestions": [
         {
           "paperId": "g3_202405",
@@ -3059,6 +3139,22 @@
           "number": 57,
           "topic": "配偶者と兄弟姉妹の相続分",
           "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
+        {
+          "paperId": "j3_202505",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2025年5月公表分",
+          "number": 18,
+          "topic": "相続放棄者は代襲原因とならない",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf"
+        },
+        {
+          "paperId": "j3_202605",
+          "kind": "practical",
+          "label": "日本FP協会 3級実技（資産設計提案業務） 2026年5月公表分",
+          "number": 18,
+          "topic": "代襲と相続放棄の親族事例",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf"
         }
       ],
       "questionCount": 5,
@@ -3914,9 +4010,25 @@
       "chapterId": "ch9",
       "optional": false,
       "supplementary": false,
-      "observedAcademicSets": 0,
+      "observedAcademicSets": 2,
       "observedPracticalSets": 3,
       "observedQuestions": [
+        {
+          "paperId": "g3_202505",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2025年5月公表分",
+          "number": 42,
+          "topic": "EPSとBPSからROE",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf"
+        },
+        {
+          "paperId": "g3_202605",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2026年5月公表分",
+          "number": 42,
+          "topic": "配当性向と配当利回りの組合せ",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf"
+        },
         {
           "paperId": "j3_202405",
           "kind": "practical",
@@ -4010,9 +4122,25 @@
       "chapterId": "ch9",
       "optional": false,
       "supplementary": false,
-      "observedAcademicSets": 0,
+      "observedAcademicSets": 2,
       "observedPracticalSets": 3,
       "observedQuestions": [
+        {
+          "paperId": "g3_202405",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2024年5月公表分",
+          "number": 57,
+          "topic": "離婚した配偶者の除外と子の相続分",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202405_qa.pdf"
+        },
+        {
+          "paperId": "g3_202505",
+          "kind": "academic",
+          "label": "日本FP協会 3級学科 2025年5月公表分",
+          "number": 57,
+          "topic": "配偶者と直系尊属の相続分",
+          "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf"
+        },
         {
           "paperId": "j3_202405",
           "kind": "practical",
