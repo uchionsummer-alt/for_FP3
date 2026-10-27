@@ -1,0 +1,1830 @@
+{
+  "schemaVersion": 1,
+  "analyzedAt": "2026-10-27",
+  "publisher": "日本FP協会",
+  "indexUrl": "https://www.jafp.or.jp/exam/mohan/",
+  "licenseUrl": "https://www.jafp.or.jp/exam/mohan/files/exam_riyou.pdf",
+  "licenseNote": "出典明記と修正・加工の明記により利用可能。原本PDFは再配布しない。",
+  "sampleNote": "2024〜2026年に公表された各年1セット。掲載年は実施年月ではなく公表年。非公開CBT全問題の頻度・将来出題確率を表さない。",
+  "academicQuestionCount": 180,
+  "practicalQuestionCount": 60,
+  "papers": [
+    {
+      "id": "g3_202405",
+      "kind": "academic",
+      "publishedYear": 2024,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級学科 2024年5月公表分",
+      "lawsDate": "2023-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202405_qa.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202405_qa.pdf",
+      "sha256": "31141d6a0bf52054a4c363d11bf6eb983db668c74e9e9b7c8243ca27f439ec87",
+      "answerSHA256": "31141d6a0bf52054a4c363d11bf6eb983db668c74e9e9b7c8243ca27f439ec87",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "FPの守秘義務"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u1_7"
+          ],
+          "topic": "自己都合離職の待期と給付制限"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "国民年金第1号の年齢"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "公務員のiDeCo拠出限度額（改正確認が必要）"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "国民年金基金の給付の種類"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u2_4"
+          ],
+          "topic": "払済保険と延長保険の区別"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "定期保険の満期給付の有無"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "変額個人年金の運用実績と年金額"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "普通傷害保険の保険料の決定要素"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "対人賠償と自賠責の支払範囲"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u3_1"
+          ],
+          "topic": "GDPの定義"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u3_5"
+          ],
+          "topic": "信託報酬の徴収時期"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u3_3"
+          ],
+          "topic": "格付けと信用リスク・利回り"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "株式の受渡日"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "適合性の原則"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u4_1"
+          ],
+          "topic": "国税と地方税の区分"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u4_5"
+          ],
+          "topic": "非上場株式配当と申告不要制度"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u4_4"
+          ],
+          "topic": "事業的規模でも不動産所得"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u4_9"
+          ],
+          "topic": "損益通算対象の所得区分"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u4_12"
+          ],
+          "topic": "生計を一にする親族の医療費"
+        },
+        {
+          "number": 21,
+          "unitIds": [
+            "u5_1"
+          ],
+          "topic": "登記事項証明書の請求者"
+        },
+        {
+          "number": 22,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "普通借家の1年未満契約"
+        },
+        {
+          "number": 23,
+          "unitIds": [
+            "u5_4"
+          ],
+          "topic": "市街化区域の定義"
+        },
+        {
+          "number": 24,
+          "unitIds": [
+            "u5_7"
+          ],
+          "topic": "相続・贈与と不動産取得税"
+        },
+        {
+          "number": 25,
+          "unitIds": [
+            "u5_9"
+          ],
+          "topic": "等価交換方式と建設協力金方式"
+        },
+        {
+          "number": 26,
+          "unitIds": [
+            "u6_2"
+          ],
+          "topic": "住宅取得等資金非課税の限度額"
+        },
+        {
+          "number": 27,
+          "unitIds": [
+            "u6_5"
+          ],
+          "topic": "自筆証書遺言の財産目録"
+        },
+        {
+          "number": 28,
+          "unitIds": [
+            "u6_7"
+          ],
+          "topic": "葬式費用と香典返し"
+        },
+        {
+          "number": 29,
+          "unitIds": [
+            "u6_8"
+          ],
+          "topic": "相続税の基礎控除の算式"
+        },
+        {
+          "number": 30,
+          "unitIds": [
+            "u6_8"
+          ],
+          "topic": "相続税申告書の提出先"
+        },
+        {
+          "number": 31,
+          "unitIds": [
+            "u1_2",
+            "u9_3"
+          ],
+          "topic": "目標額から毎年の積立額を求める係数"
+        },
+        {
+          "number": 32,
+          "unitIds": [
+            "u1_6"
+          ],
+          "topic": "傷病手当金の通算支給期間"
+        },
+        {
+          "number": 33,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "繰上げ60か月の減額率"
+        },
+        {
+          "number": 34,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "遺族基礎年金の遺族の範囲"
+        },
+        {
+          "number": 35,
+          "unitIds": [
+            "u1_3"
+          ],
+          "topic": "元利均等と元金均等の総返済額"
+        },
+        {
+          "number": 36,
+          "unitIds": [
+            "u2_1"
+          ],
+          "topic": "責任準備金等90%保護"
+        },
+        {
+          "number": 37,
+          "unitIds": [
+            "u2_2"
+          ],
+          "topic": "保険料の3予定基礎率と大数の法則"
+        },
+        {
+          "number": 38,
+          "unitIds": [
+            "u2_8"
+          ],
+          "topic": "地震保険の設定割合と金額上限"
+        },
+        {
+          "number": 39,
+          "unitIds": [
+            "u2_9"
+          ],
+          "topic": "がん保険の待ち期間"
+        },
+        {
+          "number": 40,
+          "unitIds": [
+            "u2_5"
+          ],
+          "topic": "保険料負担者と受取人が同じ死亡保険金の課税"
+        },
+        {
+          "number": 41,
+          "unitIds": [
+            "u3_5"
+          ],
+          "topic": "グロース運用"
+        },
+        {
+          "number": 42,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "PBRの算式"
+        },
+        {
+          "number": 43,
+          "unitIds": [
+            "u3_6"
+          ],
+          "topic": "ポートフォリオの期待収益率の加重平均"
+        },
+        {
+          "number": 44,
+          "unitIds": [
+            "u3_7"
+          ],
+          "topic": "NISA成長投資枠の年間限度額"
+        },
+        {
+          "number": 45,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "決済用預金の全額保護"
+        },
+        {
+          "number": 46,
+          "unitIds": [
+            "u4_5",
+            "u3_7"
+          ],
+          "topic": "特定公社債利子の申告分離課税と申告不要"
+        },
+        {
+          "number": 47,
+          "unitIds": [
+            "u4_10",
+            "u4_15"
+          ],
+          "topic": "所得控除と税額控除の分類"
+        },
+        {
+          "number": 48,
+          "unitIds": [
+            "u4_10"
+          ],
+          "topic": "新契約3区分の生命保険料控除合計"
+        },
+        {
+          "number": 49,
+          "unitIds": [
+            "u4_15"
+          ],
+          "topic": "住宅ローン控除の償還期間要件"
+        },
+        {
+          "number": 50,
+          "unitIds": [
+            "u4_16",
+            "u4_15"
+          ],
+          "topic": "住宅ローン控除の初年度申告"
+        },
+        {
+          "number": 51,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "一般媒介と専任媒介の重複依頼"
+        },
+        {
+          "number": 52,
+          "unitIds": [
+            "u5_5"
+          ],
+          "topic": "道路幅員と接道義務"
+        },
+        {
+          "number": 53,
+          "unitIds": [
+            "u5_6"
+          ],
+          "topic": "規約変更の決議要件（2026年改正確認が必要）"
+        },
+        {
+          "number": 54,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "土地建物の長期譲渡判定日と5年超"
+        },
+        {
+          "number": 55,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "旧居の3000万円特別控除の売却期限"
+        },
+        {
+          "number": 56,
+          "unitIds": [
+            "u6_3"
+          ],
+          "topic": "複数贈与者でも暦年基礎控除は受贈者単位"
+        },
+        {
+          "number": 57,
+          "unitIds": [
+            "u6_4"
+          ],
+          "topic": "離婚した配偶者の除外と子の相続分"
+        },
+        {
+          "number": 58,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "上場株式の4価格の比較"
+        },
+        {
+          "number": 59,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "貸家建付地の評価"
+        },
+        {
+          "number": 60,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "特定居住用宅地330㎡・80%"
+        }
+      ]
+    },
+    {
+      "id": "g3_202505",
+      "kind": "academic",
+      "publishedYear": 2025,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級学科 2025年5月公表分",
+      "lawsDate": "2024-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf",
+      "sha256": "5a6a5352df3084dad46ac9b02c932aaaf2f4fb66dbe73cd49534dd59e22aa64c",
+      "answerSHA256": "5a6a5352df3084dad46ac9b02c932aaaf2f4fb66dbe73cd49534dd59e22aa64c",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "無償の税務書類作成と税理士法"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u1_7"
+          ],
+          "topic": "高年齢雇用継続給付の賃金低下要件"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "第1号の被扶養配偶者は第3号にならない"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "第3号被保険者のiDeCo加入"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "小規模企業共済の掛金範囲と単位"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u2_4"
+          ],
+          "topic": "転換後の保険料の年齢基準"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "定期特約の更新と告知"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "終身年金の保険料と男女差"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "国内旅行傷害保険と細菌性食中毒"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "人身傷害保険と過失割合"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u3_1"
+          ],
+          "topic": "日米金利差と為替"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u3_5"
+          ],
+          "topic": "公社債投資信託の株式組入れ"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u3_3"
+          ],
+          "topic": "市場金利と既発債価格の逆方向"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "成行注文と指値注文の優先"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "犯罪収益移転防止法の取引記録保存"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u4_8"
+          ],
+          "topic": "入院給付金の非課税"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u4_2"
+          ],
+          "topic": "給与収入と給与所得の区別（控除改正に注意）"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u4_3"
+          ],
+          "topic": "期首棚卸と期末棚卸を用いる売上原価"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u4_9"
+          ],
+          "topic": "土地建物の譲渡損失の損益通算原則"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u4_13"
+          ],
+          "topic": "本人合計所得1000万円超の配偶者控除"
+        },
+        {
+          "number": 21,
+          "unitIds": [
+            "u5_1"
+          ],
+          "topic": "所有権登記と甲区"
+        },
+        {
+          "number": 22,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "定期借地権の契約方式の相違"
+        },
+        {
+          "number": 23,
+          "unitIds": [
+            "u5_4"
+          ],
+          "topic": "市街化区域の開発許可の規模要件"
+        },
+        {
+          "number": 24,
+          "unitIds": [
+            "u5_7"
+          ],
+          "topic": "所有権登記と登録免許税"
+        },
+        {
+          "number": 25,
+          "unitIds": [
+            "u5_9"
+          ],
+          "topic": "建設協力金方式の仕組み"
+        },
+        {
+          "number": 26,
+          "unitIds": [
+            "u6_2"
+          ],
+          "topic": "教育資金一括贈与の非課税枠（期限確認が必要）"
+        },
+        {
+          "number": 27,
+          "unitIds": [
+            "u6_5"
+          ],
+          "topic": "公正証書遺言の証人資格"
+        },
+        {
+          "number": 28,
+          "unitIds": [
+            "u6_7"
+          ],
+          "topic": "死亡保険金非課税500万円×法定相続人数"
+        },
+        {
+          "number": 29,
+          "unitIds": [
+            "u6_8"
+          ],
+          "topic": "配偶者税額軽減の1億6000万円基準"
+        },
+        {
+          "number": 30,
+          "unitIds": [
+            "u6_3"
+          ],
+          "topic": "贈与税申告の提出先は受贈者"
+        },
+        {
+          "number": 31,
+          "unitIds": [
+            "u1_2"
+          ],
+          "topic": "可処分所得から生命保険料は引かない"
+        },
+        {
+          "number": 32,
+          "unitIds": [
+            "u1_6"
+          ],
+          "topic": "健康保険任意継続の最長期間"
+        },
+        {
+          "number": 33,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "繰下げ60か月の増額率"
+        },
+        {
+          "number": 34,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "遺族厚生年金の対象遺族"
+        },
+        {
+          "number": 35,
+          "unitIds": [
+            "u1_3"
+          ],
+          "topic": "フラット35の金利型と保証人"
+        },
+        {
+          "number": 36,
+          "unitIds": [
+            "u2_1"
+          ],
+          "topic": "損保破綻時の自賠責100%保護"
+        },
+        {
+          "number": 37,
+          "unitIds": [
+            "u2_2"
+          ],
+          "topic": "予定利率の低下と新規保険料"
+        },
+        {
+          "number": 38,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "自賠責の死亡・傷害の支払限度額"
+        },
+        {
+          "number": 39,
+          "unitIds": [
+            "u2_9"
+          ],
+          "topic": "先進医療の判定時点"
+        },
+        {
+          "number": 40,
+          "unitIds": [
+            "u2_5"
+          ],
+          "topic": "死亡後の保証期間の年金受給権の課税"
+        },
+        {
+          "number": 41,
+          "unitIds": [
+            "u3_5"
+          ],
+          "topic": "普通分配金と元本払戻金の計算"
+        },
+        {
+          "number": 42,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "EPSとBPSからROE"
+        },
+        {
+          "number": 43,
+          "unitIds": [
+            "u3_6"
+          ],
+          "topic": "相関係数と分散効果"
+        },
+        {
+          "number": 44,
+          "unitIds": [
+            "u3_7"
+          ],
+          "topic": "NISA総枠と成長投資枠の内枠"
+        },
+        {
+          "number": 45,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "一般預金の保護上限と名寄せ"
+        },
+        {
+          "number": 46,
+          "unitIds": [
+            "u4_7"
+          ],
+          "topic": "一時所得50万円控除と2分の1算入"
+        },
+        {
+          "number": 47,
+          "unitIds": [
+            "u4_11"
+          ],
+          "topic": "国民年金基金の社会保険料控除"
+        },
+        {
+          "number": 48,
+          "unitIds": [
+            "u4_10"
+          ],
+          "topic": "所得税の地震保険料控除上限"
+        },
+        {
+          "number": 49,
+          "unitIds": [
+            "u4_15"
+          ],
+          "topic": "認定長期優良住宅の控除期間"
+        },
+        {
+          "number": 50,
+          "unitIds": [
+            "u4_16",
+            "u4_3"
+          ],
+          "topic": "開業後の青色申告承認申請期限"
+        },
+        {
+          "number": 51,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "宅建業者自ら売主の手付金上限"
+        },
+        {
+          "number": 52,
+          "unitIds": [
+            "u5_5"
+          ],
+          "topic": "建築面積と敷地から建蔽率"
+        },
+        {
+          "number": 53,
+          "unitIds": [
+            "u5_6"
+          ],
+          "topic": "共用部分持分と規約による別段の定め"
+        },
+        {
+          "number": 54,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "概算取得費5%"
+        },
+        {
+          "number": 55,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "相続空き家の特別控除"
+        },
+        {
+          "number": 56,
+          "unitIds": [
+            "u6_3"
+          ],
+          "topic": "贈与税配偶者控除の婚姻期間と金額"
+        },
+        {
+          "number": 57,
+          "unitIds": [
+            "u6_4"
+          ],
+          "topic": "配偶者と直系尊属の相続分"
+        },
+        {
+          "number": 58,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "非同族株主の配当還元方式"
+        },
+        {
+          "number": 59,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "貸家の評価と借家権割合"
+        },
+        {
+          "number": 60,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "特定事業用宅地400㎡・80%"
+        }
+      ]
+    },
+    {
+      "id": "g3_202605",
+      "kind": "academic",
+      "publishedYear": 2026,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級学科 2026年5月公表分",
+      "lawsDate": "2025-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+      "sha256": "e1b080788e660987ce9c79a5e0e8bc98eb6fafe4f7793d9f57782b1fbda11164",
+      "answerSHA256": "e1b080788e660987ce9c79a5e0e8bc98eb6fafe4f7793d9f57782b1fbda11164",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "有償投資助言に必要な登録"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u1_8"
+          ],
+          "topic": "労災保険料の事業主全額負担"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "学生納付特例の本人所得判定"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "iDeCo老齢給付金の一時金受取"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u1_5"
+          ],
+          "topic": "中退共掛金の事業主負担"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u2_4"
+          ],
+          "topic": "契約者貸付の基準は解約返戻金"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "収入保障保険の年金と一時金の総額"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u2_3"
+          ],
+          "topic": "確定年金の死亡後の支払い"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u2_8"
+          ],
+          "topic": "地震による火災保険の免責"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u2_7"
+          ],
+          "topic": "洪水による車両水没"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u3_1"
+          ],
+          "topic": "売りオペと資金量・金利"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u3_5"
+          ],
+          "topic": "ETFにも信託報酬"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u3_3"
+          ],
+          "topic": "個人向け国債の下限利率と購入単位"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "日経平均の採用銘柄"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "消費者契約法の不実告知取消し"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u4_1",
+            "u4_5"
+          ],
+          "topic": "源泉分離と申告分離の区別"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u4_7"
+          ],
+          "topic": "公的年金等に係る雑所得"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u4_6"
+          ],
+          "topic": "総合課税の長期譲渡所得の2分の1算入"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u4_9"
+          ],
+          "topic": "青色純損失の繰越期間"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u4_14"
+          ],
+          "topic": "基礎控除の所得による相違（改正再確認）"
+        },
+        {
+          "number": 21,
+          "unitIds": [
+            "u5_2"
+          ],
+          "topic": "固定資産税評価の評価替え周期"
+        },
+        {
+          "number": 22,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "定期借家の1年未満契約"
+        },
+        {
+          "number": 23,
+          "unitIds": [
+            "u5_4"
+          ],
+          "topic": "市街化区域農地転用の届出"
+        },
+        {
+          "number": 24,
+          "unitIds": [
+            "u5_7"
+          ],
+          "topic": "固定資産税の賦課期日"
+        },
+        {
+          "number": 25,
+          "unitIds": [
+            "u5_9"
+          ],
+          "topic": "事業受託方式での建設資金負担"
+        },
+        {
+          "number": 26,
+          "unitIds": [
+            "u6_2"
+          ],
+          "topic": "住宅取得資金非課税の受贈者所得要件"
+        },
+        {
+          "number": 27,
+          "unitIds": [
+            "u6_5"
+          ],
+          "topic": "配偶者と兄弟相続時の遺留分"
+        },
+        {
+          "number": 28,
+          "unitIds": [
+            "u6_7"
+          ],
+          "topic": "相続取得者の暦年贈与の相続税加算"
+        },
+        {
+          "number": 29,
+          "unitIds": [
+            "u6_8"
+          ],
+          "topic": "相続税2割加算の対象者"
+        },
+        {
+          "number": 30,
+          "unitIds": [
+            "u6_6"
+          ],
+          "topic": "限定承認・放棄の熟慮期間"
+        },
+        {
+          "number": 31,
+          "unitIds": [
+            "u1_2"
+          ],
+          "topic": "運用利率を含む金融資産残高の算式"
+        },
+        {
+          "number": 32,
+          "unitIds": [
+            "u1_9"
+          ],
+          "topic": "介護第2号の年齢と医療保険加入"
+        },
+        {
+          "number": 33,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "付加年金200円×納付月数"
+        },
+        {
+          "number": 34,
+          "unitIds": [
+            "u1_10"
+          ],
+          "topic": "遺族厚生年金の4分の3"
+        },
+        {
+          "number": 35,
+          "unitIds": [
+            "u1_4"
+          ],
+          "topic": "国の教育ローンの金利型と最長期間"
+        },
+        {
+          "number": 36,
+          "unitIds": [
+            "u2_4"
+          ],
+          "topic": "保険給付請求権の消滅時効"
+        },
+        {
+          "number": 37,
+          "unitIds": [
+            "u2_4"
+          ],
+          "topic": "クーリングオフの日数と方法"
+        },
+        {
+          "number": 38,
+          "unitIds": [
+            "u2_6"
+          ],
+          "topic": "生産物賠償責任保険の補償事故"
+        },
+        {
+          "number": 39,
+          "unitIds": [
+            "u2_9"
+          ],
+          "topic": "リビングニーズの余命要件"
+        },
+        {
+          "number": 40,
+          "unitIds": [
+            "u2_5"
+          ],
+          "topic": "事業用建物の損害保険金の非課税"
+        },
+        {
+          "number": 41,
+          "unitIds": [
+            "u3_3"
+          ],
+          "topic": "固定利付債の最終利回り計算"
+        },
+        {
+          "number": 42,
+          "unitIds": [
+            "u3_4"
+          ],
+          "topic": "配当性向と配当利回りの組合せ"
+        },
+        {
+          "number": 43,
+          "unitIds": [
+            "u3_6"
+          ],
+          "topic": "期待収益と標準偏差の加重平均との関係"
+        },
+        {
+          "number": 44,
+          "unitIds": [
+            "u3_7"
+          ],
+          "topic": "NISAの非課税保有期間"
+        },
+        {
+          "number": 45,
+          "unitIds": [
+            "u3_8"
+          ],
+          "topic": "決済用預金の3要件"
+        },
+        {
+          "number": 46,
+          "unitIds": [
+            "u4_2"
+          ],
+          "topic": "20年超の退職所得控除"
+        },
+        {
+          "number": 47,
+          "unitIds": [
+            "u4_11"
+          ],
+          "topic": "iDeCoの所得控除区分"
+        },
+        {
+          "number": 48,
+          "unitIds": [
+            "u4_14"
+          ],
+          "topic": "特定扶養親族の年齢と控除額"
+        },
+        {
+          "number": 49,
+          "unitIds": [
+            "u4_15"
+          ],
+          "topic": "住宅ローン控除の控除率"
+        },
+        {
+          "number": 50,
+          "unitIds": [
+            "u4_3",
+            "u4_16"
+          ],
+          "topic": "青色申告特別控除65万円の要件"
+        },
+        {
+          "number": 51,
+          "unitIds": [
+            "u5_3"
+          ],
+          "topic": "売主による手付解除は倍額提供"
+        },
+        {
+          "number": 52,
+          "unitIds": [
+            "u5_5"
+          ],
+          "topic": "延べ面積と敷地から容積率"
+        },
+        {
+          "number": 53,
+          "unitIds": [
+            "u5_6"
+          ],
+          "topic": "管理者による年1回以上の集会招集"
+        },
+        {
+          "number": 54,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "相続税の取得費加算の譲渡期限"
+        },
+        {
+          "number": 55,
+          "unitIds": [
+            "u5_8"
+          ],
+          "topic": "居住用買換え特例の取得費と取得時期"
+        },
+        {
+          "number": 56,
+          "unitIds": [
+            "u6_3"
+          ],
+          "topic": "相続時精算課税110万円と2500万円"
+        },
+        {
+          "number": 57,
+          "unitIds": [
+            "u6_4"
+          ],
+          "topic": "配偶者と兄弟姉妹の相続分"
+        },
+        {
+          "number": 58,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "生命保険契約に関する権利の評価"
+        },
+        {
+          "number": 59,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "貸宅地の評価"
+        },
+        {
+          "number": 60,
+          "unitIds": [
+            "u6_9"
+          ],
+          "topic": "貸付事業用宅地200㎡・50%"
+        }
+      ]
+    },
+    {
+      "id": "j3_202405",
+      "kind": "practical",
+      "publishedYear": 2024,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級実技（資産設計提案業務） 2024年5月公表分",
+      "lawsDate": "2023-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202405_q.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202405_a.pdf",
+      "sha256": "9aeea04b69be63a273c46b991cd46eddb221fdd58442bd3ac57b03b01f02f167",
+      "answerSHA256": "9a33fb9712f6781cd532256cd7ddb7e382805ae7c759667c0f348dcefab90f84",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "関連業法の事例判断"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u9_1"
+          ],
+          "topic": "生活費の複利・年間収支・金融資産残高"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u9_2"
+          ],
+          "topic": "解約返戻金を含む資産と純資産"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u9_3"
+          ],
+          "topic": "係数の選択と年金終価の計算"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u9_10",
+            "u1_10"
+          ],
+          "topic": "遺族基礎年金の子の年齢要件"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u9_5"
+          ],
+          "topic": "2銘柄のPER・PBR・配当利回り比較"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u9_8",
+            "u3_5"
+          ],
+          "topic": "パッシブ・アクティブの分類"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u9_8",
+            "u3_2"
+          ],
+          "topic": "外貨元利合計の円転とTTB"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u9_6"
+          ],
+          "topic": "道路幅員による容積率と延べ面積"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u9_9",
+            "u5_2"
+          ],
+          "topic": "公示価格・路線価・固定資産税評価の比較"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u9_9",
+            "u5_3"
+          ],
+          "topic": "定期借地権の期間と契約形式"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u9_4"
+          ],
+          "topic": "保険証券の主契約と災害特約の合算"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u9_11",
+            "u2_5"
+          ],
+          "topic": "死亡保険金の三者関係と税目"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u9_10",
+            "u2_8"
+          ],
+          "topic": "地震保険の対象・契約方法"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u9_11",
+            "u4_2",
+            "u4_7"
+          ],
+          "topic": "給与所得と公的年金雑所得の合算"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u9_11",
+            "u4_2"
+          ],
+          "topic": "長期勤続の退職所得の計算"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u9_11",
+            "u5_8"
+          ],
+          "topic": "自宅譲渡の3000万円控除後課税所得"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u9_7",
+            "u6_6"
+          ],
+          "topic": "放棄と相続順位変更の組合せ"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u9_12",
+            "u6_8"
+          ],
+          "topic": "法定相続分に分けた相続税総額"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u9_12",
+            "u6_3"
+          ],
+          "topic": "複数直系尊属からの特例税率の贈与税"
+        }
+      ]
+    },
+    {
+      "id": "j3_202505",
+      "kind": "practical",
+      "publishedYear": 2025,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級実技（資産設計提案業務） 2025年5月公表分",
+      "lawsDate": "2024-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_a.pdf",
+      "sha256": "5b25854858aec61add22d5ad3b0468f0dfefeb432bcf12985e6b87e7624b9f57",
+      "answerSHA256": "4c482bbb8a93d87352cc9742ec535b25633e3f219278252ac7c144ba8d035f37",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "一般説明と資格登録が必要な行為の区別"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u9_1"
+          ],
+          "topic": "複利・収支・運用を含む残高"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u9_2"
+          ],
+          "topic": "自動車等を含む純資産計算"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u9_3"
+          ],
+          "topic": "減債基金係数の選択と千円未満切上げ"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u9_10",
+            "u1_10"
+          ],
+          "topic": "繰上げ・繰下げの月当たり割合"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u9_5"
+          ],
+          "topic": "PER・PBR・配当性向"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u9_8",
+            "u3_5"
+          ],
+          "topic": "購入手数料・信託報酬・留保額"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u9_8",
+            "u3_4"
+          ],
+          "topic": "定額購入の平均取得単価"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u9_6"
+          ],
+          "topic": "2項道路のセットバック面積"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u9_9",
+            "u5_1"
+          ],
+          "topic": "登記の表題部・甲区・乙区"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u9_11",
+            "u4_4"
+          ],
+          "topic": "利息・減価償却を含む不動産所得"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u9_4"
+          ],
+          "topic": "入院限度日数と手術給付金の合算"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u9_11",
+            "u4_10"
+          ],
+          "topic": "保険料控除の区分別速算表の適用"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u9_10",
+            "u2_6"
+          ],
+          "topic": "個人賠償責任の自動車・業務の除外"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u9_11",
+            "u4_9"
+          ],
+          "topic": "不動産赤字の土地借入利子除外と雑所得損失"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u9_11",
+            "u4_14"
+          ],
+          "topic": "配偶者・15歳の子を扶養控除から除く"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u9_11",
+            "u4_7"
+          ],
+          "topic": "満期保険金の一時所得と2分の1算入"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u9_7",
+            "u6_6"
+          ],
+          "topic": "相続放棄者は代襲原因とならない"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u9_12",
+            "u6_7"
+          ],
+          "topic": "死亡保険金の非課税控除後課税価格"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u9_12",
+            "u6_9"
+          ],
+          "topic": "路線価表示と借地権割合の読取り"
+        }
+      ]
+    },
+    {
+      "id": "j3_202605",
+      "kind": "practical",
+      "publishedYear": 2026,
+      "publishedMonth": 5,
+      "label": "日本FP協会 3級実技（資産設計提案業務） 2026年5月公表分",
+      "lawsDate": "2025-04-01",
+      "questionUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+      "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+      "sha256": "d4b73db68d49989dd71e5014da810aa4c252db05fd25f4563933df18de2d7c76",
+      "answerSHA256": "86b0145e3c59146a764cd5d77b9061238107660392e54d3a6974fb8e6d48215d",
+      "checkedAt": "2026-10-27",
+      "questions": [
+        {
+          "number": 1,
+          "unitIds": [
+            "u1_1"
+          ],
+          "topic": "遺産分割法律事務・税理士紹介・年金見込計算"
+        },
+        {
+          "number": 2,
+          "unitIds": [
+            "u9_1"
+          ],
+          "topic": "表の丸め条件と金融資産残高"
+        },
+        {
+          "number": 3,
+          "unitIds": [
+            "u9_2"
+          ],
+          "topic": "資料の時価資産と純資産"
+        },
+        {
+          "number": 4,
+          "unitIds": [
+            "u9_3"
+          ],
+          "topic": "資本回収係数で年取崩額"
+        },
+        {
+          "number": 5,
+          "unitIds": [
+            "u9_10",
+            "u1_6"
+          ],
+          "topic": "任意継続の加入期間・申出期限・最長期間"
+        },
+        {
+          "number": 6,
+          "unitIds": [
+            "u9_5"
+          ],
+          "topic": "PBRとPERの複数指標"
+        },
+        {
+          "number": 7,
+          "unitIds": [
+            "u9_8",
+            "u3_5"
+          ],
+          "topic": "投資信託購入金額と税込手数料"
+        },
+        {
+          "number": 8,
+          "unitIds": [
+            "u9_8",
+            "u3_3"
+          ],
+          "topic": "応募者利回りと端数処理"
+        },
+        {
+          "number": 9,
+          "unitIds": [
+            "u9_6"
+          ],
+          "topic": "建蔽率による建築面積の限度"
+        },
+        {
+          "number": 10,
+          "unitIds": [
+            "u9_9",
+            "u5_2"
+          ],
+          "topic": "鑑定評価3手法と現在価値"
+        },
+        {
+          "number": 11,
+          "unitIds": [
+            "u9_9",
+            "u5_3"
+          ],
+          "topic": "普通借家と定期借家の比較"
+        },
+        {
+          "number": 12,
+          "unitIds": [
+            "u9_4"
+          ],
+          "topic": "がん診断・入院・手術・非がん死亡の合算"
+        },
+        {
+          "number": 13,
+          "unitIds": [
+            "u9_4",
+            "u2_2"
+          ],
+          "topic": "将来支出・収入・金融資産から必要保障額"
+        },
+        {
+          "number": 14,
+          "unitIds": [
+            "u9_10",
+            "u2_7"
+          ],
+          "topic": "自宅車庫・配偶者・単独事故の補償選択"
+        },
+        {
+          "number": 15,
+          "unitIds": [
+            "u9_11",
+            "u4_1"
+          ],
+          "topic": "所得控除後の課税所得と累進速算表"
+        },
+        {
+          "number": 16,
+          "unitIds": [
+            "u9_11",
+            "u4_12"
+          ],
+          "topic": "美容・健診費除外と入院給付金控除"
+        },
+        {
+          "number": 17,
+          "unitIds": [
+            "u9_11",
+            "u4_16"
+          ],
+          "topic": "青色対象所得・申告期間・控除額"
+        },
+        {
+          "number": 18,
+          "unitIds": [
+            "u9_7",
+            "u6_6"
+          ],
+          "topic": "代襲と相続放棄の親族事例"
+        },
+        {
+          "number": 19,
+          "unitIds": [
+            "u9_12",
+            "u6_8"
+          ],
+          "topic": "相続放棄者を含めた法定相続人数"
+        },
+        {
+          "number": 20,
+          "unitIds": [
+            "u9_12",
+            "u6_9"
+          ],
+          "topic": "小規模宅地特例の80%減額後価格"
+        }
+      ]
+    }
+  ]
+}

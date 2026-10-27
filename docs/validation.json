@@ -1,0 +1,17 @@
+{
+  "validatedDate": "2026-10-27",
+  "questionCount": 398,
+  "unitTestsPassed": 17,
+  "normalBrowserScenariosPassed": 20,
+  "standaloneBrowserScenariosPassed": 24,
+  "browserScenariosSkippedPerEntry": 1,
+  "skippedReason": "Chromium管理ポリシーによりfile://起動を遮断。HTTPで通常版・単一HTML・コピーと保存を検証。",
+  "independentCalculationsChecked": 34,
+  "calculationMemosChecked": 116,
+  "safariDeviceTested": false,
+  "runtimeErrors": 0,
+  "externalRuntimeDependencies": 0,
+  "legacyStorageAndBackupCompatible": true,
+  "olderQuestionRevisionKeptPending": true,
+  "standaloneHTMLSHA256": "fd4bc062b1e4b73b0449ece3959e8dca3c92e28d3a69a69c30270d1816c24eaf"
+}

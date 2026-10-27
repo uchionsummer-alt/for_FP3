@@ -1,0 +1,1458 @@
+[
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/326AC1000000237",
+    "sha256": "46d956e2c48954577ec3479c5e8c83a2a2ff913860a2ba6b2eea327f3107916f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_1"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/324AC1000000205",
+    "sha256": "627322456ac144d3d2ba9acfc187de36d12483134b33e663b05cb1b4c5fc63e5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_1_2"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/confer/fpsoudan/business/",
+    "sha256": "a73206a1d85ebf0f9857a424b7ae03c8b0893950f82162db0e7189c30ae34027",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_1_3",
+      "q1_1_4",
+      "q1_1_5",
+      "q3_8_4",
+      "q3_8_5"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "sha256": "21324fbd4d539c1ef7b3f685cdd17e428b134d019e162b2d8c1533688d3c62cd",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_2_1",
+      "q1_2_4",
+      "q1_2_5",
+      "q9_1_5",
+      "q9_2_3",
+      "q9_2_4"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "sha256": "e1b080788e660987ce9c79a5e0e8bc98eb6fafe4f7793d9f57782b1fbda11164",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_2_2",
+      "q1_5_5",
+      "q2_3_2",
+      "q2_4_5",
+      "q2_5_4",
+      "q2_6_1",
+      "q2_6_5",
+      "q3_1_1",
+      "q3_1_5",
+      "q3_3_4",
+      "q3_4_3",
+      "q3_5_1",
+      "q3_6_3",
+      "q3_6_4",
+      "q3_8_2",
+      "q3_8_4",
+      "q5_2_3",
+      "q5_4_4",
+      "q5_5_1",
+      "q5_7_3",
+      "q5_8_6",
+      "q5_9_3",
+      "q6_5_3",
+      "q6_8_3",
+      "q6_9_9",
+      "q9_5_3"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202405_qa.pdf",
+    "sha256": "31141d6a0bf52054a4c363d11bf6eb983db668c74e9e9b7c8243ca27f439ec87",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_2_3",
+      "q1_3_1",
+      "q2_2_1",
+      "q3_1_3",
+      "q3_3_2",
+      "q3_4_5",
+      "q3_5_4",
+      "q3_6_1",
+      "q3_8_5",
+      "q4_1_2",
+      "q4_4_1",
+      "q4_5_4",
+      "q5_3_1",
+      "q5_5_2",
+      "q5_7_1",
+      "q5_9_1",
+      "q6_4_3",
+      "q9_7_4"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/personal_finance/fresh/workbook/files/wb_part3.pdf",
+    "sha256": "ede1129f4c4a67890a874cf0ff441b88a290bc2098dbb86bb517b53c6b5857de",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_3_1",
+      "q1_3_2",
+      "q1_3_4",
+      "q1_3_5"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202505_qa.pdf",
+    "sha256": "5a6a5352df3084dad46ac9b02c932aaaf2f4fb66dbe73cd49534dd59e22aa64c",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_3_3",
+      "q2_2_2",
+      "q2_3_4",
+      "q2_4_2",
+      "q2_5_5",
+      "q2_7_2",
+      "q2_7_5",
+      "q3_1_2",
+      "q3_3_1",
+      "q3_4_2",
+      "q3_4_4",
+      "q3_5_2",
+      "q3_5_3",
+      "q3_6_2",
+      "q3_6_4",
+      "q3_8_3",
+      "q4_3_1",
+      "q4_3_2",
+      "q4_11_5",
+      "q5_4_3",
+      "q5_5_1",
+      "q5_7_2",
+      "q5_9_2",
+      "q6_9_6",
+      "q6_9_8",
+      "q9_5_4",
+      "q9_7_5"
+    ]
+  },
+  {
+    "url": "https://www.flat35.com/loan/lineup/flat35/index.html",
+    "sha256": "a41ab74fe76781174f81b7384be0f60068a027f6365fb1dceca915eb4af136e1",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_3_3"
+    ]
+  },
+  {
+    "url": "https://www.jfc.go.jp/n/faq/kyoqa_m.html",
+    "sha256": "f357d47f41ccc11640ffbf800052f3448b3fd6775ed6ecf849703125d11650dd",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_4_1",
+      "q1_4_2",
+      "q1_4_3",
+      "q1_4_5"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/personal_finance/fresh/workbook/files/wb_part2.pdf",
+    "sha256": "14cf5e2b468502f40cb5bc08d857c6d9ba7c853e9311cdb9a374ab19bf0adf27",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_4_2"
+    ]
+  },
+  {
+    "url": "https://www.jfc.go.jp/n/finance/search/ippan.html",
+    "sha256": "7be6f1153c2cce44541ab1a9130022bf641d95dea286e588cbed87e176636d40",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_4_4"
+    ]
+  },
+  {
+    "url": "https://www.ideco-koushiki.jp/guide/structure.html",
+    "sha256": "0b82ef06ef043480ac677d5c406a24deb5426727f1da180381d7a83004a3ad20",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_5_1",
+      "q1_5_2",
+      "q1_5_4"
+    ]
+  },
+  {
+    "url": "https://www.ideco-koushiki.jp/guide/good.html",
+    "sha256": "73d3cce214fd685e0f5191f0af049d287d7d9e186d1c7bf9948bffb32a5757b1",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_5_1"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+    "sha256": "7feba875b3b0ce80b04421bca1a3ca54715d25065f2b7471477d8940cc31f5e0",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_5_3",
+      "q4_11_1",
+      "q4_11_4",
+      "q4_11_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000160",
+    "sha256": "ca62389f685949e21217032eaaf539c41dbb25f3680fa34cfdba61610fcef939",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_5_5"
+    ]
+  },
+  {
+    "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+    "sha256": "74a2d16a9bb7c109d870a049f3795939a9521a182d31fe04097458f4c0dac5b8",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_6_1",
+      "q1_6_2",
+      "q1_6_3"
+    ]
+  },
+  {
+    "url": "https://www.kyoukaikenpo.or.jp/g3/sb3270/r147/",
+    "sha256": "2e71969cb1ccf728ae2ce0f0e7b915ce229e72a2d21048f56013cb10e60c3c5e",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_6_4",
+      "q9_10_1"
+    ]
+  },
+  {
+    "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001",
+    "sha256": "4b4333cf640cfab65758edab5b724d9d45b32a03235576186988809456a085b5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_6_5"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+    "sha256": "951eb9fc99efab6209f3d60f0aa35ebfdcdbabbf9e03b55e5ff0b6f95eaf3038",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_7_1"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/349AC0000000116_20251001_506AC0000000026",
+    "sha256": "a11df64bcbe27e4c871f7b38c57b05ccc2117cb6457be783205c4271e6091703",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_7_2",
+      "q1_7_5"
+    ]
+  },
+  {
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_continue.html",
+    "sha256": "99ced8b9200848d5624ccdbd8d36f4a601bcdd0351069bcec72d816ecb90b6c9",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_7_3",
+      "q1_7_4"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/344AC0000000084",
+    "sha256": "445c50706578d81ecb8c31e6750c6504e7f685834bb68fd1002da448a3d42446",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_8_1"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000050_20250601_504AC0000000068",
+    "sha256": "1544f60e5e5c220fc6a682373f9b3b7ebe4abe60ac0fada99eb45416644a56a4",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_8_2",
+      "q1_8_3",
+      "q1_8_4",
+      "q1_8_5"
+    ]
+  },
+  {
+    "url": "https://www.mhlw.go.jp/content/001512842.pdf",
+    "sha256": "140602ea5df94f3f89b177cbb6a8d40bc1e9a639811817c9c73cc5751bd7499d",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_9_1",
+      "q1_9_2",
+      "q1_9_3",
+      "q1_9_4",
+      "q1_9_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141_20260401_507AC0000000074",
+    "sha256": "fc7c4b869c56fab90c56e7a31c58402b4e1dc7edd1cda0f1d31363caf205f29b",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10",
+      "q1_10_2",
+      "q1_10_10"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+    "sha256": "a2a9639dea3433e8b488c9ed1024b65c012ac46f7d77d152a4501b5272cb9d12",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_3",
+      "q1_10_9"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/jukyu/roureinenkin/kuriage-kurisage/20140421-01.html",
+    "sha256": "700feb16e9ad4e52c2789d001fa95dc6ecd6984ec87b5732f14082b594e5b3fe",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_4",
+      "q9_10_2"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/jukyu/roureinenkin/kuriage-kurisage/20140421-02.html",
+    "sha256": "b603024f57eb87e38ef57b046619334c0f7b1ac8309d754d8c7b37a23fda0839",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_5",
+      "q9_10_2"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/kokunen/hokenryo/fukanofu.html",
+    "sha256": "3b4b712c998fd90f9691b5c5b42e49d5bdc3a9e74967c48e99caf279c0e78c1d",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_6"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "sha256": "98672bb58ea4a039574c0f234658c4cb155959602bfd9b29e5cfaa104831b0df",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_7"
+    ]
+  },
+  {
+    "url": "https://www.nenkin.go.jp/service/jukyu/izokunenkin/jukyu-yoken/20150401-03.html",
+    "sha256": "6e493dcbe25cc0672c1e52ad18ffb537c8ad51d5419da05c0ddd9ced17794b7e",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_10_8",
+      "q9_10_3"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/personal_finance/fresh/young_handbook/files/p18-25.pdf?v=202602240900",
+    "sha256": "d86b34a3261cc21c606dc6771052b725291cbc8ec1968ce0f19f79549b7acceb",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q1_5_6"
+    ]
+  },
+  {
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/162.html",
+    "sha256": "c16fb24dd7c69e9a398547c2b0ec6c0541dc0bc60cc2cb70977006a89db07f67",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_1",
+      "q2_1_2"
+    ]
+  },
+  {
+    "url": "https://www.sonpohogo.or.jp/content/images/qa/a1_z1.gif",
+    "sha256": "62035e74caeba98858654207d61405ca9f40bfea4b6966c901435c8b1fd47bd7",
+    "checkedAt": "2026-10-27",
+    "extractionMethod": "画像の補償割合表を目視確認し、該当行を転記。親ページ https://www.sonpohogo.or.jp/qa/1/qa2.html",
+    "questionIds": [
+      "q2_1_3",
+      "q2_1_4"
+    ]
+  },
+  {
+    "url": "https://www.sonpohogo.or.jp/qa/",
+    "sha256": "89d515f53dc76130e821ed82d50e22f07f537e991cc533a2e345d4d2ae8aa703",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_1_5"
+    ]
+  },
+  {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "sha256": "590dcc6240fa39543a7827e09ad7425c476e079b0b381b357b0eadc9b0f589c5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_2_1",
+      "q2_2_2",
+      "q2_2_3",
+      "q2_2_5",
+      "q2_3_2",
+      "q2_3_3",
+      "q2_3_4",
+      "q2_3_5",
+      "q2_4_1",
+      "q2_4_2",
+      "q2_4_3",
+      "q2_4_5",
+      "q2_9_1",
+      "q2_9_2",
+      "q2_9_3"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "sha256": "d4b73db68d49989dd71e5014da810aa4c252db05fd25f4563933df18de2d7c76",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_2_4",
+      "q2_6_4",
+      "q2_7_4",
+      "q3_5_5",
+      "q4_1_3",
+      "q4_12_3",
+      "q5_2_4",
+      "q5_3_7",
+      "q5_9_5",
+      "q6_6_4",
+      "q9_1",
+      "q9_1_2",
+      "q9_1_4",
+      "q9_1_5",
+      "q9_2_1",
+      "q9_2_5",
+      "q9_3_4",
+      "q9_3_7",
+      "q9_4_4",
+      "q9_4_5",
+      "q9_5_1",
+      "q9_6_1",
+      "q9_7_1",
+      "q9_7_2",
+      "q9_8_1",
+      "q9_8_2",
+      "q9_9_3",
+      "q9_9_4",
+      "q9_10_4",
+      "q9_11_1",
+      "q9_11_3",
+      "q9_11_9",
+      "q9_12_1",
+      "q9_12_5"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/personal_finance/fresh/workbook/files/wb_part7.pdf",
+    "sha256": "e3a98be4911ee57d64d6add83fc76701a2bcf91185debee16b733a678acd2fda",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_2_4",
+      "q2_8_1",
+      "q2_8_2",
+      "q2_8_3",
+      "q2_8_4",
+      "q2_8_5",
+      "q2_9_5"
+    ]
+  },
+  {
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/8797.html",
+    "sha256": "461aaefd470c6399496348db4922454c761efb4c265b3ce3b28914c87a397954",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_3_1"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/420AC0000000056",
+    "sha256": "0dd9a919971c25eafeb431d601fae6bb7b5791d952df449118f9da99af0b2da6",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_4_4",
+      "q2_6_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+    "sha256": "8c983242ce44b15adb095340efec364f57e78b5128afc50e316969609bebbc76",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_5_1",
+      "q2_5_2",
+      "q2_5_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1700.htm",
+    "sha256": "88f03d8c0e62256bb837ba4c424c1d1c7b948d87f268f6a04bb103fa2bcfbb0f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_5_4",
+      "q4_8_4"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000073_20260401_506AC0000000008",
+    "sha256": "c01bb9be910ce849c82e26f1dd5d262ddf5bb55a1bf042512451460f275043a7",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_5_5",
+      "q6_8_3"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202505_q.pdf",
+    "sha256": "5b25854858aec61add22d5ad3b0468f0dfefeb432bcf12985e6b87e7624b9f57",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_6_2",
+      "q2_9_4",
+      "q3_5_1",
+      "q4_3_3",
+      "q4_4_2",
+      "q4_7_1",
+      "q5_1_1",
+      "q5_1_5",
+      "q5_5_4",
+      "q5_5_5",
+      "q6_9_1",
+      "q9_1_3",
+      "q9_2_2",
+      "q9_3_2",
+      "q9_3_3",
+      "q9_4_2",
+      "q9_5_3",
+      "q9_6_3",
+      "q9_8_3",
+      "q9_8_5",
+      "q9_9_2",
+      "q9_10_5",
+      "q9_11_5",
+      "q9_11_6",
+      "q9_11_7",
+      "q9_11_8",
+      "q9_12_2",
+      "q9_12_6"
+    ]
+  },
+  {
+    "url": "https://www.sonpo.or.jp/insurance/compensation/index.html",
+    "sha256": "e3a1f6838ea9a2e6eebb7ac4c35049ca9af21178bbdc35962819b75826eba1e6",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_6_2",
+      "q9_10_5"
+    ]
+  },
+  {
+    "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+    "sha256": "2b8a4c65bd73008470c8471dce7b171c2c81f2aad9ec42040a659a150fbea568",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_7_1"
+    ]
+  },
+  {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "sha256": "5b1d24f65d7b8e7ca213f19133435050f78d45a21694148543bf9b6c6e6cace5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_7_2",
+      "q2_7_3",
+      "q9_10_4"
+    ]
+  },
+  {
+    "url": "https://www.sonpo.or.jp/insurance/shogai/index.html",
+    "sha256": "14afe8ce8290231b3fe31beb7dbf4d8a3e7192ed5e2a1a0b3bd1ea142ff15332",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_7_5"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202405_q.pdf",
+    "sha256": "9aeea04b69be63a273c46b991cd46eddb221fdd58442bd3ac57b03b01f02f167",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q2_8_4",
+      "q3_2_2",
+      "q3_2_3",
+      "q3_5_4",
+      "q4_2_4",
+      "q4_7_5",
+      "q5_2_2",
+      "q5_5_3",
+      "q5_8_7",
+      "q5_9_4",
+      "q6_8_5",
+      "q9_3_1",
+      "q9_3_5",
+      "q9_3_6",
+      "q9_4_1",
+      "q9_4_3",
+      "q9_5_2",
+      "q9_6_2",
+      "q9_7_3",
+      "q9_8_4",
+      "q9_9_1",
+      "q9_9_5",
+      "q9_11_4",
+      "q9_11_10",
+      "q9_12_3",
+      "q9_12_4"
+    ]
+  },
+  {
+    "url": "https://www.jafp.or.jp/personal_finance/fresh/workbook/files/wb_part6.pdf",
+    "sha256": "60e6d2313da52498c1bdafc8a86968ed835ff0db1b15546265844f26e0d38409",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_1_2",
+      "q3_1_4",
+      "q3_2_1",
+      "q3_2_4",
+      "q3_3_1"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/na/337.html",
+    "sha256": "64422acf8c585122c1df88a439b01da94e1d7a7d8c7e803b84e48453e6afd944",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_1_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+    "sha256": "1f107d6b179be6f5dc07786ac94dbb705ef3c7106b3d3f991e0fc59a73e25624",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_2_5",
+      "q4_1_4",
+      "q4_5_1",
+      "q4_5_2",
+      "q4_5_5"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/sa/519.html",
+    "sha256": "fc95f9180a908c9178a3dea8a78c84c3ceb41c7d38c6c7f2c2a89a4cfee4c469",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_3_3",
+      "q9_8_2",
+      "q7_3"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/ta/296.html",
+    "sha256": "2f2bb64c210ea292644269589878cafa1f1193448da5419df74080c079ae71b5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_3_5"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/ka/73.html",
+    "sha256": "0ec081612fe45e79ec6da262126507a834ca174fbba1739a0edf6ab9e24dd768",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_4_1",
+      "q9_5_1",
+      "q9_5_5"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/ka/74.html",
+    "sha256": "a9e4236a0d5563805c0e57eff5cd9434515ee79692bebf553770a3c4cc3e3540",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_4_1"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/ka/85.html",
+    "sha256": "2ccf161c08f77213e750bd8255947e045fd830af3a121c7d9fb603b338943d29",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_4_3"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/ha/417.html",
+    "sha256": "91b1c9de64586e9ced390880b72afee1e9cdc6f7fcc7c62e010017c4988f3ba5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_6_2"
+    ]
+  },
+  {
+    "url": "https://www.jpx.co.jp/glossary/a/47.html",
+    "sha256": "e212061691e9c17c0d0567a2a66f19abc26e4300880237def55652ded8405229",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_6_5"
+    ]
+  },
+  {
+    "url": "https://www.fsa.go.jp/policy/nisa2/about/nisa2024/index.html",
+    "sha256": "10690b3bd2b222baa2bb0e71ab5ea81183d9b6080f3e0e7fefe11d0f7c7bf456",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_7_1",
+      "q3_7_2",
+      "q3_7_3",
+      "q3_7_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+    "sha256": "1721ce41db4aafb0d1c752d3d34c2711a13b558d5038fd24d22504af9d0f0fa9",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_7_5"
+    ]
+  },
+  {
+    "url": "https://www.fsa.go.jp/policy/payoff/",
+    "sha256": "4568303e765af03c8f98eec15067d64b5dbb0e995b913be92e7f4c9bbb715a70",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q3_8_1",
+      "q3_8_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2011.htm",
+    "sha256": "ee97548ddad6c168a593595b8a71c3abb3983e4f59ba19f8a1a77d2050da45f0",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_1",
+      "q4_8_1",
+      "q4_8_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm",
+    "sha256": "9e21d8bb0a2d209620d147c16db9349759a60ee67044bc34aed846dcd3843bd7",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_1_2",
+      "q4_1_5",
+      "q4_9_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "sha256": "638f0d78c9624168d94f6dc9b5280070d85374648736d556689d4146c4fff171",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_1_3",
+      "q9_11_1"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1200.htm",
+    "sha256": "3f2ba4bcf9521fee15cecb6188283bef5e4c783483f29bb706b29c655f9939d5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_1_5",
+      "q4_15_1",
+      "q4_15_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+    "sha256": "5b1c39edc19e060ef7357b47e9e33873feece4cff13d74b709118c6628f950f1",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_2_1",
+      "q4_7_5",
+      "q4_13_2",
+      "q4_14_3",
+      "q4_14_6"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+    "sha256": "71c15579cc529b77fabf063e54689f53cff04c446e27debd0b88668d7da0852f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_2_1",
+      "q4_2_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+    "sha256": "daef0c400c24bbe4b4b5414d8462b175126e3b5ac42f7fdced6b3bc50b5d8fb9",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_2_3",
+      "q4_2_4",
+      "q4_2_5",
+      "q9_11_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm",
+    "sha256": "f1ead6adbe79d49bf8c3c8fe49f1073634bda3d407b2fa8874160be4d5202b59",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_3_1",
+      "q4_3_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+    "sha256": "de4d48788c2cdaf2c4225d16799780e9f75a17d6162ac09f61cc87eb07fb17ea",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_3_4",
+      "q9_11_9"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+    "sha256": "2f280b15db8d1691682b857c06cbe825b26f04bb462f5a601b6cfa1ae6dbc7d9",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_3_5",
+      "q4_9_4",
+      "q4_16_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+    "sha256": "da714720865ff0672c45541190e5cf1358ecb0c0ef054ecc89d3bce0440c7c24",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_4_1",
+      "q4_4_2",
+      "q4_4_3",
+      "q4_4_4",
+      "q9_11_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1440.htm",
+    "sha256": "3ce97d1d115b77a53f3509ef27242e5d11451d614d9c58332ae3bf9212827670",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_4_4",
+      "q4_6_2",
+      "q4_6_5",
+      "q5_8_1"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+    "sha256": "969d0856686602427af7da00590cf0220d66bc8d604ef0e034a2c86c6db50352",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_4_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+    "sha256": "e97f7323c284b0e2b61c75c2b9a5c05682dea7ad740cd0d8a59c47468b3cd730",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_5_3",
+      "q4_5_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm",
+    "sha256": "e50f7d5ccbea0c32e19223c16451e8bdd2d6967fb6ef9a556f79d54fc4ae5ef7",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_6_1",
+      "q4_8_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm",
+    "sha256": "aa810e7df28fe202ffe9c25518fea488dfa7a3c6e8a38a77b8212da2a5bdd19c",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_6_3",
+      "q4_6_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+    "sha256": "2702cdd465c79308c35145ee2e61caab8d5d07926be03415d377a31c9225da45",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_7_1",
+      "q4_7_2",
+      "q9_11_6"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1610.htm",
+    "sha256": "c69bc1e58df620e0645df7cb665d197df85056e75f2ec8d775586a640574d72e",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_7_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "sha256": "b1462536b3908406ac41af713c78cd69032b56ddad75bfeb26ff00afe2bca850",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_7_4",
+      "q4_8_2"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033_20260401_508AC0000000012",
+    "sha256": "71d18be7c42df610b7e092fd30369cdffd4a0c0667a63ea59cc68a34983d71fe",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_8_1",
+      "q4_8_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+    "sha256": "323630845a8e34b21145ef763fe0a7a22e014506c9f71eee055b49c9661e7796",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_8_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+    "sha256": "81cabb299948105ab58cd3623334a3e339d479efada49adbb756cfae4a832130",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_9_1",
+      "q4_9_2",
+      "q4_9_3",
+      "q4_9_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+    "sha256": "1b7d43446bd3ec70d75e991ae5e40d6c986cc8b4eaad58f1ce6c803db866555f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_9_2",
+      "q9_11_8"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+    "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_10_1",
+      "q4_10_2",
+      "q4_10_3",
+      "q9_11_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+    "sha256": "13e2dd00c0165c025f4269aaa712cf9cbac025695082e389e3746fff015e3bd2",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_10_4",
+      "q4_10_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "sha256": "eb55eb32e48ff54dfb00477e5ad6177162ae07a466defca88e83293c65b63239",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_11_1",
+      "q4_11_2",
+      "q4_11_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+    "sha256": "abb64964ade244ea16c2d73a47bd71ea06a674a06a5eb502fc0a96a15080dae4",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_12_1",
+      "q4_12_2",
+      "q4_12_3",
+      "q4_12_4",
+      "q4_12_5",
+      "q9_11_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+    "sha256": "0725ae1600feec4098f6dcd8588d4b224c7699181f7192cd8467e3205e8d38fe",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_13_1",
+      "q4_13_2",
+      "q4_13_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm",
+    "sha256": "ee1364c58db7f9e45d1f7adebd58b2c6dfe5c701b39b96d9567176c5649b3414",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_13_3",
+      "q4_13_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+    "sha256": "c92803d8c75aa5c7971b19a0803e0cf1279d272ed7d9c71d4595c94e11d1771a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_14_1",
+      "q4_14_2",
+      "q4_14_4",
+      "q9_11_7"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+    "sha256": "b921678a8fecaa74710009f266923d6fb4686776108c7e983aa8f25ba87abfea",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_14_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+    "sha256": "f75c20fcbf5ef8fb52946c9ee8a43812fde662367644324462a5f0a74c9ca32a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_14_6",
+      "q4_14_7"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-2.htm",
+    "sha256": "044b22557282521f254f4a91404e2c32fdf3a22d4d111f01c8115b364790d6cb",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_15_2",
+      "q4_15_3",
+      "q4_15_4",
+      "q4_16_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm",
+    "sha256": "609d7d542866121bb470317ab159fba71e86ac1c4859a13679139f45459cd203",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_15_5",
+      "q4_16_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm",
+    "sha256": "edc9d0d3da6a76c7389084a6fb9c4c21dc31181d0100a950c41b757a6a2c01fb",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q4_16_1",
+      "q4_16_2"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/416AC0000000123_20260401_506AC0000000030",
+    "sha256": "e8e02f6d805d12f84adb659c9a5f1345b9e17e7726c0d4b58df950977f124ec1",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_1_1",
+      "q5_1_2",
+      "q5_1_5",
+      "q9_9_2"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/129AC0000000089_20260401_506AC0000000033",
+    "sha256": "45ad5e222659fbd3cfd77b2e96261681f91b607779f29c71f93b857d9c2d21bf",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_1_3",
+      "q5_1_4",
+      "q5_3_4",
+      "q6_1_1",
+      "q6_1_2",
+      "q6_1_3",
+      "q6_1_4",
+      "q6_1_5",
+      "q6_4_5",
+      "q6_5_1",
+      "q6_5_2",
+      "q6_5_3",
+      "q6_5_4",
+      "q6_5_5",
+      "q6_6_1",
+      "q6_6_2",
+      "q6_6_3",
+      "q6_6_4",
+      "q6_6_5",
+      "q9_7_2"
+    ]
+  },
+  {
+    "url": "https://www.mlit.go.jp/totikensangyo/content/001985434.pdf",
+    "sha256": "815cf27d2d7e33bc22cef3bfa3a2033ca00044809b76f7bdc2d2c4c608e1dd8f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_2_1",
+      "q5_2_2"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226_20260401_508AC0000000002",
+    "sha256": "06db2ba6ccfec62e74f8a0ccd77e94ad98b7f17f5dff6520e6ce04765b3b9e4e",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_2_3",
+      "q5_7_1",
+      "q5_7_3",
+      "q5_7_4",
+      "q5_7_5"
+    ]
+  },
+  {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000044.html",
+    "sha256": "32875beac1963b1af6d5f76b7a832a2da6878fc9010141446ecf44af2f457230",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_2_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/327AC1000000176",
+    "sha256": "ffa0597c4eb5dde12dc2037b928598424b85c1e02ea65908ee5786bc6d155ced",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_3_1",
+      "q5_3_2",
+      "q5_3_3",
+      "q5_3_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/403AC0000000090_20230614_505AC0000000053",
+    "sha256": "5832783c89ec33f23c3e88ffa16612a597175a6a556e9d719a169c3418789d0a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_3_6",
+      "q5_3_7",
+      "q5_3_8",
+      "q5_3_9",
+      "q5_3_10",
+      "q5_9_4",
+      "q9_9_4",
+      "q9_9_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/343AC0000000100_20250604_507AC0000000051",
+    "sha256": "4f590789fe53420f846170652499ec8b5ff3ae8afee1769c7aea43b83d34aee8",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_4_1",
+      "q5_4_2",
+      "q5_4_3",
+      "q5_4_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/327AC0000000229",
+    "sha256": "a1108498815b8f2ca95e343d4de23429de3d25423a89551e7ea54083eaf1117d",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_4_4"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000201_20260401_507AC0000000068",
+    "sha256": "5bdd631aa0f6efa11cd86a734d704237fae2ba9c75da8d4a691a4491a9c8c31d",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_5_2",
+      "q5_5_3",
+      "q5_5_4",
+      "q5_5_5",
+      "q9_6_4",
+      "q9_6_5"
+    ]
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/api/2/law_data/337AC0000000069_20260401_507AC0000000047",
+    "sha256": "9ed547cba32a889d5595a94445b6f4a781fd7b29deb808e6e3738808b5f8f90e",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_6_1",
+      "q5_6_2",
+      "q5_6_3",
+      "q5_6_4",
+      "q5_6_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3302.htm",
+    "sha256": "606fd82cd1331b9d6a80870695d9139e013462867e8b12f54c5de2dce520293f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_8_2",
+      "q5_8_3",
+      "q5_8_7",
+      "q9_11_10"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm",
+    "sha256": "09ce79ad80a43f5a3244fdce9d04b9da01b852ab5c5ab9e092c3e30fc7569487",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_8_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3267.htm",
+    "sha256": "cdd9a1eb6c05a9b617f76e7790eebf4eca1b0a75bfbe73b3e10850bd7b565dbf",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_8_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3355.htm",
+    "sha256": "58587dbe9586edd3e8d02643e8b611923dc4a00a3e33e91788d7e42befabfc37",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_8_6"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+    "sha256": "ccc183f3ce6515c98eecac17b5591ab88bf9f3b6dd6071023fba0fcd3188cd65",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q5_8_8"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4405.htm",
+    "sha256": "72f31837193f6a8c652c1b021b5e3741a6e633ca45fdc01986b4d29ab4a9b033",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_2_1",
+      "q6_2_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4510.htm",
+    "sha256": "213956d52a6d6a13616317869debe1b35e325747626b3f2651ea3d96b951c85b",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_2_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4508.htm",
+    "sha256": "057e32c8473c216747824516d69733b9b46a12f7f391a780baf2f373e2533819",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_2_4",
+      "q6_2_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm",
+    "sha256": "c937178b94e85b87f3227a6ab7f01e41495b14a14ed83ad0a73d9a86b5eaf85f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_3_1",
+      "q6_3_2",
+      "q6_3_3",
+      "q9_12_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+    "sha256": "0f4672c3108955987852252207d72215b33d8970d020248342e8dfefb64ebc2a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_3_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+    "sha256": "465ef3bc7f74f4d48f0e684affee3914718de726f60fc7b4d87081c3bba1f46f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_3_5",
+      "q6_3_6",
+      "q6_3_7"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4429.htm",
+    "sha256": "60867368915f18f3c36d2642644080a33a70dcc73393b9a093594510ecf5662c",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_3_8"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm",
+    "sha256": "58157f201b04bdb75ace00b170c4f6574b2c70fa77cab18323a1bbaccda541a6",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_4",
+      "q6_4_2",
+      "q6_4_3",
+      "q6_4_4",
+      "q6_4_5",
+      "q9_7_1",
+      "q9_7_3",
+      "q9_7_4",
+      "q9_7_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+    "sha256": "b83e3a13967396b8e23f190e9610d53a32bcc093cea0c3e18b334aef647a6b0b",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_7_1",
+      "q6_7_2",
+      "q9_12_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm",
+    "sha256": "00fc18be86e702802a040a8bcc943cbe6ffd7f5b9a806411d1fbe652e38ad7f1",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_7_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "sha256": "3656597c84630eb2439ca9bfd48fa4ce6e8b2fd6c4669874551a8c40b7909cd4",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_7_4",
+      "q6_7_5"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "sha256": "fb03acf8aa4dd829503514bf3e2c3e471079bcbfb5ffc8ce0c5b6208106a1418",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_8_1",
+      "q6_8_5",
+      "q9_12_1",
+      "q9_12_3"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+    "sha256": "384055913b5375e2b4aead503c1db0efc111364abab775c69612415351142689",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_8_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+    "sha256": "9c0b734a81ab1d05e0674f80b3c6b842ce8119fc7359c8b8416ac8a404e94a73",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_8_4"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+    "sha256": "68d8db7968e662a7e149197143c112bbe8c52776ccac7597f4443debf644559f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_1",
+      "q6_9_2"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4613.htm",
+    "sha256": "d76024f40a7dfa7f67cc797b76e8351b395f48a1586e02fa4ecedbf1b53f4c2d",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_3",
+      "q6_9_4",
+      "q9_12_6"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4614.htm",
+    "sha256": "937fae43d59116741fa012987f013ac1951a96b43a42564f3312ca8df65ad024",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_5",
+      "q6_9_6"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4632.htm",
+    "sha256": "bfe99fda1b7b8928bb7105b9b221c124f7593029709f01bc6eb173608ad17b28",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_7"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "sha256": "88900aa6eff93955da7a381a0373f1fab93fb137462132678196c9fce2b8aa3f",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_8"
+    ]
+  },
+  {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+    "sha256": "a26233e837a4ed72009df77a879e032a8d686e30e2ac81c24b5c152b73fb572a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q6_9_10",
+      "q9_12_5"
+    ]
+  },
+  {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000043.html",
+    "sha256": "5687da99432bf863ffb9d2b9edac60861dfc8b6e5d9e3f5dc1c916af12c8942a",
+    "checkedAt": "2026-10-27",
+    "questionIds": [
+      "q9_9_1"
+    ]
+  }
+]

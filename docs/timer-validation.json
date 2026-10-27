@@ -1,0 +1,16 @@
+{
+  "validatedDate": "2026-10-27",
+  "storageKey": "fp3_trainer_state",
+  "storageField": "timerSession",
+  "clock": "保存した開始時刻とDate.now()の差",
+  "normalBrowserScenariosPassed": 20,
+  "standaloneBrowserScenariosPassed": 24,
+  "timerScenariosPassed": 4,
+  "recoveredHoursAfterPageClose": 3,
+  "recordedMinutesAfterStop": 180,
+  "duplicateRecordingPrevented": true,
+  "pauseSurvivesReopen": true,
+  "legacyBackupCompatible": true,
+  "safariDeviceTested": false,
+  "method": "隔離Chromiumで時計を進め、ページの破棄・再生成を検証。Safari実機の電源断は未検証。"
+}

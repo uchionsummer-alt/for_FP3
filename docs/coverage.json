@@ -1,0 +1,878 @@
+{
+  "generatedAt": "2026-10-27",
+  "examDate": "2026-11-05",
+  "lawsDate": "2026-04-01",
+  "totalUnits": 89,
+  "academicUnits": 61,
+  "requiredUnits": 73,
+  "recordedUnits": 74,
+  "questionCount": 398,
+  "availableCount": 398,
+  "unverifiedCount": 0,
+  "missingUnits": [
+    {
+      "id": "u7_1",
+      "title": "1 公的年金に関する計算",
+      "page": 300,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_2",
+      "title": "2 株式投資の指標に関する計算",
+      "page": 309,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_4",
+      "title": "4 所得控除額、総所得金額の計算",
+      "page": 316,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_5",
+      "title": "5 譲渡所得、不動産所得などの計算",
+      "page": 323,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_6",
+      "title": "6 退職所得の計算",
+      "page": 326,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_7",
+      "title": "7 建築率・容積率の計算",
+      "page": 329,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_8",
+      "title": "8 相続税に関する計算",
+      "page": 336,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_9",
+      "title": "9 贈与税に関する計算",
+      "page": 341,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u7_10",
+      "title": "10 上場株式・土地・建物の相続税評価額の計算",
+      "page": 345,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch7",
+      "optional": true
+    },
+    {
+      "id": "u8_1",
+      "title": "1 公的年金に関する計算",
+      "page": 352,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    },
+    {
+      "id": "u8_2",
+      "title": "2 必要保障額の計算",
+      "page": 357,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    },
+    {
+      "id": "u8_3",
+      "title": "3 法人契約の生命保険の経理処理",
+      "page": 361,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    },
+    {
+      "id": "u8_4",
+      "title": "4 退職所得金額の計算",
+      "page": 369,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    },
+    {
+      "id": "u8_5",
+      "title": "5 総所得金額の計算",
+      "page": 372,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    },
+    {
+      "id": "u8_6",
+      "title": "6 相続税の計算",
+      "page": 377,
+      "recorded": 0,
+      "available": 0,
+      "chapterId": "ch8",
+      "optional": true
+    }
+  ],
+  "insufficientUnits": [
+    {
+      "id": "u7_3",
+      "title": "3 債券利回りの計算",
+      "page": 313,
+      "recorded": 1,
+      "available": 1,
+      "chapterId": "ch7",
+      "optional": true
+    }
+  ],
+  "academicQuestionCount": 329,
+  "practicalQuestionCount": 68,
+  "practicalTestSize": 20,
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "第1章 ライフプランニングと資金計画",
+      "optional": false,
+      "units": [
+        {
+          "id": "u1_1",
+          "title": "1. ファイナンシャル・プランニングと関連法規",
+          "page": 5,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_2",
+          "title": "2. ライフプランニングの手法・プロセス",
+          "page": 9,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_3",
+          "title": "3. 住宅ローン",
+          "page": 16,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_4",
+          "title": "4. 教育資金",
+          "page": 21,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_5",
+          "title": "5. 企業年金・個人年金",
+          "page": 24,
+          "recorded": 6,
+          "available": 6
+        },
+        {
+          "id": "u1_6",
+          "title": "6. 公的医療保険（健康保険）",
+          "page": 28,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_7",
+          "title": "7. 雇用保険",
+          "page": 33,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_8",
+          "title": "8. 労災保険",
+          "page": 38,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_9",
+          "title": "9. 公的介護保険",
+          "page": 40,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u1_10",
+          "title": "10. 公的年金",
+          "page": 43,
+          "recorded": 10,
+          "available": 10
+        }
+      ],
+      "questionCount": 56,
+      "availableCount": 56,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch2",
+      "title": "第2章 リスク管理",
+      "optional": false,
+      "units": [
+        {
+          "id": "u2_1",
+          "title": "1. 契約者保護のしくみ（保護機構等）",
+          "page": 57,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_2",
+          "title": "2. 生命保険の基本",
+          "page": 61,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_3",
+          "title": "3. 生命保険商品の種類と内容",
+          "page": 64,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_4",
+          "title": "4. 生命保険の契約手続き",
+          "page": 70,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_5",
+          "title": "5. 生命保険に関する税金",
+          "page": 74,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_6",
+          "title": "6. 損害保険のしくみ",
+          "page": 79,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_7",
+          "title": "7. 自動車保険・傷害保険",
+          "page": 82,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_8",
+          "title": "8. 火災保険と地震保険",
+          "page": 87,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u2_9",
+          "title": "9. 第3分野の保険",
+          "page": 91,
+          "recorded": 5,
+          "available": 5
+        }
+      ],
+      "questionCount": 45,
+      "availableCount": 45,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch3",
+      "title": "第3章 金融資産運用",
+      "optional": false,
+      "units": [
+        {
+          "id": "u3_1",
+          "title": "1. マーケット環境の理解",
+          "page": 99,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_2",
+          "title": "2. 預金等の金融商品",
+          "page": 106,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_3",
+          "title": "3. 債券投資",
+          "page": 111,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_4",
+          "title": "4. 株式投資",
+          "page": 117,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_5",
+          "title": "5. 投資信託",
+          "page": 123,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_6",
+          "title": "6. ポートフォリオ運用と金融派生商品",
+          "page": 128,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_7",
+          "title": "7. 金融商品の税金",
+          "page": 132,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u3_8",
+          "title": "8. 金融取引に関する法律／セーフティネット",
+          "page": 136,
+          "recorded": 5,
+          "available": 5
+        }
+      ],
+      "questionCount": 40,
+      "availableCount": 40,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch4",
+      "title": "第4章 タックスプランニング",
+      "optional": false,
+      "units": [
+        {
+          "id": "u4_1",
+          "title": "1. 所得税のしくみ",
+          "page": 147,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_2",
+          "title": "2. 給与所得と退職所得",
+          "page": 151,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_3",
+          "title": "3. 事業所得",
+          "page": 155,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_4",
+          "title": "4. 不動産所得",
+          "page": 158,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_5",
+          "title": "5. 利子所得と配当所得",
+          "page": 161,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_6",
+          "title": "6. 譲渡所得",
+          "page": 164,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_7",
+          "title": "7. 一時所得・雑所得",
+          "page": 167,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_8",
+          "title": "8. 所得税における非課税所得",
+          "page": 170,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_9",
+          "title": "9. 所得税の損益通算",
+          "page": 171,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_10",
+          "title": "10. 生命保険料控除・地震保険料控除",
+          "page": 174,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_11",
+          "title": "11. 社会保険料控除・小規模企業共済等掛金控除",
+          "page": 177,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_12",
+          "title": "12. 医療費控除",
+          "page": 179,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_13",
+          "title": "13. 配偶者控除・配偶者特別控除",
+          "page": 182,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_14",
+          "title": "14. 扶養控除・障害者控除・基礎控除",
+          "page": 185,
+          "recorded": 7,
+          "available": 7
+        },
+        {
+          "id": "u4_15",
+          "title": "15. 税額控除",
+          "page": 188,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u4_16",
+          "title": "16. 所得税の申告・納付",
+          "page": 191,
+          "recorded": 5,
+          "available": 5
+        }
+      ],
+      "questionCount": 82,
+      "availableCount": 82,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch5",
+      "title": "第5章 不動産",
+      "optional": false,
+      "units": [
+        {
+          "id": "u5_1",
+          "title": "1. 不動産の見方",
+          "page": 201,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_2",
+          "title": "2. 不動産の価格",
+          "page": 205,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_3",
+          "title": "3. 不動産の取引",
+          "page": 208,
+          "recorded": 10,
+          "available": 10
+        },
+        {
+          "id": "u5_4",
+          "title": "4. 都市計画法",
+          "page": 215,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_5",
+          "title": "5. 建築基準法",
+          "page": 220,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_6",
+          "title": "6. 区分所有法",
+          "page": 227,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_7",
+          "title": "7. 不動産の取得・保有にかかる税金",
+          "page": 230,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u5_8",
+          "title": "8. 不動産の譲渡時の税金",
+          "page": 234,
+          "recorded": 8,
+          "available": 8
+        },
+        {
+          "id": "u5_9",
+          "title": "9. 不動産の有効活用",
+          "page": 239,
+          "recorded": 5,
+          "available": 5
+        }
+      ],
+      "questionCount": 53,
+      "availableCount": 53,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch6",
+      "title": "第6章 相続・事業承継",
+      "optional": false,
+      "units": [
+        {
+          "id": "u6_1",
+          "title": "1. 贈与の意義と形態",
+          "page": 247,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_2",
+          "title": "2. 贈与税の課税財産・非課税財産",
+          "page": 250,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_3",
+          "title": "3. 贈与税の計算と納付",
+          "page": 254,
+          "recorded": 8,
+          "available": 8
+        },
+        {
+          "id": "u6_4",
+          "title": "4. 相続の基本と親族・法定相続分",
+          "page": 261,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_5",
+          "title": "5. 遺言と遺留分",
+          "page": 267,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_6",
+          "title": "6. 相続の承認と放棄",
+          "page": 271,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_7",
+          "title": "7. 相続税のしくみと課税財産",
+          "page": 274,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_8",
+          "title": "8. 相続税の計算と申告・納付",
+          "page": 278,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u6_9",
+          "title": "9. 相続財産の評価（不動産・金融資産）",
+          "page": 286,
+          "recorded": 10,
+          "available": 10
+        }
+      ],
+      "questionCount": 53,
+      "availableCount": 53,
+      "chapterTestSize": 25
+    },
+    {
+      "id": "ch7",
+      "title": "第7章 実技試験 金財 個人資産相談業務",
+      "optional": true,
+      "units": [
+        {
+          "id": "u7_1",
+          "title": "1 公的年金に関する計算",
+          "page": 300,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_2",
+          "title": "2 株式投資の指標に関する計算",
+          "page": 309,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_3",
+          "title": "3 債券利回りの計算",
+          "page": 313,
+          "recorded": 1,
+          "available": 1
+        },
+        {
+          "id": "u7_4",
+          "title": "4 所得控除額、総所得金額の計算",
+          "page": 316,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_5",
+          "title": "5 譲渡所得、不動産所得などの計算",
+          "page": 323,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_6",
+          "title": "6 退職所得の計算",
+          "page": 326,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_7",
+          "title": "7 建築率・容積率の計算",
+          "page": 329,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_8",
+          "title": "8 相続税に関する計算",
+          "page": 336,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_9",
+          "title": "9 贈与税に関する計算",
+          "page": 341,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u7_10",
+          "title": "10 上場株式・土地・建物の相続税評価額の計算",
+          "page": 345,
+          "recorded": 0,
+          "available": 0
+        }
+      ],
+      "questionCount": 1,
+      "availableCount": 1,
+      "chapterTestSize": 0
+    },
+    {
+      "id": "ch8",
+      "title": "第8章 実技試験 金財 保険顧客資産相談業務",
+      "optional": true,
+      "units": [
+        {
+          "id": "u8_1",
+          "title": "1 公的年金に関する計算",
+          "page": 352,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u8_2",
+          "title": "2 必要保障額の計算",
+          "page": 357,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u8_3",
+          "title": "3 法人契約の生命保険の経理処理",
+          "page": 361,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u8_4",
+          "title": "4 退職所得金額の計算",
+          "page": 369,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u8_5",
+          "title": "5 総所得金額の計算",
+          "page": 372,
+          "recorded": 0,
+          "available": 0
+        },
+        {
+          "id": "u8_6",
+          "title": "6 相続税の計算",
+          "page": 377,
+          "recorded": 0,
+          "available": 0
+        }
+      ],
+      "questionCount": 0,
+      "availableCount": 0,
+      "chapterTestSize": 0
+    },
+    {
+      "id": "ch9",
+      "title": "第9章 実技試験 日本FP協会 資産設計提案業務",
+      "optional": false,
+      "units": [
+        {
+          "id": "u9_1",
+          "title": "1 キャッシュフロー表に関する計算",
+          "page": 384,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_2",
+          "title": "2 個人バランスシートに関する計算",
+          "page": 388,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_3",
+          "title": "3 各種係数に関する計算",
+          "page": 392,
+          "recorded": 7,
+          "available": 7
+        },
+        {
+          "id": "u9_4",
+          "title": "4 生命保険の各種保険金・給付金の計算",
+          "page": 396,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_5",
+          "title": "5 株式投資の指標の計算",
+          "page": 400,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_6",
+          "title": "6 建築率・容積率の計算",
+          "page": 402,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_7",
+          "title": "7 法定相続分の計算",
+          "page": 404,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_8",
+          "title": "8 投資信託・債券・外貨の資料計算",
+          "page": null,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_9",
+          "title": "9 不動産資料・借地借家の判断",
+          "page": null,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_10",
+          "title": "10 社会保険・損害保険の事例判断",
+          "page": null,
+          "recorded": 5,
+          "available": 5
+        },
+        {
+          "id": "u9_11",
+          "title": "11 所得税・所得控除の資料計算",
+          "page": null,
+          "recorded": 10,
+          "available": 10
+        },
+        {
+          "id": "u9_12",
+          "title": "12 相続税・贈与税の資料計算",
+          "page": null,
+          "recorded": 6,
+          "available": 6
+        }
+      ],
+      "questionCount": 68,
+      "availableCount": 68,
+      "chapterTestSize": 25
+    }
+  ]
+}
